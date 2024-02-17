@@ -1,2 +1,3 @@
 # hexage-wiki
- A wiki for Hexage games
+
+A wiki for Hexage games

@@ -1,0 +1,29 @@
+{
+  "name": "hexage-wiki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "format": "prettier --check --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "prettier": "^3.2.5",
+    "vite": "^5.1.3",
+    "vitepress": "1.0.0-rc.42"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.58.5",
+    "@unocss/transformer-directives": "^0.58.5",
+    "@unocss/transformer-variant-group": "^0.58.5",
+    "unocss": "^0.58.5",
+    "unplugin-vue-components": "^0.26.0"
+  }
+}
