@@ -25,7 +25,8 @@ export default defineConfig({
     colors: {
       primary: 'var(--vp-c-text-1)',
       muted: 'var(--vp-c-text-2)',
-      subtle: 'var(--vp-c-text-3)'
+      subtle: 'var(--vp-c-text-3)',
+      accent: 'var(--vp-c-brand-1)'
     }
   }
 })
