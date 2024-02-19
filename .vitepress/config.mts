@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import UnoCSS from 'unocss/vite'
-import Components from 'unplugin-vue-components/vite'
+import path from 'path'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -37,10 +37,13 @@ export default defineConfig({
       ]
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/rjt-rockx/hexage-wiki' }]
   },
 
   vite: {
-    plugins: [UnoCSS()]
+    plugins: [UnoCSS()],
+    resolve: {
+      alias: [{ find: '$components', replacement: path.resolve('.vitepress/theme/components') }]
+    }
   }
 })
