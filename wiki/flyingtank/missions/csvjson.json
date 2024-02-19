@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Last Harvest",
+    "description": "Scavengers trespass on Providence Territory.",
+    "reward_type": "Biomass",
+    "reward": 500,
+    "order": 1
+  },
+  {
+    "name": "Providence",
+    "description": "Alien swarms are forming in the clouds. Time to return home.",
+    "reward_type": "Biomass",
+    "reward": 500,
+    "order": 2
+  },
+  {
+    "name": "Breeding Fields",
+    "description": "Meet with the Earth Reclamation Forces research team.",
+    "reward_type": "Biomass",
+    "reward": 500,
+    "order": 3
+  },
+  {
+    "name": "Overcast",
+    "description": "Journey to the DARPA Laboratory leads across hostile wasteland.",
+    "reward_type": "Biomass",
+    "reward": 1000,
+    "order": 4
+  },
+  {
+    "name": "DARPA Research Facility",
+    "description": "Former military base, now infested with Aliens and Scavengers alike.",
+    "reward_type": "Biomass",
+    "reward": 1000,
+    "order": 5
+  },
+  {
+    "name": "Devastation",
+    "description": "War Train speeding through the sand storm needs to be stopped.",
+    "reward_type": "Biomass",
+    "reward": 2000,
+    "order": 6
+  },
+  {
+    "name": "Chasing Sunset",
+    "description": "We have located another specimen of the rare Obliterator Alien.",
+    "reward_type": "Biomass",
+    "reward": 2000,
+    "order": 7
+  },
+  {
+    "name": "Night Raid",
+    "description": "Pre-emptive strike on Scavengers could be an oppurtunity to field test new technology.",
+    "reward_type": "Tank",
+    "reward": "Ironclad",
+    "order": 8
+  },
+  {
+    "name": "Very Large Array",
+    "description": "Majestic antennas tower in the distance.",
+    "reward_type": "Tank",
+    "reward": "Postal",
+    "order": 9
+  },
+  {
+    "name": "Deep Space Network Complex",
+    "description": "Equipment once used to listen to the stars can be repurposed to silence them.",
+    "reward_type": "Biomass",
+    "reward": 2000,
+    "order": 10
+  },
+  {
+    "name": "Transmission",
+    "description": "If the Reaper Signal passes through the depths of the Sludge Sea, nothing is beyond our reach.",
+    "reward_type": "Tank",
+    "reward": "Archangel",
+    "order": 11
+  },
+  {
+    "name": "From the Ashes",
+    "description": "Reckless Scavenger offensive threatens ERF research.",
+    "reward_type": "Biomass",
+    "reward": 2000,
+    "order": 12
+  },
+  {
+    "name": "Newark Suburbs",
+    "description": "Despite the City being hailed as the safest place on Earth, its sprawling outskirts are deadly.",
+    "reward_type": "Tank",
+    "reward": "Sakura",
+    "order": 13
+  },
+  {
+    "name": "Newark Capital City",
+    "description": "The post-war capital of the world is the only remaining human population center on Earth.",
+    "reward_type": "Tank",
+    "reward": "Red Dragon GT",
+    "order": 14
+  },
+  {
+    "name": "Bolton Sphere Reactor",
+    "description": "A single plasma fusion core powers the entire metropolis.",
+    "reward_type": "Biomass",
+    "reward": 2000,
+    "order": 15
+  },
+  {
+    "name": "Retribution",
+    "description": "President Magnuse escapes with his battle fleet.",
+    "reward_type": "Tank",
+    "reward": "Sturmengel",
+    "order": 16
+  },
+  {
+    "name": "Power Grab",
+    "description": "Desperate and out of options, we have decided to seek out the Alien Seedship.",
+    "reward_type": "Tank",
+    "reward": "XB-1",
+    "order": 17
+  },
+  {
+    "name": "Stratosphere",
+    "description": "Alien Oneiromants weave interstellar dreams.",
+    "reward_type": "Biomass",
+    "reward": 2000,
+    "order": 18
+  },
+  {
+    "name": "Killing Moon",
+    "description": "All ERF units work on one task only; tracking down the interface.",
+    "reward_type": "Tank",
+    "reward": "Tiger Tank",
+    "order": 19
+  },
+  {
+    "name": "Fort Apocalypse",
+    "description": "Warlord Vega must answer for his crimes.",
+    "reward_type": "Tank",
+    "reward": "Sovren",
+    "order": 20
+  },
+  {
+    "name": "Interface",
+    "description": "The elusive alien telepath shall hide from us no more.",
+    "reward_type": "Biomass",
+    "reward": 2500,
+    "order": 21
+  },
+  {
+    "name": "Deep Sea Mining Towers",
+    "description": "Should we allow the Seedship to refuel, it may vanish into the depths of outer space.",
+    "reward_type": "Tank",
+    "reward": "Pale Rider",
+    "order": 22
+  },
+  {
+    "name": "Ruins",
+    "description": "The Seedship is hiding amongst the smoldering remains of Newark City.",
+    "reward_type": "Tank",
+    "reward": "Euphoria",
+    "order": 23
+  },
+  {
+    "name": "Ascension",
+    "description": "The final battle decides the fate of the Earth.",
+    "reward_type": "Tank",
+    "reward": "Vorot",
+    "order": 24
+  }
+]
