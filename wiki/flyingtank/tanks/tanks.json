@@ -114,7 +114,7 @@
     "speed": 2,
     "tank_description": "Some question if it is really just a machine. Moving like a shadow across the battlefield, methodically dispatching its targets with cold-blooded precision, this beast shows no mercy to those who stand in its way. Enemies who recognize its gray armor on the horizon know that their moment of death has come, and this time they will not escape. Even its commanders remain wary as they walk past this stone-cold predator in moments of rest, breathing a sigh of relief that the Pale Rider is still on their side, that its precision sights are not, as yet, staring them down.",
     "obtain_method": "Mastery",
-    "obtain_mission": "Deep Sea Mining Tower"
+    "obtain_mission": "Deep Sea Mining Towers"
   },
   {
     "tank_name": "Sakura",
@@ -169,5 +169,14 @@
     "tank_description": "This armored personnel carrier once belonged to the Stormers, an infamous group of private military contractors known for disregarding the rules of conventional warfare. Rumored to have been deliberately sacrificed by their own state, the group met their demise during the catastrophic climax of the second Krux campaign. But the Sturmengel 444 emerged from the fatal incident unscathed. Today, this undefeated angel of doom strikes fear into the hearts of all who glimpse its dark visage in the storm.",
     "obtain_method": "Mastery",
     "obtain_mission": "Retribution"
+  },
+  {
+    "tank_name": "Vorot",
+    "unique_power": "**Triumphant**: Gain +**10%** Score points in every Mission. Enemies are **more aggressive**.",
+    "armor": 240,
+    "speed": 3,
+    "tank_description": "Long time ago, this consecrated war machine belonged to the zealous priests of the Guardians Battle Order. It is said to have faced the devil himself on the battlefield and banished him back to hell. Venerated for generations, it has become more of a holy relic than a service vehicle. But beneath its pure gold plating still lies the wrath of God, ready to be unleashed once more.",
+    "obtain_method": "Mastery",
+    "obtain_mission": "Ascension"
   }
 ]
