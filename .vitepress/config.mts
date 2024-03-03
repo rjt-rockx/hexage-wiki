@@ -8,6 +8,7 @@ export default defineConfig({
   lang: 'en-US',
   title: 'Hexage Wiki',
   description: 'Information and resources for games by Hexage',
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
