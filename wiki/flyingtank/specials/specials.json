@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Force Shield",
+    "description": "Envelops you tank in a powerful forcefield bubble, providing a layer of defense against enemy attacks. Durability **{{$1}}** hitpoints. Reload **25** seconds.",
+    "upgrade_1_cost": 250,
+    "upgrade_2_cost": 275,
+    "upgrade_3_cost": 300,
+    "upgrade_1_values": 100,
+    "upgrade_2_values": 125,
+    "upgrade_3_values": 150,
+    "max_cost": 825
+  },
+  {
+    "name": "Overdrive",
+    "description": "All weapon systems exceed their standard firing capability. Auxiliary ammo magazines allow for longer periods of sustained rapid fire. Slow-fire weapons benefit greatly from Overdrive. Projectile power remains unaffected. Duration **{{$1}}** seconds. Reload **{{$2}}** seconds.",
+    "upgrade_1_cost": 420,
+    "upgrade_2_cost": 440,
+    "upgrade_3_cost": 460,
+    "upgrade_1_values": "10|40",
+    "upgrade_2_values": "11|36",
+    "upgrade_3_values": "12|32",
+    "max_cost": 1320
+  },
+  {
+    "name": "Hyper Focus",
+    "description": "Massive tachyon emission creates a transient temporal rift between your vehicle and the outside world. This effectively slows down the flow of time, allowing you to react seemingly with supernatural speed. **{{$1}}**. Duration **{{$2}}** seconds. Reload **{{$3}}** seconds.",
+    "upgrade_1_cost": 220,
+    "upgrade_2_cost": 300,
+    "upgrade_3_cost": 380,
+    "upgrade_1_values": "1 charge|16|16",
+    "upgrade_2_values": "1 charge|17|15",
+    "upgrade_3_values": "2 charges|17|15",
+    "max_cost": 900
+  },
+  {
+    "name": "Unmaker Omega",
+    "description": "Violent stream of antimatter plasma. Erases most targets and projectiles out of existence. **{{$1}}** damage. Reload **20** seconds.",
+    "upgrade_1_cost": 300,
+    "upgrade_2_cost": 380,
+    "upgrade_3_cost": 480,
+    "upgrade_1_values": 600,
+    "upgrade_2_values": 777,
+    "upgrade_3_values": 950,
+    "max_cost": 1160
+  },
+  {
+    "name": "Reaper Artifact",
+    "description": "Unique prototype capable of emitting a small-scale Reaper Signal that temporarily freezes all alien activity in the vicinity. Affected aliens cannot move or attack, and can be easily destroyed or run over. Alien spores detonate. Human or synthetic targets remain unaffected. **{{$1}}**. Reload **{{$2}}** seconds.",
+    "upgrade_1_cost": 125,
+    "upgrade_2_cost": 350,
+    "upgrade_3_cost": 575,
+    "upgrade_1_values": "1 charge|40",
+    "upgrade_2_values": "2 charges|40",
+    "upgrade_3_values": "3 charges|36",
+    "max_cost": 1050
+  },
+  {
+    "name": "Repulsor",
+    "description": "Strong pulse-wave deflects incoming projectiles and missiles. Deflected shots damage enemies. **{{$1}}** charges. Reload **{{$2}}** seconds.",
+    "upgrade_1_cost": 275,
+    "upgrade_2_cost": 300,
+    "upgrade_3_cost": 375,
+    "upgrade_1_values": "3|40",
+    "upgrade_2_values": "3|25",
+    "upgrade_3_values": "4|25",
+    "max_cost": 950
+  }
+]
