@@ -37,7 +37,7 @@
   },
   {
     "tank_name": "Ironclad",
-    "unique_power": "**Grim Resolve**: Deals +**30% damage** when damaged below **30% hitpoints.**",
+    "unique_power": "**Grim Resolve**: Deals **+30% damage** when damaged below **30% hitpoints.**",
     "armor": 340,
     "speed": "2/5",
     "tank_description": "One of the longest serving pieces of military technology, the Ironclad has been mass produced as a cornerstone flying tank model for armies worldwide. Yet this particular veteran is anything but ordinary. Defeated or victorious, badly damaged or merely scratched, it has always returned back from battle. Despite its many repairs, each time the Ironclad re-enters the fray, it is stronger and deadlier. Because of its indestructibility, it has become the legend of many wars, including the last and final one.",
@@ -82,7 +82,7 @@
   },
   {
     "tank_name": "Radiant",
-    "unique_power": "**Extra Special**: All Specials are enhanced. Extra +**1 charge** to Repulsor and Reaper Signal. +**50 hitpoints** to Force Shield. +**1 second** duration of Unmaker Omega. +**3 seconds** duration of Overdrive and Hyper Focus.",
+    "unique_power": "**Extra Special**: All Specials are enhanced. Extra **+1 charge** to Repulsor and Reaper Signal. **+50 hitpoints** to Force Shield. **+1 second** duration of Unmaker Omega. **+3 seconds** duration of Overdrive and Hyper Focus.",
     "armor": 300,
     "speed": "3/5",
     "tank_description": "The last project that legendary weapons designer Professor Adler worked on was to be humanity's ultimate answer to the alien threat. Had it been deployed 20 years earlier, humanity might have been able to reverse the catastrophic effects of the alien invasion. Unfortunately, then as now, the only downside to this otherwise flawless tank remains its enormous manufacturing cost.",
@@ -172,7 +172,7 @@
   },
   {
     "tank_name": "Vorot",
-    "unique_power": "**Triumphant**: Gain +**10%** Score points in every Mission. Enemies are **more aggressive**.",
+    "unique_power": "**Triumphant**: Gain **+10%** Score points in every Mission. Enemies are **more aggressive**.",
     "armor": 240,
     "speed": "3/5",
     "tank_description": "Long time ago, this consecrated war machine belonged to the zealous priests of the Guardians Battle Order. It is said to have faced the devil himself on the battlefield and banished him back to hell. Venerated for generations, it has become more of a holy relic than a service vehicle. But beneath its pure gold plating still lies the wrath of God, ready to be unleashed once more.",
