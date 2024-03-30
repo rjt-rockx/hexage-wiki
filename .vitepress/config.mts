@@ -9,7 +9,20 @@ export default defineConfig({
   title: 'Hexage Wiki',
   description: 'Information and resources for games by Hexage',
   cleanUrls: true,
+
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vector/favicon.svg' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }]
+  ],
+
   themeConfig: {
+    logo: {
+      alt: 'Hexage Logo',
+      light: '/vector/logo_on_light.svg',
+      dark: '/vector/logo_on_dark.svg'
+    },
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -22,6 +35,10 @@ export default defineConfig({
         ]
       }
     ],
+
+    search: {
+      provider: 'local'
+    },
 
     sidebar: {
       '/flyingtank/': [
@@ -41,7 +58,21 @@ export default defineConfig({
       ]
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/rjt-rockx/hexage-wiki' }]
+    socialLinks: [
+      {
+        icon: 'github',
+        link: 'https://github.com/rjt-rockx/hexage-wiki'
+      },
+      {
+        icon: 'discord',
+        link: 'https://discord.gg/jcvzARAnSp'
+      }
+    ],
+
+    footer: {
+      message: 'Released under the MIT License.\nThis site is neither affiliated with nor endorsed by Hexage.',
+      copyright: `© ${new Date().getFullYear()} Hexage Wiki contributors`
+    }
   },
 
   vite: {

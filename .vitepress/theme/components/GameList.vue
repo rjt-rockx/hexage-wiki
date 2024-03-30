@@ -125,7 +125,7 @@ const games: Game[] = [
       <div class="flex flex-row items-center justify-between gap-4">
         <div class="flex flex-col items-start gap-0">
           <p>
-            <span class="text-primary">{{ game.name }}</span>
+            <span class="text-primary font-medium">{{ game.name }}</span>
             {{ ' ' }}
             <span v-if="game.releaseYear" class="text-muted">({{ game.releaseYear }})</span>
           </p>

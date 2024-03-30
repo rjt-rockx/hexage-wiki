@@ -16,7 +16,7 @@ export default defineConfig({
     }),
     presetTypography(),
     presetWebFonts({
-      provider: 'bunny',
+      provider: 'google',
       fonts: {
         anek: 'Anek Latin'
       }
