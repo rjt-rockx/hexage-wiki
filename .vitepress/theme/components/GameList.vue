@@ -114,7 +114,7 @@ const games: Game[] = [
 </script>
 
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto items-center">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto p-6 items-center">
     <div v-for="game in games" class="w-full flex flex-col gap-2">
       <a :href="`/${game.path}/`" class="w-full">
         <img
