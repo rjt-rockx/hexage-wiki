@@ -134,7 +134,7 @@ const games: Game[] = [
           </p>
         </div>
         <GameLinks
-          name="game.name"
+          :name="game.name"
           :googlePlayURL="game.googlePlayURL"
           :appStoreURL="game.appStoreURL"
           :steamURL="game.steamURL" />
