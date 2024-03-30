@@ -121,7 +121,7 @@
   },
   {
     "name": "High Power Plasma Weapons",
-    "description": "Deal **{{$1}}** more damage with plasma technology, weapons and bombs. Applies to Helios, Megablaster, Trinitron, Vortex, Archon, Horus, Void Ray, Reactive Armor and Unmaker Omega.",
+    "description": "Deal **{{$1}}** more damage with plasma technology, weapons and bombs. Applies to Helios Blaster, Megablaster, Trinitron Cannon, Vortex Launcher, Archon Pulse Cannon, Horus Plasma Charge, Void Ray, Reactive Armor and Unmaker Omega.",
     "upgrade_count": 3,
     "upgrade_1_values": "12%",
     "upgrade_2_values": "20%",
@@ -181,7 +181,7 @@
   },
   {
     "name": "Extra Missile Capacity",
-    "description": "All missile launchers can fire **{{$1}}**. Applies to Nemesis, Seraphim, Viper and Vortex launchers.",
+    "description": "All missile launchers can fire **{{$1}}**. Applies to Nemesis Missiles, Seraphim Missiles, Viper Missiles and Vortex Launchers.",
     "upgrade_count": 2,
     "upgrade_1_values": "1 more round",
     "upgrade_2_values": "2 more rounds",
@@ -241,7 +241,7 @@
   },
   {
     "name": "Beam Stabilizers",
-    "description": "**{{$1}}** faster movement when firing Beam weapons. Applies to Unmaker Omega, Solaris, Gamma Disruptor and Void Ray.",
+    "description": "**{{$1}}** faster movement when firing Beam weapons. Applies to Unmaker Omega, Solaris Particle Beam, Gamma Disruptor Beam and Void Ray.",
     "upgrade_count": 3,
     "upgrade_1_values": "30%",
     "upgrade_2_values": "60%",
@@ -301,7 +301,7 @@
   },
   {
     "name": "Extra Payload Capacity",
-    "description": "Carry **{{$1}}**. Applies to all weapons listed under the BOMB category.",
+    "description": "Carry **{{$1}}**. Applies to Tartaros Cluster, Perun Kinetic Rods, Dolos Ultra PP Bomb, Hecate Grenade, Perses Proximity Shredder, Void Ray and Horus Plasma Charge.",
     "upgrade_count": 2,
     "upgrade_1_values": "1 more bomb",
     "upgrade_2_values": "2 more bombs",

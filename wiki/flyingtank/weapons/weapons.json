@@ -156,7 +156,7 @@
     "max_cost": 1050
   },
   {
-    "name": "Nemesis Missiles",
+    "name": "Nemesis Missile",
     "description": "The fire-and-forget missile launcher unleashes a lightning fast, search-and-destroy vibroblade that repeatedly and indiscriminately slices through multiple targets. Approximately **{{$1}}**. **{{$2}}**. Reload **{{$3}}**.",
     "slot": 2,
     "upgrade_1_values": "140 damage per missile on average|2 missiles|4 seconds",
@@ -192,7 +192,7 @@
     "max_cost": 1590
   },
   {
-    "name": "Seraphim Missiles",
+    "name": "Seraphim Missile",
     "description": "Launch a flaming pink-phosphorus guided missile that causes a thermobaric explosion upon impact. **{{$1}}**. **{{$2}}**. Reload **{{$3}}**.",
     "slot": 2,
     "upgrade_1_values": "80 damage per missile|1 missile|2 seconds",

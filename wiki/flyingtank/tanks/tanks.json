@@ -82,7 +82,7 @@
   },
   {
     "tank_name": "Radiant",
-    "unique_power": "**Extra Special**: All Specials are enhanced. Extra **+1 charge** to Repulsor and Reaper Signal. **+50 hitpoints** to Force Shield. **+1 second** duration of Unmaker Omega. **+3 seconds** duration of Overdrive and Hyper Focus.",
+    "unique_power": "**Extra Special**: All Specials are enhanced. Extra **+1 charge** to Repulsor and Reaper Artifact. **+50 hitpoints** to Force Shield. **+1 second** duration of Unmaker Omega. **+3 seconds** duration of Overdrive and Hyper Focus.",
     "armor": 300,
     "speed": "3/5",
     "tank_description": "The last project that legendary weapons designer Professor Adler worked on was to be humanity's ultimate answer to the alien threat. Had it been deployed 20 years earlier, humanity might have been able to reverse the catastrophic effects of the alien invasion. Unfortunately, then as now, the only downside to this otherwise flawless tank remains its enormous manufacturing cost.",
@@ -91,7 +91,7 @@
   },
   {
     "tank_name": "Postal",
-    "unique_power": "**Bullet Storm**: Rapid-fire kinetic weapons such as the Beliah Autocannon, Vulcan Trashcannon, Smart Gun and the Hydra Multicannon have **no reloads**. Fire continuously without pauses.",
+    "unique_power": "**Bullet Storm**: Rapid-fire kinetic weapons such as the Beliah Autocannon, Vulcan Trashgun, Smart Gun and the Hydra Multicannon have **no reloads**. Fire continuously without pauses.",
     "armor": 200,
     "speed": "4/5",
     "tank_description": "Dashing through the danger zone regardless of the hour or the elements, this trusted carrier connects the distant remnants of civilization, delivering dispatches and packages that require discretion and speed above all else. The \"don't shoot the messenger\" rule does not apply in the wasteland, and so in addition to the package, this armored courier often delivers a large-caliber bullet to the head. Almost always on time.",
