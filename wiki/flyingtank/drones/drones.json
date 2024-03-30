@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Repair Drone",
+    "description": "Drone's green beam quickly patches holes in the armor and repairs even the most serious damage. For best effeciency, move as little as possible during the repair process. Repair rate **{{$1}}** - Movement **{{$2}}** - Durability **{{$3}}**.",
+    "upgrade_1_cost": 450,
+    "upgrade_2_cost": 620,
+    "upgrade_3_cost": 730,
+    "upgrade_1_values": "100%|100%|60 hitpoints",
+    "upgrade_2_values": "125%|130%|70 hitpoints",
+    "upgrade_3_values": "150%|150%|80 hitpoints",
+    "max_cost": 1800
+  },
+  {
+    "name": "Attack Drone",
+    "description": "Drone's precise heat ray relentlessly pursues and torches soft targets. Especially effective against Spores, Lancers, Parasites and Jumpers. Damage rate **{{$1}}** - Movement **{{$2}}** - Durability **{{$3}}**.",
+    "upgrade_1_cost": 800,
+    "upgrade_2_cost": 840,
+    "upgrade_3_cost": 860,
+    "upgrade_1_values": "100%|100%|60 hitpoints",
+    "upgrade_2_values": "150%|140%|70 hitpoints",
+    "upgrade_3_values": "200%|180%|80 hitpoints",
+    "max_cost": 2500
+  }
+]

@@ -5,16 +5,16 @@ import { reactive, computed } from "vue";
 import { useData } from "vitepress";
 const { params } = useData();
 
-let currentUpgrade = reactive({ value: 1 });
+let currentTier = reactive({ value: 1 });
 let currentCost = computed(() => {
-  const key = `upgrade_${currentUpgrade.value}_cost`;
+  const key = `upgrade_${currentTier.value}_cost`;
   return params.value.value[key];
 });
 </script>
 
 # {{ $params.value.name }}
 
-<div class="[&>p>strong]:text-accent" v-html="$params.descriptions[currentUpgrade.value - 1]"></div>
+<div class="[&>p>strong]:text-accent" v-html="$params.descriptions[currentTier.value - 1]"></div>
 
 Cost: <strong>{{ currentCost }}</strong> Biomass
 
@@ -22,9 +22,9 @@ Cost: <strong>{{ currentCost }}</strong> Biomass
 
   <template v-for="index in params.descriptions.length">
     <button
-      class="px-4 py-1 rounded-md transition-colors text-primary"
-      :class="currentUpgrade.value === index ? $style.brand : $style.alt"
-      @click="currentUpgrade.value = index">
+      class="px-4 py-1 rounded-md transition-colors"
+      :class="currentTier.value === index ? $style.brand : $style.alt"
+      @click="currentTier.value = index">
       Tier {{ index }}
     </button>
   </template>

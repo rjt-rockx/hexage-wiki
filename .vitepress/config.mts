@@ -28,11 +28,14 @@ export default defineConfig({
         {
           text: 'Flying Tank',
           items: [
-            { text: 'Tanks', link: '/flyingtank/tanks/' },
+            { text: 'About', link: '/flyingtank/' },
             { text: 'Missions', link: '/flyingtank/missions/' },
+            { text: 'Tanks', link: '/flyingtank/tanks/' },
             { text: 'Weapons', link: '/flyingtank/weapons/' },
             { text: 'Bombs', link: '/flyingtank/bombs/' },
-            { text: 'Specials', link: '/flyingtank/specials/' }
+            { text: 'Specials', link: '/flyingtank/specials/' },
+            { text: 'Drones', link: '/flyingtank/drones/' },
+            { text: 'Upgrades', link: '/flyingtank/upgrades/' }
           ]
         }
       ]

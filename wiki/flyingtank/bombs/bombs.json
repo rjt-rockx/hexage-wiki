@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Tartaros Cluster",
+    "description": "Cluster ordnance splits into a number of seperate bomblets, resulting in a robust carpet bombing of ground targets. **{{$1}}**. **3 clusters**. Reload **6 seconds**.",
+    "upgrade_1_values": "5x30 damage per cluster",
+    "upgrade_2_values": "6x30 damage per cluster",
+    "upgrade_3_values": "7x30 damage per cluster",
+    "upgrade_1_cost": 420,
+    "upgrade_2_cost": 540,
+    "upgrade_3_cost": 640,
+    "max_cost": 1600
+  },
+  {
+    "name": "Perun Kinetic Rods",
+    "description": "This tank-sized nailgun rains down tungsten rods, impaling targets below with raw kinetic power. **{{$1}}**. **6 rods**. Reload **{{$2}}**.",
+    "upgrade_1_values": "46 damage per rod|4 seconds",
+    "upgrade_2_values": "51 damage per rod|3.5 seconds",
+    "upgrade_3_values": "56 damage per rod|3 seconds",
+    "upgrade_1_cost": 90,
+    "upgrade_2_cost": 180,
+    "upgrade_3_cost": 360,
+    "max_cost": 630
+  },
+  {
+    "name": "Dolos Ultra PP Bomb",
+    "description": "This persistent jumping bomb will eventually hit the target, even if the initial impact misses. Although the lightweight nature of the bomb limits the force of the explosion, its exceptionally large area of effect often catches multiple enemy units in the blast wave. **{{$1}}**. **4 bombs**. Reload **5 seconds**.",
+    "upgrade_1_values": "40 damage per bomb",
+    "upgrade_2_values": "50 damage per bomb",
+    "upgrade_3_values": "60 damage per bomb",
+    "upgrade_1_cost": 290,
+    "upgrade_2_cost": 390,
+    "upgrade_3_cost": 490,
+    "max_cost": 1170
+  },
+  {
+    "name": "Hecate Grenade",
+    "description": "Versatile and battle-proven, this standard military-issue high-explosive grenade is effective in any combat situation. **{{$1}}**. **4 grenades**. Reload **4 seconds**.",
+    "upgrade_1_values": "45 damage per grenade",
+    "upgrade_2_values": "55 damage per grenade",
+    "upgrade_3_values": "65 damage per grenade",
+    "upgrade_1_cost": 80,
+    "upgrade_2_cost": 160,
+    "upgrade_3_cost": 320,
+    "max_cost": 560
+  },
+  {
+    "name": "Perses Proximity Shredder",
+    "description": "Primarily an anti-aircraft floating mine, it hangs in the air until a nearby target triggers it to explode into widespread shrapnel. **470 total damage per mine**. **{{$1}}**. Reload **6.7 seconds**.",
+    "upgrade_1_values": "2 mines",
+    "upgrade_2_values": "3 mines",
+    "upgrade_3_values": "4 mines",
+    "upgrade_1_cost": 380,
+    "upgrade_2_cost": 570,
+    "upgrade_3_cost": 760,
+    "max_cost": 1710
+  },
+  {
+    "name": "Void Ray",
+    "description": "An advanced accelerator produces a thin stream of superheated dark matter particles. These bore into targets below, delivering a precisely targeted void blast of dark plasma. Up to **{{$1}}**. **5 charges**. Reload **2.5 seconds**.",
+    "upgrade_1_values": "88 damage per charge",
+    "upgrade_2_values": "105 damage per charge",
+    "upgrade_3_values": "122 damage per charge",
+    "upgrade_1_cost": 400,
+    "upgrade_2_cost": 450,
+    "upgrade_3_cost": 500,
+    "max_cost": 1350
+  },
+  {
+    "name": "Horus Plasma Charge",
+    "description": "The most powerful plasma bomb available. Each Horus charge creates a searing orb of green plasma, melting the toughest armor and incinerating soft targets. **{{$1}}**. **2 charges**. Reload **5 seconds**.",
+    "upgrade_1_values": "92 damage per charge",
+    "upgrade_2_values": "131 damage per charge",
+    "upgrade_3_values": "167 damage per charge",
+    "upgrade_1_cost": 440,
+    "upgrade_2_cost": 560,
+    "upgrade_3_cost": 700,
+    "max_cost": 1700
+  }
+]

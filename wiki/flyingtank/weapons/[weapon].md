@@ -15,11 +15,11 @@ let currentCost = computed(() => {
 # {{ $params.value.name }}
 
 <div class="[&>p>strong]:text-accent" v-html="$params.descriptions[currentUpgrade.value - 1]"></div>
+Can appear in slot <strong>{{ String($params.value.slot).split("|").join(" or ") }}</strong>.
 
 Cost: <strong>{{ currentCost }}</strong> Biomass
 
 <div class="flex flex-row items-center gap-4">
-
   <template v-for="index in params.descriptions.length">
     <button
       class="px-4 py-1 rounded-md transition-colors text-primary"

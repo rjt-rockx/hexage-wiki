@@ -19,7 +19,6 @@ let currentCost = computed(() => {
 Cost: <strong>{{ currentCost }}</strong> Biomass
 
 <div class="flex flex-row items-center gap-4">
-
   <template v-for="index in params.descriptions.length">
     <button
       class="px-4 py-1 rounded-md transition-colors text-primary"
