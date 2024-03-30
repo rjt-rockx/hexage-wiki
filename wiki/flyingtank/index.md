@@ -5,11 +5,9 @@ import media from "./media.json"
 
 # Flying Tank
 
-<ClientOnly>
-  <iframe class="w-full aspect-video rounded-lg my-4"
-    src="https://www.youtube.com/embed/xkf701ZpG50?controls=1&amp;autohide=1&amp;rel=0&amp;hd=1&amp;vq=hd720"
-    frameborder="0" allowfullscreen="" />
-</ClientOnly>
+<iframe class="w-full aspect-video rounded-lg my-4"
+  src="https://www.youtube.com/embed/xkf701ZpG50?controls=1&amp;autohide=1&amp;rel=0&amp;hd=1&amp;vq=hd720"
+  frameborder="0" allowfullscreen="" />
 
 <GameLinks showText name="Flying Tank" googlePlayURL='https://play.google.com/store/apps/details?id=net.hexage.flt'
   appStoreURL='https://apps.apple.com/us/app/flying-tank/id6474070216'
