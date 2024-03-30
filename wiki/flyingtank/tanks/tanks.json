@@ -3,16 +3,16 @@
     "tank_name": "Interceptor",
     "unique_power": "**Bounty Hunter**: Receive **50** to **200** extra Biomass bonus for each Mission completed. The more difficult the mission, the higher the bonus.",
     "armor": 220,
-    "speed": 4,
+    "speed": "4/5",
     "tank_description": "This armored pursuit vehicle served as a vigilant police responder before the collapse. Rebuilt, rearmed and adapted for encounters of the third kind, it now provides superior protection and combat capabilities to wasteland bounty hunters.",
     "obtain_method": "Base",
     "obtain_mission": ""
   },
   {
     "tank_name": "Ronin",
-    "unique_power": "**Companion Sphere**: Drones move **50%** faster and always recover from Mission Failure. Gain **3 seconds** of **Invulnerability** whenever a drone is destroyed.",
+    "unique_power": "**Companion Sphere**: Drones move **50% faster** and always recover from Mission Failure. Gain **3 seconds** of **Invulnerability** whenever a drone is destroyed.",
     "armor": 209,
-    "speed": 4,
+    "speed": "4/5",
     "tank_description": "After a succesful career in arms smuggling, this armored combat vehicle found fortune on the other side of the law. Commissioned by a maritime defense force to hunt down its former employers, it served through decades of succesful missions, fully redeeming its criminal past. Since the collapse left RO-9 without a master or purpose, it has been available for hire to the highest bidder.",
     "obtain_method": "Base",
     "obtain_mission": ""
@@ -21,25 +21,25 @@
     "tank_name": "Tulsi",
     "unique_power": "**Micro Maneuvers**: Enemy Mines and Missiles **cannot hit you** during Hyper Focus and enemy projectiles deal only **50% damage.** This applies to Hyper Focus Special, Hyper Focus collectible power-up and Temporal Dilation Upgrade.",
     "armor": 200,
-    "speed": 5,
+    "speed": "5/5",
     "tank_description": "On the rare occasions when renowned weapons scientist **Professor \"Doc\" Adler** took a day off, he always devoted time to his two beloved Tulsis: his daughter and his sports car. After the professor's tragic death, his prodigal daughter and successor inherited the car. The ERF's young chief scientist makes sure her namesake is better equipped and maintained than any other armored vehicle in the ERF arsenal, and she would never entrust this cherished treasure to anyone she doubted was capable of saving the world and thus avenging her family.",
     "obtain_method": "Base",
     "obtain_mission": ""
   },
   {
     "tank_name": "Rust Runner",
-    "unique_power": "**Critical Cargo Drop**: An emergency Cargo Crate spawns whenever Rust Runner receives damage **below 50%** hitpoints. Cooldown **1 minute.**",
+    "unique_power": "**Critical Cargo Drop**: An emergency Cargo Crate spawns whenever Rust Runner receives damage **below 50% hitpoints**. Cooldown **1 minute.**",
     "armor": 400,
-    "speed": 1,
+    "speed": "1/5",
     "tank_description": "After the collapse, all of the traditional trade routes fell apart. A new demand has arisen for transportation capable of supplying remote settlements across the vast expanses. These haulers have become prime targets for the bandits and scavengers that lurk in the wastes. Any scavenger who thinks of the Rust Runner as easy prey is sorely mistaken. Robust and reliable, this armored freighter is ready to deliver as much punishment as it can take.",
     "obtain_method": "Base",
     "obtain_mission": ""
   },
   {
     "tank_name": "Ironclad",
-    "unique_power": "**Grim Resolve**: Deals +**30% damage** when damaged below 30% hitpoints.",
+    "unique_power": "**Grim Resolve**: Deals +**30% damage** when damaged below **30% hitpoints.**",
     "armor": 340,
-    "speed": 2,
+    "speed": "2/5",
     "tank_description": "One of the longest serving pieces of military technology, the Ironclad has been mass produced as a cornerstone flying tank model for armies worldwide. Yet this particular veteran is anything but ordinary. Defeated or victorious, badly damaged or merely scratched, it has always returned back from battle. Despite its many repairs, each time the Ironclad re-enters the fray, it is stronger and deadlier. Because of its indestructibility, it has become the legend of many wars, including the last and final one.",
     "obtain_method": "Mastery",
     "obtain_mission": "Night Raid"
@@ -48,7 +48,7 @@
     "tank_name": "Archangel",
     "unique_power": "**Advanced Drone Control**: **Double** the number of equipped Drones. This inbuilt tech cannot be installed twice, freeing a slot for another Upgrade.",
     "armor": 400,
-    "speed": 2,
+    "speed": "2/5",
     "tank_description": "Whether in armed conflict, wildfires, earthquakes or nuclear aftermath, the Archangel rushes headfirst into the heart of the crisis, determined and unstoppable in its mission to save human lives. With a proven track record of saving thousands directly and millions indirectly, it is considered the most heroic armored rescue vehicle in the world. After the collapse, its tireless efforts to protect the few remaining human livesare appreciated more than ever. Especially since it means taking many more inhuman lives in the process.",
     "obtain_method": "Mastery",
     "obtain_mission": "Transmission"
@@ -57,7 +57,7 @@
     "tank_name": "Tengri Vengador",
     "unique_power": "**Biomass Harvester**: Your projectiles **collect** Biomass. Smashing ejected pilots and drivers instantly **repairs 2 hitpoints** and yields an **extra blob** of Biomass.",
     "armor": 230,
-    "speed": 3,
+    "speed": "3/5",
     "tank_description": "From the far eastern steppes to the southermost rainforests, this roving protector of indigenous life never hesitated to raise arms against the biomass harvesters in the skies. Often summoned by a heartfelt prayer, this blessed machine came to fight for the most endangered land and the spirits within. But in the end, there was nothing left to protect. After the last tree of Amazon fell, the survivors pledged their beloved tank to the cause of retribution against all who have brought ruin to this world.",
     "obtain_method": "Premium",
     "obtain_mission": ""
@@ -66,7 +66,7 @@
     "tank_name": "Sigma Prototype",
     "unique_power": "**Super Power**: All collectible power-ups last **2x longer**. Applies to Invulnerability, Hyper Focus and Overdrive. Collectible Force Shield gains Double durability.",
     "armor": 200,
-    "speed": 5,
+    "speed": "5/5",
     "tank_description": "When the postwar government of President Magnus established peace between the species, it ushered in a new era of tech advancement. Supermaterials of extraterrestrial origin were researched and put into practice. The sleek back hull of the Sigma prototype houses a completely unique type of engine and propulsion system. After the President issued an official decree to disband the Earth Reclamation Forces, their scientific teams seized the prototype for further study and testing.",
     "obtain_method": "Premium",
     "obtain_mission": ""
@@ -75,16 +75,16 @@
     "tank_name": "Wardozer",
     "unique_power": "**Crusher**: **Crush** your enemies for an **instant repair** of **5 hitpoints** instead of suffering the usual collateral damage.",
     "armor": 440,
-    "speed": 1,
+    "speed": "1/5",
     "tank_description": "Armored to withstand enemy artillery fire, this former construction dozer has built many fortresses and underground bunkers before the collapse, often under battlefield conditions. Since the mass decline of the world population, there has been little demand for new construction. However, a heavy-duty armed dozer is right at home in the alien wasteland.",
     "obtain_method": "Premium",
     "obtain_mission": ""
   },
   {
     "tank_name": "Radiant",
-    "unique_power": "**Extra Special**: All Specials are enhanced. Extra +**1 charge** to Repulsor and Reaper Signal. +**50 hitpoints** to Force Shield. +**1 second** duration of Unmaker Omega. +**3 seconds* duration of Overdrive and Hyper Focus.",
+    "unique_power": "**Extra Special**: All Specials are enhanced. Extra +**1 charge** to Repulsor and Reaper Signal. +**50 hitpoints** to Force Shield. +**1 second** duration of Unmaker Omega. +**3 seconds** duration of Overdrive and Hyper Focus.",
     "armor": 300,
-    "speed": 3,
+    "speed": "3/5",
     "tank_description": "The last project that legendary weapons designer Professor Adler worked on was to be humanity's ultimate answer to the alien threat. Had it been deployed 20 years earlier, humanity might have been able to reverse the catastrophic effects of the alien invasion. Unfortunately, then as now, the only downside to this otherwise flawless tank remains its enormous manufacturing cost.",
     "obtain_method": "Premium",
     "obtain_mission": ""
@@ -93,43 +93,43 @@
     "tank_name": "Postal",
     "unique_power": "**Bullet Storm**: Rapid-fire kinetic weapons such as the Beliah Autocannon, Vulcan Trashcannon, Smart Gun and the Hydra Multicannon have **no reloads**. Fire continuously without pauses.",
     "armor": 200,
-    "speed": 4,
+    "speed": "4/5",
     "tank_description": "Dashing through the danger zone regardless of the hour or the elements, this trusted carrier connects the distant remnants of civilization, delivering dispatches and packages that require discretion and speed above all else. The \"don't shoot the messenger\" rule does not apply in the wasteland, and so in addition to the package, this armored courier often delivers a large-caliber bullet to the head. Almost always on time.",
     "obtain_method": "Mastery",
     "obtain_mission": "Very Large Array"
   },
   {
     "tank_name": "Tiger Tank",
-    "unique_power": "**Zen Zone**: Enemies are **less aggressive.**",
+    "unique_power": "**Zen Zone**: Enemies are **less aggressive**.",
     "armor": 300,
-    "speed": 2,
+    "speed": "2/5",
     "tank_description": "This stealth tank earned renown among few in the know during its decades of service with the Korean 707th Special Mission Group. It completed hundreds of operations throughout East Asia, all under the strictest secrecy and with maximum effeciency. Thanks to the group's valiant efforts, Korea was able to develop its nuclear program in relative peace. During the collapse, a splinter cell of the Korean Special Forces, along with the Tiger Tank, established itself as a crucial component of the ERF.",
     "obtain_method": "Mastery",
     "obtain_mission": "Killing Moon"
   },
   {
     "tank_name": "Pale Rider",
-    "unique_power": "**Lazer Blazer**: All beam weapons have **50% faster** reloads. Unmaker Omega Special has 20% faster recharge.",
+    "unique_power": "**Laser Blazer**: All beam weapons have **50% faster** reloads. Unmaker Omega Special has **20% faster** recharge.",
     "armor": 300,
-    "speed": 2,
+    "speed": "2/5",
     "tank_description": "Some question if it is really just a machine. Moving like a shadow across the battlefield, methodically dispatching its targets with cold-blooded precision, this beast shows no mercy to those who stand in its way. Enemies who recognize its gray armor on the horizon know that their moment of death has come, and this time they will not escape. Even its commanders remain wary as they walk past this stone-cold predator in moments of rest, breathing a sigh of relief that the Pale Rider is still on their side, that its precision sights are not, as yet, staring them down.",
     "obtain_method": "Mastery",
     "obtain_mission": "Deep Sea Mining Towers"
   },
   {
     "tank_name": "Sakura",
-    "unique_power": "**Biohazard**: Depending on the size of the blob, floating Biomass now deals 25 to 100 damage when it collides with an enemy.",
+    "unique_power": "**Biohazard**: Depending on the size of the blob, floating Biomass now deals **25** to **100 damage** when it collides with an enemy.",
     "armor": 330,
-    "speed": 2,
+    "speed": "2/5",
     "tank_description": "This main battle tank of the Totemo Syndicate's Mobile Armor Division, Sakura became an overnight sensation worldwide after its heroic stand against a giant alien Seedship during the Battle of Osaka. Despite the resulting destruction of the city, Sakura successfully deterred the monster, earning the tank a reputation as a symbol of tenacity and indomitable spirit in the face of almost certain annihilation.",
     "obtain_method": "Mastery",
     "obtain_mission": "Newark Suburbs"
   },
   {
     "tank_name": "XB-1",
-    "unique_power": "**Bombardment**: **Doubles** the number of Bombs. 25% longer Bomb reloading time.",
+    "unique_power": "**Bombardment**: **Doubles** the number of Bombs. **25% longer** Bomb reloading time.",
     "armor": 400,
-    "speed": 1,
+    "speed": "1/5",
     "tank_description": "One of the most closely guarded secrets at Groom Lake Air Force Base, the XB-1 was used to conduct hundreds of experimental weapon and technology tests before the collapse. The original model has been extensively modified by generations of scientists and engineers. With nearly every part replaced, it is the modern embodiment of the mythical Ship of Theseus. And while most tank pilots indeed consider the XB-1 to be a myth, the few who learn of its existence desire to fly this icon at least once in their lifetime.",
     "obtain_method": "Mastery",
     "obtain_mission": "Power Grab"
@@ -138,34 +138,34 @@
     "tank_name": "Euphoria",
     "unique_power": "**Heavy Ordnance Reloader**: No weapon takes longer than **3 seconds** to reload. Heavy weapons, missiles, and bombs benefit greatly from the ability to replenish their limited ammunition substantially faster.",
     "armor": 400,
-    "speed": 1,
+    "speed": "1/5",
     "tank_description": "The flag bearer and leading founder of the First Resistance, Euphoria crisscrossed the African continent a thousand times, rallying independent states into a grand coalition. Eventually, its pioneering work awakened the rest of the world to the grave truth of the replacement perpetrated upon us from the darkness of deep space. After the war had been lost, and the African continent with it, the Earth Reclamation Forces West went to great lengths to retrieve the legendary tank Euphoria as a symbol of humanity against the otherworldly parasites.",
     "obtain_method": "Mastery",
     "obtain_mission": "Ruins"
   },
   {
     "tank_name": "Sovren",
-    "unique_power": "**Fire Sale**: This tank comes with its own budget. All purchases and upgrades cost 50% less.",
+    "unique_power": "**Fire Sale**: This tank comes with its own budget. All purchases and upgrades cost **50% less**.",
     "armor": 200,
-    "speed": 4,
+    "speed": "4/5",
     "tank_description": "During the collapse, an unnamed trillionaire used this exceptionally well-protected vehicle to transport his family to safety of their doomsday shelter in New Zealand. After his loved ones died from an extraterrestrial disease, he entrusted all his possessions, including the Sovren, to the ERF. The Sovren is the most luxurious model of tank ever manufactured, offering unparalleled comfort to its crew. Even the most dangerous missions can be a joy and pleasure when flying Sovren. Sit back, relax, and let its silencers, cushions and automated dispensers work their magic.",
     "obtain_method": "Mastery",
     "obtain_mission": "Fort Apocalypse"
   },
   {
     "tank_name": "Red Dragon GT",
-    "unique_power": "**Bullet Eater**: When invulnerable, enemy projectiles provide **repairs**. **Invulnerability** power-up spawns whenever Red Dragon GT receives damage below **25%** hitpoints. Cooldown 5 minutes. Effect also applies to the Invulnerability granted by Phoenix Protocols.",
+    "unique_power": "**Bullet Eater**: When invulnerable, enemy projectiles provide **repairs**. **Invulnerability** power-up spawns whenever Red Dragon GT receives damage below **25%** hitpoints. Cooldown **5 minutes**. Effect also applies to the Invulnerability granted by Phoenix Protocols.",
     "armor": 200,
-    "speed": 5,
+    "speed": "5/5",
     "tank_description": "This former supercar was once the prized possesion of a notorious Hong Kong triad. A champion street racer and feared enforcer, it was armed and armored to keep up with the ever-increasing militarization of the police force. However, it wasn't until the collapse that it reached its full potential. Utilizing its powerful engine and superior maneuverability to navigate the deadly hazards of the wasteland, those lucky few who get to steer its wheel and fire its guns feel as if the Red Dragon has been unleashed.",
     "obtain_method": "Mastery",
     "obtain_mission": "Newark Capital City"
   },
   {
     "tank_name": "Sturmengel",
-    "unique_power": "**Blitzkrieg**: All Weapon and Bomb reloads are 18% faster.",
+    "unique_power": "**Blitzkrieg**: All **Weapon** and **Bomb** reloads are **18% faster**.",
     "armor": 222,
-    "speed": 4,
+    "speed": "4/5",
     "tank_description": "This armored personnel carrier once belonged to the Stormers, an infamous group of private military contractors known for disregarding the rules of conventional warfare. Rumored to have been deliberately sacrificed by their own state, the group met their demise during the catastrophic climax of the second Krux campaign. But the Sturmengel 444 emerged from the fatal incident unscathed. Today, this undefeated angel of doom strikes fear into the hearts of all who glimpse its dark visage in the storm.",
     "obtain_method": "Mastery",
     "obtain_mission": "Retribution"
@@ -174,7 +174,7 @@
     "tank_name": "Vorot",
     "unique_power": "**Triumphant**: Gain +**10%** Score points in every Mission. Enemies are **more aggressive**.",
     "armor": 240,
-    "speed": 3,
+    "speed": "3/5",
     "tank_description": "Long time ago, this consecrated war machine belonged to the zealous priests of the Guardians Battle Order. It is said to have faced the devil himself on the battlefield and banished him back to hell. Venerated for generations, it has become more of a holy relic than a service vehicle. But beneath its pure gold plating still lies the wrath of God, ready to be unleashed once more.",
     "obtain_method": "Mastery",
     "obtain_mission": "Ascension"

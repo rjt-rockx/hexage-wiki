@@ -1,14 +1,14 @@
-import specials from './specials.json'
+import weapons from './weapons.json'
 
 import { createMarkdownRenderer } from 'vitepress'
 const renderer = await createMarkdownRenderer('')
 
-const resolveDescription = (special: (typeof specials)[0], upgrade: 1 | 2 | 3 = 1) => {
+const resolveDescription = (weapon: (typeof weapons)[0], upgrade: 1 | 2 | 3 = 1) => {
   if (upgrade < 1 || upgrade > 3) throw new Error('Invalid upgrade level')
-  const values = special[`upgrade_${upgrade}_values`]
+  const values = weapon[`upgrade_${upgrade}_values`]
   if (!values) throw new Error('Invalid upgrade cost or values')
   const splitValues = String(values).split('|')
-  let newDescription = special.description
+  let newDescription = weapon.description
   for (let i = 1; i <= splitValues.length; i++)
     newDescription = newDescription.replace(`{{\$${i}}}`, splitValues[i - 1])
   return renderer.render(newDescription).replace(new RegExp('\n$', 'gmi'), '')
@@ -17,12 +17,12 @@ const resolveDescription = (special: (typeof specials)[0], upgrade: 1 | 2 | 3 = 
 export default {
   paths() {
     const content = [
-      '# Specials',
+      '# Weapons',
       '',
       '| Name | Description |',
       '| ---- | ----------- |',
-      ...specials.map((special) => {
-        return `| [${special.name}](/flyingtank/specials/${special.name.toLowerCase().replace(/ /g, '-')}) | ${resolveDescription(special, 1)} |`
+      ...weapons.map((weapon) => {
+        return `| [${weapon.name}](/flyingtank/weapons/${weapon.name.toLowerCase().replace(/ /g, '-')}) | ${resolveDescription(weapon, 1)} |`
       })
     ].join('\n')
     return [

@@ -1,5 +1,6 @@
 <script setup>
 import GameLinks from '$components/GameLinks.vue';
+import media from "./media.json"
 </script>
 
 # Flying Tank
@@ -28,59 +29,10 @@ rich action-packed side-scrolling shmup!
 
 ## Screenshots
 
-<figure class="my-2">
-  <picture>
-    <source srcset="http://www.hexage.net/flt/s1.webp" type="image/webp">
-    <img class="w-full rounded-lg" src="http://www.hexage.net/flt/s1.png" alt="Flying Tank 1">
+<figure v-for="item in media" class="my-2">
+  <picture v-if="item.type === 'image'">
+    <img class="w-full rounded-lg" :src="item.url" :alt="`Flying Tank - ${item.title}`">
   </picture>
-  <figcaption class="w-full text-muted text-sm py-2">Encounter the Obliterator!</figcaption>
-</figure>
-
-<figure class="my-2">
-  <picture>
-    <source srcset="http://www.hexage.net/flt/s2.webp" type="image/webp">
-    <img class="w-full rounded-lg" src="http://www.hexage.net/flt/s2.png" alt="Flying Tank 2">
-  </picture>
-  <figcaption class="w-full text-muted text-sm py-2">Sneak up on Scavengers during the moonlit Night Raid mission.
-  </figcaption>
-</figure>
-
-<figure class="my-2">
-  <picture>
-    <source srcset="http://www.hexage.net/flt/s3.webp" type="image/webp">
-    <img class="w-full rounded-lg" src="http://www.hexage.net/flt/s3.png" alt="Flying Tank 3">
-  </picture>
-  <figcaption class="w-full text-muted text-sm py-2">Carpet bomb the wasteland.</figcaption>
-</figure>
-
-<figure class="my-2">
-  <picture>
-    <source srcset="http://www.hexage.net/flt/s4.webp" type="image/webp">
-    <img class="w-full rounded-lg" src="http://www.hexage.net/flt/s4.png" alt="Flying Tank 4">
-  </picture>
-  <figcaption class="w-full text-muted text-sm py-2">Overthrow the Government of traitors.</figcaption>
-</figure>
-
-<figure class="my-2">
-  <picture>
-    <source srcset="http://www.hexage.net/flt/s5.webp" type="image/webp">
-    <img class="w-full rounded-lg" src="http://www.hexage.net/flt/s5.png" alt="Flying Tank 5">
-  </picture>
-  <figcaption class="w-full text-muted text-sm py-2">Vaporize your enemies with the Unmaker Omega.</figcaption>
-</figure>
-
-<figure class="my-2">
-  <picture>
-    <source srcset="http://www.hexage.net/flt/s6.webp" type="image/webp">
-    <img class="w-full rounded-lg" src="http://www.hexage.net/flt/s6.png" alt="Flying Tank 6">
-  </picture>
-  <figcaption class="w-full text-muted text-sm py-2">Kill every last dreaming blowfish in the stratosphere!</figcaption>
-</figure>
-
-<figure class="my-2">
-  <picture>
-    <source srcset="http://www.hexage.net/flt/s7.webp" type="image/webp">
-    <img class="w-full rounded-lg" src="http://www.hexage.net/flt/s7.png" alt="Flying Tank 7">
-  </picture>
-  <figcaption class="w-full text-muted text-sm py-2">Disgusting Spiderticks latch onto your tank. Get them off!</figcaption>
+  <video v-if="item.type === 'video'" class="w-full rounded-lg" :src="item.url" autoplay loop controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture disableremoteplayback muted playsinline></video>
+  <figcaption class="w-full text-muted text-sm py-2">{{ item.title }}</figcaption>
 </figure>
