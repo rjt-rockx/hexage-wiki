@@ -7,7 +7,7 @@ import media from "./media.json"
 
 <ClientOnly>
   <iframe class="w-full aspect-video rounded-lg my-4"
-    src="http://www.youtube.com/embed/xkf701ZpG50?controls=1&amp;autohide=1&amp;rel=0&amp;hd=1&amp;vq=hd720"
+    src="https://www.youtube.com/embed/xkf701ZpG50?controls=1&amp;autohide=1&amp;rel=0&amp;hd=1&amp;vq=hd720"
     frameborder="0" allowfullscreen="" />
 </ClientOnly>
 
