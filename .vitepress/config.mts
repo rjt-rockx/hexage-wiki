@@ -1,6 +1,22 @@
-import { defineConfig } from 'vitepress'
+import { DefaultTheme, defineConfig, loadEnv } from 'vitepress'
 import UnoCSS from 'unocss/vite'
 import path from 'path'
+
+const env = loadEnv('', process.cwd(), ['ALGOLIA'])
+
+let searchConfig: DefaultTheme.Config['search'] = {
+  provider: 'local'
+}
+
+if (env.ALGOLIA_APP_ID && env.ALGOLIA_SEARCH_API_KEY && env.ALGOLIA_INDEX_NAME)
+  searchConfig = {
+    provider: 'algolia',
+    options: {
+      appId: env.ALGOLIA_APP_ID,
+      apiKey: env.ALGOLIA_SEARCH_API_KEY,
+      indexName: env.ALGOLIA_INDEX_NAME
+    }
+  }
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -36,9 +52,7 @@ export default defineConfig({
       }
     ],
 
-    search: {
-      provider: 'local'
-    },
+    search: searchConfig,
 
     sidebar: {
       '/flyingtank/': [
