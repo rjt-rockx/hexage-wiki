@@ -32,6 +32,10 @@ export default defineConfig({
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }]
   ],
 
+  sitemap: {
+    hostname: 'https://hexage.wiki'
+  },
+
   themeConfig: {
     logo: {
       alt: 'Hexage Logo',
