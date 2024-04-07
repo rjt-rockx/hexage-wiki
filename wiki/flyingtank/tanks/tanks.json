@@ -1,6 +1,7 @@
 [
   {
-    "tank_name": "Interceptor",
+    "name": "Interceptor",
+    "image": "https://i.imgur.com/joga66H.png",
     "unique_power": "**Bounty Hunter**: Receive **50** to **200** extra Biomass bonus for each Mission completed. The more difficult the mission, the higher the bonus.",
     "armor": 220,
     "speed": "4/5",
@@ -9,7 +10,8 @@
     "obtain_mission": ""
   },
   {
-    "tank_name": "Ronin",
+    "name": "Ronin",
+    "image": "https://i.imgur.com/zprE2kO.png",
     "unique_power": "**Companion Sphere**: Drones move **50% faster** and always recover from Mission Failure. Gain **3 seconds** of **Invulnerability** whenever a drone is destroyed.",
     "armor": 209,
     "speed": "4/5",
@@ -18,7 +20,8 @@
     "obtain_mission": ""
   },
   {
-    "tank_name": "Tulsi",
+    "name": "Tulsi",
+    "image": "https://i.imgur.com/NnDkgYy.png",
     "unique_power": "**Micro Maneuvers**: Enemy Mines and Missiles **cannot hit you** during Hyper Focus and enemy projectiles deal only **50% damage.** This applies to Hyper Focus Special, Hyper Focus collectible power-up and Temporal Dilation Upgrade.",
     "armor": 200,
     "speed": "5/5",
@@ -27,7 +30,8 @@
     "obtain_mission": ""
   },
   {
-    "tank_name": "Rust Runner",
+    "name": "Rust Runner",
+    "image": "https://i.imgur.com/TreCjpB.png",
     "unique_power": "**Critical Cargo Drop**: An emergency Cargo Crate spawns whenever Rust Runner receives damage **below 50% hitpoints**. Cooldown **1 minute.**",
     "armor": 400,
     "speed": "1/5",
@@ -36,7 +40,8 @@
     "obtain_mission": ""
   },
   {
-    "tank_name": "Ironclad",
+    "name": "Ironclad",
+    "image": "https://i.imgur.com/8Na57iC.png",
     "unique_power": "**Grim Resolve**: Deals **+30% damage** when damaged below **30% hitpoints.**",
     "armor": 340,
     "speed": "2/5",
@@ -45,7 +50,8 @@
     "obtain_mission": "Night Raid"
   },
   {
-    "tank_name": "Archangel",
+    "name": "Archangel",
+    "image": "https://i.imgur.com/LvdHrxw.png",
     "unique_power": "**Advanced Drone Control**: **Double** the number of equipped Drones. This inbuilt tech cannot be installed twice, freeing a slot for another Upgrade.",
     "armor": 400,
     "speed": "2/5",
@@ -54,7 +60,8 @@
     "obtain_mission": "Transmission"
   },
   {
-    "tank_name": "Tengri Vengador",
+    "name": "Tengri Vengador",
+    "image": "https://i.imgur.com/yW78mDe.png",
     "unique_power": "**Biomass Harvester**: Your projectiles **collect** Biomass. Smashing ejected pilots and drivers instantly **repairs 2 hitpoints** and yields an **extra blob** of Biomass.",
     "armor": 230,
     "speed": "3/5",
@@ -63,7 +70,8 @@
     "obtain_mission": ""
   },
   {
-    "tank_name": "Sigma Prototype",
+    "name": "Sigma Prototype",
+    "image": "https://i.imgur.com/YZDic0H.png",
     "unique_power": "**Super Power**: All collectible power-ups last **2x longer**. Applies to Invulnerability, Hyper Focus and Overdrive. Collectible Force Shield gains Double durability.",
     "armor": 200,
     "speed": "5/5",
@@ -72,7 +80,8 @@
     "obtain_mission": ""
   },
   {
-    "tank_name": "Wardozer",
+    "name": "Wardozer",
+    "image": "https://i.imgur.com/VhxEfmM.png",
     "unique_power": "**Crusher**: **Crush** your enemies for an **instant repair** of **5 hitpoints** instead of suffering the usual collateral damage.",
     "armor": 440,
     "speed": "1/5",
@@ -81,7 +90,8 @@
     "obtain_mission": ""
   },
   {
-    "tank_name": "Radiant",
+    "name": "Radiant",
+    "image": "https://i.imgur.com/Isyy7Fj.png",
     "unique_power": "**Extra Special**: All Specials are enhanced. Extra **+1 charge** to Repulsor and Reaper Artifact. **+50 hitpoints** to Force Shield. **+1 second** duration of Unmaker Omega. **+3 seconds** duration of Overdrive and Hyper Focus.",
     "armor": 300,
     "speed": "3/5",
@@ -90,7 +100,8 @@
     "obtain_mission": ""
   },
   {
-    "tank_name": "Postal",
+    "name": "Postal",
+    "image": "https://i.imgur.com/W2ScweS.png",
     "unique_power": "**Bullet Storm**: Rapid-fire kinetic weapons such as the Beliah Autocannon, Vulcan Trashgun, Smart Gun and the Hydra Multicannon have **no reloads**. Fire continuously without pauses.",
     "armor": 200,
     "speed": "4/5",
@@ -99,7 +110,8 @@
     "obtain_mission": "Very Large Array"
   },
   {
-    "tank_name": "Tiger Tank",
+    "name": "Tiger Tank",
+    "image": "https://i.imgur.com/Le69JB4.png",
     "unique_power": "**Zen Zone**: Enemies are **less aggressive**.",
     "armor": 300,
     "speed": "2/5",
@@ -108,7 +120,8 @@
     "obtain_mission": "Killing Moon"
   },
   {
-    "tank_name": "Pale Rider",
+    "name": "Pale Rider",
+    "image": "https://i.imgur.com/8ZZzmPx.png",
     "unique_power": "**Laser Blazer**: All beam weapons have **50% faster** reloads. Unmaker Omega Special has **20% faster** recharge.",
     "armor": 300,
     "speed": "2/5",
@@ -117,7 +130,8 @@
     "obtain_mission": "Deep Sea Mining Towers"
   },
   {
-    "tank_name": "Sakura",
+    "name": "Sakura",
+    "image": "https://i.imgur.com/mjpCfD4.png",
     "unique_power": "**Biohazard**: Depending on the size of the blob, floating Biomass now deals **25** to **100 damage** when it collides with an enemy.",
     "armor": 330,
     "speed": "2/5",
@@ -126,7 +140,8 @@
     "obtain_mission": "Newark Suburbs"
   },
   {
-    "tank_name": "XB-1",
+    "name": "XB-1",
+    "image": "https://i.imgur.com/MOTAEmX.png",
     "unique_power": "**Bombardment**: **Doubles** the number of Bombs. **25% longer** Bomb reloading time.",
     "armor": 400,
     "speed": "1/5",
@@ -135,7 +150,8 @@
     "obtain_mission": "Power Grab"
   },
   {
-    "tank_name": "Euphoria",
+    "name": "Euphoria",
+    "image": "https://i.imgur.com/lCvlNSQ.png",
     "unique_power": "**Heavy Ordnance Reloader**: No weapon takes longer than **3 seconds** to reload. Heavy weapons, missiles, and bombs benefit greatly from the ability to replenish their limited ammunition substantially faster.",
     "armor": 400,
     "speed": "1/5",
@@ -144,7 +160,8 @@
     "obtain_mission": "Ruins"
   },
   {
-    "tank_name": "Sovren",
+    "name": "Sovren",
+    "image": "https://i.imgur.com/8WFdDhr.png",
     "unique_power": "**Fire Sale**: This tank comes with its own budget. All purchases and upgrades cost **50% less**.",
     "armor": 200,
     "speed": "4/5",
@@ -153,7 +170,8 @@
     "obtain_mission": "Fort Apocalypse"
   },
   {
-    "tank_name": "Red Dragon GT",
+    "name": "Red Dragon GT",
+    "image": "https://i.imgur.com/pwD4iuJ.png",
     "unique_power": "**Bullet Eater**: When invulnerable, enemy projectiles provide **repairs**. **Invulnerability** power-up spawns whenever Red Dragon GT receives damage below **25%** hitpoints. Cooldown **5 minutes**. Effect also applies to the Invulnerability granted by Phoenix Protocols.",
     "armor": 200,
     "speed": "5/5",
@@ -162,7 +180,8 @@
     "obtain_mission": "Newark Capital City"
   },
   {
-    "tank_name": "Sturmengel",
+    "name": "Sturmengel",
+    "image": "https://i.imgur.com/1HbmMZw.png",
     "unique_power": "**Blitzkrieg**: All **Weapon** and **Bomb** reloads are **18% faster**.",
     "armor": 222,
     "speed": "4/5",
@@ -171,7 +190,8 @@
     "obtain_mission": "Retribution"
   },
   {
-    "tank_name": "Vorot",
+    "name": "Vorot",
+    "image": "https://i.imgur.com/Lp4cKOn.png",
     "unique_power": "**Triumphant**: Gain **+10%** Score points in every Mission. Enemies are **more aggressive**.",
     "armor": 240,
     "speed": "3/5",

@@ -1,18 +1,5 @@
 import bombs from './bombs.json'
-
-import { createMarkdownRenderer } from 'vitepress'
-const renderer = await createMarkdownRenderer('')
-
-const resolveDescription = (bomb: (typeof bombs)[0], upgrade: 1 | 2 | 3 = 1) => {
-  if (upgrade < 1 || upgrade > 3) throw new Error('Invalid upgrade level')
-  const values = bomb[`upgrade_${upgrade}_values`]
-  if (typeof values === 'undefined') throw new Error('Invalid upgrade cost or values')
-  const splitValues = String(values).split('|')
-  let newDescription = bomb.description
-  for (let i = 1; i <= splitValues.length; i++)
-    newDescription = newDescription.replace(`{{\$${i}}}`, splitValues[i - 1])
-  return renderer.render(newDescription).replace(new RegExp('\n$', 'gmi'), '')
-}
+import { resolveDescription } from '../../../utils/resolveDescription'
 
 export default {
   paths() {

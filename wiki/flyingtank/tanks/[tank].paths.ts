@@ -45,7 +45,7 @@ export default {
           '| ---- | ------------ | ----------- |',
           ...tanks.map(
             (tank) =>
-              `| [${tank.tank_name}](/flyingtank/tanks/${tank.tank_name.toLowerCase().replace(/ /g, '-')}) | ${tank.unique_power} | ${tank.obtain_method === 'Mastery' ? `Mastery ([${tank.obtain_mission}](/flyingtank/missions/${tank.obtain_mission.toLowerCase().replace(/ /g, '-')}))` : tank.obtain_method} |`
+              `| [${tank.name}](/flyingtank/tanks/${tank.name.toLowerCase().replace(/ /g, '-')}) | ${tank.unique_power} | ${tank.obtain_method === 'Mastery' ? `Mastery ([${tank.obtain_mission}](/flyingtank/missions/${tank.obtain_mission.toLowerCase().replace(/ /g, '-')}))` : tank.obtain_method} |`
           )
         ].join('\n')
       },
@@ -60,19 +60,20 @@ export default {
         }
         return {
           params: {
-            tank: tank.tank_name.toLowerCase().replace(/ /g, '-')
+            tank: tank.name.toLowerCase().replace(/ /g, '-')
           },
           content: [
             '---',
-            'title: ' + tank.tank_name,
+            'title: ' + tank.name,
             'prev:',
-            `  text: ${prev.tank_name}`,
-            `  link: /flyingtank/tanks/${prev.tank_name.toLowerCase().replace(/ /g, '-')}`,
+            `  text: ${prev.name}`,
+            `  link: /flyingtank/tanks/${prev.name.toLowerCase().replace(/ /g, '-')}`,
             'next:',
-            `  text: ${next.tank_name}`,
-            `  link: /flyingtank/tanks/${next.tank_name.toLowerCase().replace(/ /g, '-')}`,
+            `  text: ${next.name}`,
+            `  link: /flyingtank/tanks/${next.name.toLowerCase().replace(/ /g, '-')}`,
             '---',
-            `# ${tank.tank_name}`,
+            `# ${tank.name}`,
+            `![${tank.name}](${tank.image})`,
             '## Description',
             tank.tank_description,
             '## Unique Power',
