@@ -29,7 +29,12 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vector/favicon.svg' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
-    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }]
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { rel: 'preconnect', href: 'https://i.imgur.com' }],
+    ['link', { rel: 'preconnect', href: 'https://youtube.com' }],
+    ['link', { rel: 'preconnect', href: 'https://apps.apple.com' }],
+    ['link', { rel: 'preconnect', href: 'https://play.google.com' }],
+    ['link', { rel: 'preconnect', href: 'https://store.steampowered.com' }]
   ],
 
   sitemap: {
@@ -50,8 +55,16 @@ export default defineConfig({
         text: 'Games',
         items: [
           { text: 'Flying Tank', link: '/flyingtank/' },
+          { text: 'Ritual', link: '/ritual/' },
+          { text: 'REDCON', link: '/redcon/' },
           { text: 'Reaper', link: '/reaper/' },
-          { text: 'Redcon', link: '/redcon/' }
+          { text: 'Radiant Defense', link: '/radiantdefense/' },
+          { text: 'ROBOTEK', link: '/robotek/' },
+          { text: 'EVAC', link: '/evac/' },
+          { text: 'Everlands', link: '/everlands/' },
+          { text: 'Radiant', link: '/radiant/' },
+          { text: 'Totemo', link: '/totemo/' },
+          { text: 'Buka', link: '/buka/' }
         ]
       }
     ],
@@ -72,6 +85,66 @@ export default defineConfig({
             { text: 'Drones', link: '/flyingtank/drones/' },
             { text: 'Upgrades', link: '/flyingtank/upgrades/' }
           ]
+        }
+      ],
+      '/ritual/': [
+        {
+          text: 'Ritual',
+          items: [{ text: 'About', link: '/ritual/' }]
+        }
+      ],
+      '/redcon/': [
+        {
+          text: 'REDCON',
+          items: [{ text: 'About', link: '/redcon/' }]
+        }
+      ],
+      '/reaper/': [
+        {
+          text: 'Reaper',
+          items: [{ text: 'About', link: '/reaper/' }]
+        }
+      ],
+      '/radiantdefense/': [
+        {
+          text: 'Radiant Defense',
+          items: [{ text: 'About', link: '/radiant-defense/' }]
+        }
+      ],
+      '/robotek/': [
+        {
+          text: 'ROBOTEK',
+          items: [{ text: 'About', link: '/robotek/' }]
+        }
+      ],
+      '/radiant/': [
+        {
+          text: 'Radiant',
+          items: [{ text: 'About', link: '/radiant/' }]
+        }
+      ],
+      '/evac/': [
+        {
+          text: 'EVAC',
+          items: [{ text: 'About', link: '/evac/' }]
+        }
+      ],
+      '/everlands/': [
+        {
+          text: 'Everlands',
+          items: [{ text: 'About', link: '/everlands/' }]
+        }
+      ],
+      '/totemo/': [
+        {
+          text: 'Totemo',
+          items: [{ text: 'About', link: '/totemo/' }]
+        }
+      ],
+      '/buka/': [
+        {
+          text: 'Buka',
+          items: [{ text: 'About', link: '/buka/' }]
         }
       ]
     },

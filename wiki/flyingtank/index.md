@@ -13,7 +13,7 @@ import media from "./media.json"
   appStoreURL='https://apps.apple.com/us/app/flying-tank/id6474070216'
   steamURL='https://store.steampowered.com/app/2298950/Flying_Tank/' />
 
-## About
+## Description
 
 **THE END OF THE WORLD IS JUST THE BEGINNING**
 
@@ -27,7 +27,7 @@ rich action-packed side-scrolling shmup!
 - Customize your FLT with a variety of Weapons and Bombs, ranging from classic to insane.
 - Use powerful Specials including Hyperfocus and Overdrive, attack and repair Drones, and 30+ other Upgrades.
 
-## Screenshots
+## Media
 
 <figure v-for="item in media" class="my-2">
   <picture v-if="item.type === 'image'">

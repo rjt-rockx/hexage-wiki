@@ -31,17 +31,17 @@ const games: Game[] = [
     bannerURL: '/banners/ritual.png',
     releaseYear: 2019,
     googlePlayURL: 'https://play.google.com/store/apps/details?id=net.hexage.ritual',
-    appStoreURL: 'https://itunes.apple.com/us/app/ritual-sorcerer-angel/id1457554380',
+    appStoreURL: 'https://apps.apple.com/us/app/ritual-sorcerer-angel/id1457554380',
     steamURL: 'https://store.steampowered.com/app/1063960/Ritual_Sorcerer_Angel/'
   },
   {
-    name: 'Redcon',
+    name: 'REDCON',
     genre: 'Real-time strategy',
     path: 'redcon',
     bannerURL: '/banners/redcon.png',
     releaseYear: 2016,
     googlePlayURL: 'https://play.google.com/store/apps/details?id=net.hexage.redcon',
-    appStoreURL: 'https://itunes.apple.com/us/app/redcon/id1091375305',
+    appStoreURL: 'https://apps.apple.com/us/app/redcon/id1091375305',
     steamURL: 'https://store.steampowered.com/app/449710/REDCON/'
   },
   {
@@ -51,7 +51,7 @@ const games: Game[] = [
     bannerURL: '/banners/reaper.png',
     releaseYear: 2013,
     googlePlayURL: 'https://play.google.com/store/apps/details?id=net.hexage.reaper',
-    appStoreURL: 'https://itunes.apple.com/us/app/reaper-tale-pale-swordsman/id698299228'
+    appStoreURL: 'https://apps.apple.com/us/app/reaper-tale-pale-swordsman/id698299228'
   },
   {
     name: 'Radiant Defense',
@@ -60,16 +60,16 @@ const games: Game[] = [
     bannerURL: '/banners/radiantdefense.png',
     releaseYear: 2011,
     googlePlayURL: 'https://play.google.com/store/apps/details?id=net.hexage.defense',
-    appStoreURL: 'https://itunes.apple.com/us/app/radiant-defense/id512203663'
+    appStoreURL: 'https://apps.apple.com/us/app/radiant-defense/id512203663'
   },
   {
-    name: 'Robotek',
+    name: 'ROBOTEK',
     genre: 'Turn-based strategy',
     path: 'robotek',
     bannerURL: '/banners/robotek.png',
     releaseYear: 2011,
     googlePlayURL: 'https://play.google.com/store/apps/details?id=net.hexage.robotek.hd',
-    appStoreURL: 'https://itunes.apple.com/us/app/robotek/id437602797'
+    appStoreURL: 'https://apps.apple.com/us/app/robotek/id437602797'
   },
   {
     name: 'Radiant',
@@ -78,10 +78,10 @@ const games: Game[] = [
     bannerURL: '/banners/radiant.png',
     releaseYear: 2009,
     googlePlayURL: 'https://play.google.com/store/apps/details?id=net.hexage.radiant.hd',
-    appStoreURL: 'https://itunes.apple.com/us/app/radiant/id335989815'
+    appStoreURL: 'https://apps.apple.com/us/app/radiant/id335989815'
   },
   {
-    name: 'Evac',
+    name: 'EVAC',
     genre: 'Maze',
     path: 'evac',
     bannerURL: '/banners/evac.png',
