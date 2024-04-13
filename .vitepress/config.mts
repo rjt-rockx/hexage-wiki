@@ -1,4 +1,6 @@
 import { DefaultTheme, defineConfig, loadEnv } from 'vitepress'
+
+import { PageProperties, PagePropertiesMarkdownSection } from '@nolebase/vitepress-plugin-page-properties/vite'
 import UnoCSS from 'unocss/vite'
 import path from 'path'
 
@@ -167,7 +169,10 @@ export default defineConfig({
   },
 
   vite: {
-    plugins: [UnoCSS()],
+    plugins: [UnoCSS(), PageProperties(), PagePropertiesMarkdownSection()],
+    ssr: {
+      noExternal: ['@nolebase/vitepress-plugin-page-properties/client']
+    },
     resolve: {
       alias: [{ find: '$components', replacement: path.resolve('.vitepress/theme/components') }]
     }
