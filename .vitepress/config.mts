@@ -96,7 +96,22 @@ export default defineConfig({
       '/redcon/': [
         {
           text: 'REDCON',
-          items: [{ text: 'About', link: '/redcon/' }]
+          items: [
+            { text: 'About', link: '/redcon/' },
+            {
+              text: 'Forts',
+              link: '/redcon/forts/'
+            },
+            {
+              text: 'Locations',
+              link: '/redcon/locations/',
+              items: [
+                { text: 'Enemy', link: '/redcon/locations/enemy/' },
+                { text: 'Player', link: '/redcon/locations/player/' }
+              ]
+            },
+            { text: 'Achievements', link: '/redcon/achievements/' }
+          ]
         }
       ],
       '/reaper/': [
