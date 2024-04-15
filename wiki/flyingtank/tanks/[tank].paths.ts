@@ -3,6 +3,7 @@ import weaponData from '../weapons/weapons.json'
 import upgradeData from '../upgrades/upgrades.json'
 import bombData from '../bombs/bombs.json'
 import specialData from '../specials/specials.json'
+import { describe } from 'node:test'
 
 const replaceMentions = (text: string) => {
   let newText = text
@@ -58,19 +59,32 @@ export default {
         } else if (tank.obtain_method === 'Mastery') {
           obtainedBy = `This tank requires 100% mastery of the [${tank.obtain_mission}](/flyingtank/missions/${tank.obtain_mission.toLowerCase().replace(/ /g, '-')}) mission.`
         }
+        const frontMatter = {
+          title: tank.name,
+          description: tank.tank_description,
+          prev: {
+            text: prev.name,
+            link: `/flyingtank/tanks/${prev.name.toLowerCase().replace(/ /g, '-')}`
+          },
+          next: {
+            text: next.name,
+            link: `/flyingtank/tanks/${next.name.toLowerCase().replace(/ /g, '-')}`
+          },
+          head: [
+            ['meta', { property: 'og:description', content: tank.tank_description }],
+            ['meta', { property: 'og:image', content: tank.image }],
+            ['meta', { name: 'twitter:title', content: tank.name }],
+            ['meta', { name: 'twitter:description', content: tank.tank_description }],
+            ['meta', { name: 'twitter:image', content: tank.image }]
+          ]
+        }
         return {
           params: {
             tank: tank.name.toLowerCase().replace(/ /g, '-')
           },
           content: [
             '---',
-            'title: ' + tank.name,
-            'prev:',
-            `  text: ${prev.name}`,
-            `  link: /flyingtank/tanks/${prev.name.toLowerCase().replace(/ /g, '-')}`,
-            'next:',
-            `  text: ${next.name}`,
-            `  link: /flyingtank/tanks/${next.name.toLowerCase().replace(/ /g, '-')}`,
+            JSON.stringify(frontMatter, null, 2),
             '---',
             `# ${tank.name}`,
             `![${tank.name}](${tank.image})`,
