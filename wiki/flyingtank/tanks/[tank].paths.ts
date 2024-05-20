@@ -59,6 +59,7 @@ export default {
         } else if (tank.obtain_method === 'Mastery') {
           obtainedBy = `This tank requires 100% mastery of the [${tank.obtain_mission}](/flyingtank/missions/${tank.obtain_mission.toLowerCase().replace(/ /g, '-')}) mission.`
         }
+
         const frontMatter = {
           title: tank.name,
           description: tank.tank_description,
@@ -71,8 +72,10 @@ export default {
             link: `/flyingtank/tanks/${next.name.toLowerCase().replace(/ /g, '-')}`
           },
           head: [
+            ['meta', { property: 'og:title', content: tank.name }],
             ['meta', { property: 'og:description', content: tank.tank_description }],
             ['meta', { property: 'og:image', content: tank.image }],
+            ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
             ['meta', { name: 'twitter:title', content: tank.name }],
             ['meta', { name: 'twitter:description', content: tank.tank_description }],
             ['meta', { name: 'twitter:image', content: tank.image }]
