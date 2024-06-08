@@ -71,6 +71,10 @@ export default defineConfig({
 
     search: searchConfig,
 
+    outline: {
+      level: [2, 3]
+    },
+
     sidebar: {
       '/flyingtank/': [
         {

@@ -2,8 +2,6 @@ import forts from './forts.json'
 
 export default {
   paths() {
-    const playerForts = forts.filter((fort) => fort.category === 'customizable')
-    const enemyForts = forts.filter((fort) => fort.category === 'enemy')
     return [
       {
         params: {
@@ -14,15 +12,15 @@ export default {
           '',
           '| Name | Description | Unlocked at |',
           '| ---- | ----------- | ----------- |',
-          playerForts
+          forts
             .map((fort) => `| [${fort.name}](/redcon/forts/${fort.slug}) | ${fort.description} | ${fort.progress}% |`)
             .join('\n')
         ].join('\n')
       },
-      ...playerForts.map((fort, index) => {
-        const prev = playerForts.at(index - 1)!
-        const next = playerForts.at(index + 1 === playerForts.length ? 0 : index + 1)!
-        const enemy = enemyForts.find((enemy) => enemy.progress === fort.progress)!
+      ...forts.map((fort, index) => {
+        const prev = forts.at(index - 1)!
+        const next = forts.at(index + 1 === forts.length ? 0 : index + 1)!
+        const enemy = forts.find((enemy) => enemy.progress === fort.progress)!
 
         type MetaTags = [string, Record<string, string>]
 
@@ -33,9 +31,11 @@ export default {
           metaTags.push(['meta', { name: 'twitter:title', content: fort.name }])
         }
 
+        const combinedDescription = `${fort.description}\n${fort.premium ? 'Unlocked by premium' : 'Available for free'} at war progress ${fort.progress}% by defeating enemy ${enemy.name}.`
+
         if (fort.description) {
-          metaTags.push(['meta', { property: 'og:description', content: fort.description }])
-          metaTags.push(['meta', { name: 'twitter:description', content: fort.description }])
+          metaTags.push(['meta', { property: 'og:description', content: combinedDescription }])
+          metaTags.push(['meta', { name: 'twitter:description', content: combinedDescription }])
         }
 
         if (fort.imageUrl) {
@@ -63,14 +63,38 @@ export default {
           `# ${fort.name}`,
           '',
           ...(fort.imageUrl ? [`![${fort.name}](${fort.imageUrl})`, ''] : []),
-          '## Description',
+          '## About',
           '',
           `${fort.description}`,
           '',
-          '## About',
+          `${fort.premium ? 'Unlocked by premium' : 'Available for free'} at war progress ${fort.progress}% by defeating enemy [${enemy.name}](/redcon/locations/enemy/${enemy.slug}).`,
           '',
-          `Unlocked at war progress ${fort.progress}% by defeating [${enemy.name}](/redcon/locations/enemy/${enemy.slug}).`,
-          ''
+          '## Layouts',
+          '',
+          ...fort.layouts
+            .map((layout) => {
+              return [
+                `### ${layout.layout}`,
+                '',
+                `![${layout.layout}](${layout.imageUrl})`,
+                '',
+                layout.premium ? 'Unlocked by premium.' : 'Available for free.',
+                '',
+                '#### Stats',
+                '',
+                '| Hitpoints | Power | Ammunition | Soldiers |',
+                '| --------- | ----- | ---------- | -------- |',
+                `| ${layout.hitpoints} | +${layout.power} | +${layout.ammunition} | ${layout.soldiers} |`,
+                '',
+                '#### Slots',
+                '',
+                '| Weapon Slots | Utility Slots | Multi Slots | Defense Slots |',
+                '| ------------ | ------------- | ---------- | ------------- |',
+                `| ${layout.weapon_slots} | ${layout.utility_slots} | ${layout.multi_slots} | ${layout.defense_slots} |`,
+                ''
+              ]
+            })
+            .flat()
         ]
         return {
           params: {
