@@ -1,4 +1,5 @@
 import forts from './forts.json'
+import locations from '../locations/forts.json'
 
 export default {
   paths() {
@@ -20,7 +21,7 @@ export default {
       ...forts.map((fort, index) => {
         const prev = forts.at(index - 1)!
         const next = forts.at(index + 1 === forts.length ? 0 : index + 1)!
-        const enemy = forts.find((enemy) => enemy.progress === fort.progress)!
+        const enemy = locations.find((enemy) => enemy.progress === fort.progress)!
 
         type MetaTags = [string, Record<string, string>]
 
