@@ -21,7 +21,9 @@ export default {
       ...forts.map((fort, index) => {
         const prev = forts.at(index - 1)!
         const next = forts.at(index + 1 === forts.length ? 0 : index + 1)!
-        const enemy = locations.find((enemy) => enemy.progress === fort.progress)!
+        const enemy = locations.find(
+          (location) => location.progress === fort.progress && location.category === 'enemy'
+        )!
 
         type MetaTags = [string, Record<string, string>]
 
