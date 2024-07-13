@@ -1,4 +1,3 @@
-import { info } from 'console'
 import defenses from './defenses.json'
 
 export default {
@@ -49,7 +48,7 @@ export default {
             '| ---- | ----- | ---------- | ---- | -------------- |',
             `| ${defense.name} | ${defense.power} | ${defense.ammunition} | ${defense.cost} | ${defense.purchase_limit} |`,
             '',
-            `${defense.premium ? 'Unlocked by premium.' : 'Available for free.'}`
+            defense.premium ? 'Unlocked by premium.' : 'Available for free.'
           ].join('\n')
         }
       })
