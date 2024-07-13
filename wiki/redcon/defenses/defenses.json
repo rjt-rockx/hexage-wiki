@@ -25,7 +25,7 @@
     "power": 2,
     "ammunition": 0,
     "purchase_limit": 4,
-    "premium": false,
+    "premium": true,
     "imageUrl": "https://i.imgur.com/lJLhVSF.jpeg",
     "inActionImageUrl": "https://i.imgur.com/u7Y6uMK.jpeg"
   }

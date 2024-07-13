@@ -49,6 +49,7 @@ export default {
             '| ---- | ----- | ---------- | ---- | -------------- |',
             `| ${defense.name} | ${defense.power} | ${defense.ammunition} | ${defense.cost} | ${defense.purchase_limit} |`,
             '',
+            `${defense.premium ? 'Unlocked by premium.' : 'Available for free.'}`
           ].join('\n')
         }
       })
