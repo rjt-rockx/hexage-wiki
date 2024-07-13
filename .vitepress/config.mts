@@ -114,6 +114,10 @@ export default defineConfig({
                 { text: 'Player', link: '/redcon/locations/player/' }
               ]
             },
+            {
+              text: 'Defenses',
+              link: '/redcon/defenses/'
+            },
             { text: 'Achievements', link: '/redcon/achievements/' }
           ]
         }
