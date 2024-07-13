@@ -22,33 +22,64 @@ export default {
       ...defenses.map((defense, index) => {
         const prev = defenses.at(index - 1)!
         const next = defenses.at(index + 1 === defenses.length ? 0 : index + 1)!
+        type MetaTags = [string, Record<string, string>]
+
+        const metaTags: MetaTags[] = []
+
+        if (defense.name) {
+          metaTags.push(['meta', { property: 'og:title', content: defense.name }])
+          metaTags.push(['meta', { name: 'twitter:title', content: defense.name }])
+        }
+
+        if (defense.description) {
+          metaTags.push(['meta', { property: 'og:description', content: defense.description }])
+          metaTags.push(['meta', { name: 'twitter:description', content: defense.description }])
+        }
+
+        if (defense.imageUrl) {
+          metaTags.push(['meta', { name: 'twitter:card', content: 'summary_large_image' }])
+          metaTags.push(['meta', { property: 'og:image', content: defense.imageUrl }])
+          metaTags.push(['meta', { name: 'twitter:image', content: defense.imageUrl }])
+        }
+
+        const frontMatter = {
+          prev: {
+            text: prev.name,
+            link: `/redcon/defenses/${prev.name.toLowerCase().replace(/ /g, '-')}`
+          },
+          next: {
+            text: next.name,
+            link: `/redcon/defenses/${next.name.toLowerCase().replace(/ /g, '-')}`
+          },
+          head: metaTags
+        }
         return {
           params: {
             defense: defense.name.toLowerCase().replace(/ /g, '-')
           },
           content: [
             '---',
-            'title: ' + defense.name,
-            'prev:',
-            `  text: ${prev.name}`,
-            `  link: /redcon/defenses/${prev.name.toLowerCase().replace(/ /g, '-')}`,
-            'next:',
-            `  text: ${next.name}`,
-            `  link: /redcon/defenses/${next.name.toLowerCase().replace(/ /g, '-')}`,
+            JSON.stringify(frontMatter, null, 2),
             '---',
             '',
             `# ${defense.name}`,
             '',
             ...(defense.imageUrl ? [`![${defense.name}](${defense.imageUrl})`, ''] : []),
             '',
-            ...(defense.inActionImageUrl ? [`![${defense.name}](${defense.inActionImageUrl})`, ''] : []),
+            '## Description',
+            defense.description.split('\n').join('<br>'),
+            '',
+            defense.premium ? 'Unlocked by premium.' : 'Available for free.',
             '',
             '## Stats',
-            '| Name | Power | Ammunition | Cost | Purchase Limit |',
-            '| ---- | ----- | ---------- | ---- | -------------- |',
-            `| ${defense.name} | ${defense.power} | ${defense.ammunition} | ${defense.cost} | ${defense.purchase_limit} |`,
+            '| Power | Ammunition | Cost | Purchase Limit |',
+            '| ----- | ---------- | ---- | -------------- |',
+            `| ${defense.power} | ${defense.ammunition} | ${defense.cost} | ${defense.purchase_limit} |`,
             '',
-            defense.premium ? 'Unlocked by premium.' : 'Available for free.'
+            '## In action',
+            '',
+            ...(defense.inActionImageUrl ? [`![${defense.name}](${defense.inActionImageUrl})`, ''] : []),
+            ''
           ].join('\n')
         }
       })

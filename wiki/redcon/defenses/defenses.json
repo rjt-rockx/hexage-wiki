@@ -1,6 +1,7 @@
 [
   {
     "name": "Autocannon Defense Turret",
+    "description": "Fills the skies with bullets, shooting down incoming aircraft and ordnance.\nReliable against airships, projectiles in direct line of fire and missiles.\nBenefits greatly from the target tracking provided by Laser Defense System.",
     "cost": 400,
     "power": 1,
     "ammunition": 2,
@@ -11,6 +12,7 @@
   },
   {
     "name": "Flak Defense Tower",
+    "description": "Fires a cluster of burning, proximity fuze triggered airburst bomblets. Resulting aerial explosions are effective against heavy projectiles and multiple shells incoming at once.\nFlak does not need additional power to operate, however its ammunition consumption is comparable to that of a medium-sized artillery.",
     "cost": 500,
     "power": 0,
     "ammunition": 5,
@@ -21,6 +23,7 @@
   },
   {
     "name": "Laser Defense System",
+    "description": "Laser beam targets incoming ordnance with 100% precision, tracking and rapidly heating the payload until it explodes.\nEffective against light shells and missiles.\nNearby Flak and Autocannon defense turrets increase their effectiveness against tracked targets by +30%",
     "cost": 600,
     "power": 2,
     "ammunition": 0,
