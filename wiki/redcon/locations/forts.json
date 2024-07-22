@@ -5,7 +5,7 @@
     "category": "premade",
     "progress": 0,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/sVAWULI.jpeg"
   },
   {
     "name": "Krux Listening Outpost",
@@ -13,7 +13,7 @@
     "category": "enemy",
     "progress": 0,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/Nmem3HN.jpeg"
   },
   {
     "name": "Assault Mortars Ambush",
@@ -21,7 +21,7 @@
     "category": "enemy",
     "progress": 1,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/fnWlDlg.jpeg"
   },
   {
     "name": "Airforce Transit Depot 73",
@@ -29,7 +29,7 @@
     "category": "premade",
     "progress": 2,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/wPMftcl.jpeg"
   },
   {
     "name": "ORION Blaster Test Site",
@@ -37,7 +37,7 @@
     "category": "enemy",
     "progress": 2,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/KLIwuHa.jpeg"
   },
   {
     "name": "Damocles Dam Security Perimeter",
@@ -45,7 +45,7 @@
     "category": "premade",
     "progress": 3,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/OS93KPR.jpeg"
   },
   {
     "name": "Forsaken Launch Pad",
@@ -53,7 +53,7 @@
     "category": "enemy",
     "progress": 3,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/hCcNqRC.jpeg"
   },
   {
     "name": "Secret Railway Tunnel",
@@ -69,7 +69,7 @@
     "category": "premade",
     "progress": 5,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/wqj434y.jpeg"
   },
   {
     "name": "Wastelands Encampment",
@@ -77,7 +77,7 @@
     "category": "enemy",
     "progress": 5,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/gWFPX9K.jpeg"
   },
   {
     "name": "Derelict Observatory",
@@ -125,7 +125,7 @@
     "category": "enemy",
     "progress": 10,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/ELMkqg7.jpeg"
   },
   {
     "name": "Aurelia Airbase",
@@ -165,7 +165,7 @@
     "category": "premade",
     "progress": 15,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/sFLQ0Nl.jpeg"
   },
   {
     "name": "XXII Field Hospital",
@@ -181,7 +181,7 @@
     "category": "enemy",
     "progress": 16,
     "description": "",
-    "imageUrl": "https://i.imgur.com/8LPtFeN.jpg"
+    "imageUrl": "https://i.imgur.com/q4gCMGW.jpeg"
   },
   {
     "name": "FORT SYCAMORE",
@@ -205,7 +205,7 @@
     "category": "enemy",
     "progress": 18,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/WsqB7yQ.jpeg"
   },
   {
     "name": "Atom Core Bunker",
@@ -213,7 +213,7 @@
     "category": "enemy",
     "progress": 19,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/CgeOAaI.jpeg"
   },
   {
     "name": "Viper Nest",
@@ -221,7 +221,7 @@
     "category": "enemy",
     "progress": 20,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/Se7QIxN.jpeg"
   },
   {
     "name": "Precision Strike COM",
@@ -253,7 +253,7 @@
     "category": "premade",
     "progress": 24,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/4Kn2lQQ.jpeg"
   },
   {
     "name": "Krux Sneak Attack",
@@ -261,7 +261,7 @@
     "category": "enemy",
     "progress": 24,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/P7ARahj.jpeg"
   },
   {
     "name": "Siege Brigade",
@@ -269,7 +269,7 @@
     "category": "enemy",
     "progress": 25,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/aZFXCiC.jpeg"
   },
   {
     "name": "Bell Tower",
@@ -317,7 +317,7 @@
     "category": "enemy",
     "progress": 30,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/Djr218k.jpeg"
   },
   {
     "name": "SIRIUS Scorcher Platform",
@@ -325,7 +325,7 @@
     "category": "premade",
     "progress": 31,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/zKARpHE.jpeg"
   },
   {
     "name": "Ramses City Rooftops",
@@ -333,7 +333,7 @@
     "category": "enemy",
     "progress": 31,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/8pffeh1.jpeg"
   },
   {
     "name": "Storm Wyvern",
@@ -341,7 +341,7 @@
     "category": "enemy",
     "progress": 32,
     "description": "",
-    "imageUrl": "https://i.imgur.com/xdq31A5.jpg"
+    "imageUrl": "https://i.imgur.com/V0ZL9ex.jpeg"
   },
   {
     "name": "Propaganda Tower",
@@ -373,7 +373,7 @@
     "category": "premade",
     "progress": 36,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/UXp9Urt.jpeg"
   },
   {
     "name": "SST Prism",
@@ -397,7 +397,7 @@
     "category": "enemy",
     "progress": 38,
     "description": "",
-    "imageUrl": "https://i.imgur.com/rcbBwbO.jpg"
+    "imageUrl": "https://i.imgur.com/v72vT55.jpeg"
   },
   {
     "name": "FORTRESS SCARABEUS",
@@ -437,7 +437,7 @@
     "category": "enemy",
     "progress": 42,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/e0mMndY.jpeg"
   },
   {
     "name": "Xerxes Slums Uprising",
@@ -597,7 +597,7 @@
     "category": "premade",
     "progress": 61,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/4XbDMUu.jpeg"
   },
   {
     "name": "SSR Pylon IX",
@@ -605,7 +605,7 @@
     "category": "enemy",
     "progress": 61,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/3ziq3Ac.jpeg"
   },
   {
     "name": "Mount Naraka",
@@ -653,7 +653,7 @@
     "category": "enemy",
     "progress": 67,
     "description": "",
-    "imageUrl": "https://i.imgur.com/6OdSOuO.jpg"
+    "imageUrl": "https://i.imgur.com/7bvkisV.jpeg"
   },
   {
     "name": "Fort Locust",
@@ -669,7 +669,7 @@
     "category": "premade",
     "progress": 69,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/EIoOW7L.jpeg"
   },
   {
     "name": "Jupiter ICBM Vaults",
@@ -701,7 +701,7 @@
     "category": "enemy",
     "progress": 72,
     "description": "",
-    "imageUrl": "https://i.imgur.com/EVSY6Mt.jpg"
+    "imageUrl": "https://i.imgur.com/fzW28QS.jpeg"
   },
   {
     "name": "Jericho Fortress",
@@ -709,7 +709,7 @@
     "category": "enemy",
     "progress": 73,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/18hgTRL.jpeg"
   },
   {
     "name": "FORTRESS RESOLUTION",
@@ -805,7 +805,7 @@
     "category": "enemy",
     "progress": 84,
     "description": "",
-    "imageUrl": "https://i.imgur.com/iEfFt9h.jpg"
+    "imageUrl": "https://i.imgur.com/FclgyYu.jpeg"
   },
   {
     "name": "Fort Apocalypse",
@@ -877,7 +877,7 @@
     "category": "enemy",
     "progress": 93,
     "description": "",
-    "imageUrl": "https://i.imgur.com/2YqHO1m.jpg"
+    "imageUrl": "https://i.imgur.com/cjlfeWf.jpeg"
   },
   {
     "name": "Janus Viaduct",
@@ -893,7 +893,7 @@
     "category": "enemy",
     "progress": 95,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/O2pdx8K.jpeg"
   },
   {
     "name": "Fortress Octopuss",
@@ -901,7 +901,7 @@
     "category": "enemy",
     "progress": 96,
     "description": "",
-    "imageUrl": "https://i.imgur.com/xoCaBZT.jpg"
+    "imageUrl": "https://i.imgur.com/lIlMZpx.jpeg"
   },
   {
     "name": "Remus Factorium",
@@ -925,7 +925,7 @@
     "category": "enemy",
     "progress": 99,
     "description": "",
-    "imageUrl": ""
+    "imageUrl": "https://i.imgur.com/Q8GYqfh.jpeg"
   },
   {
     "name": "FORTRESS RUBICON",
