@@ -42,7 +42,7 @@
   {
     "name": "Ironclad",
     "image": "https://i.imgur.com/8Na57iC.png",
-    "unique_power": "**Grim Resolve**: Deals **+30% damage** when damaged below **30% hitpoints.**",
+    "unique_power": "**Grim Resolve**: Deals **+50% damage** when damaged below **33% hitpoints.**",
     "armor": 340,
     "speed": "2/5",
     "tank_description": "One of the longest serving pieces of military technology, the Ironclad has been mass produced as a cornerstone flying tank model for armies worldwide. Yet this particular veteran is anything but ordinary. Defeated or victorious, badly damaged or merely scratched, it has always returned back from battle. Despite its many repairs, each time the Ironclad re-enters the fray, it is stronger and deadlier. Because of its indestructibility, it has become the legend of many wars, including the last and final one.",
@@ -72,7 +72,7 @@
   {
     "name": "Sigma Prototype",
     "image": "https://i.imgur.com/YZDic0H.png",
-    "unique_power": "**Super Power**: All collectible power-ups last **2x longer**. Applies to Invulnerability, Hyper Focus and Overdrive. Collectible Force Shield gains Double durability.",
+    "unique_power": "**Super Power**: All collectible power-ups last **2x longer**. Applies to Invulnerability, Hyper Focus and Overdrive. Collectible Force Shield gains **double** durability.",
     "armor": 200,
     "speed": "5/5",
     "tank_description": "When the postwar government of President Magnus established peace between the species, it ushered in a new era of tech advancement. Supermaterials of extraterrestrial origin were researched and put into practice. The sleek back hull of the Sigma prototype houses a completely unique type of engine and propulsion system. After the President issued an official decree to disband the Earth Reclamation Forces, their scientific teams seized the prototype for further study and testing.",
@@ -132,7 +132,7 @@
   {
     "name": "Sakura",
     "image": "https://i.imgur.com/mjpCfD4.png",
-    "unique_power": "**Biohazard**: Depending on the size of the blob, floating Biomass now deals **25** to **100 damage** when it collides with an enemy.",
+    "unique_power": "**Biohazard**: Depending on the size of the blob, floating Biomass now deals **50** to **200 damage** when it collides with an enemy.",
     "armor": 330,
     "speed": "2/5",
     "tank_description": "This main battle tank of the Totemo Syndicate's Mobile Armor Division, Sakura became an overnight sensation worldwide after its heroic stand against a giant alien Seedship during the Battle of Osaka. Despite the resulting destruction of the city, Sakura successfully deterred the monster, earning the tank a reputation as a symbol of tenacity and indomitable spirit in the face of almost certain annihilation.",
