@@ -115,6 +115,10 @@ export default defineConfig({
               ]
             },
             {
+              text: 'Weapons',
+              link: '/redcon/weapons/'
+            },
+            {
               text: 'Defenses',
               link: '/redcon/defenses/'
             },
