@@ -18,6 +18,10 @@ Each animal has its unique features, strengths and weaknesses. Create your own t
 
 Lead dozens of courageous animals through more than 20 carefully prepared levels and reveal the truth behind the source of mysterious evil in a unique turn-based game.
 
+## Development
+
+_Everlands_ exemplifies Hexage's approach to incorporating quirky humor that creates interesting tonal contrasts. The game features cute, colorful animals speaking like serious warriors from fantasy novels, creating what the developers describe as something "so strange that it's almost poetic." This deliberate contrast between the charming visual style and the grave, zealous dialogue of the animal characters reflects Hexage's design philosophy of starting with gameplay concepts and then building unexpected atmospheres around them.
+
 ## Media
 
 <figure v-for="item in media" class="my-2">

@@ -27,6 +27,12 @@ rich action-packed side-scrolling shmup!
 - Customize your FLT with a variety of Weapons and Bombs, ranging from classic to insane.
 - Use powerful Specials including Hyperfocus and Overdrive, attack and repair Drones, and 30+ other Upgrades.
 
+## Development
+
+_Flying Tank_ features artwork by **Zsolt Szabo**, whose visual designs help bring the game's post-apocalyptic world to life. You can see more of his work at his [portfolio site](https://zsoltszabo.myportfolio.com/work) and on [Behance](https://www.behance.net/zsoltyszab2e69).
+
+The game's sound design was created by **Jan Pardus** ([Discofield](https://discofield.com/)), marking a departure from Hexage's usual approach of having all audio created by Kubatko. This collaboration brought a fresh audio perspective to complement the game's intense shmup action.
+
 ## Media
 
 <figure v-for="item in media" class="my-2">
