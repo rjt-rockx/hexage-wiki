@@ -3,7 +3,6 @@ import {
   presetIcons,
   presetTypography,
   presetUno,
-  presetWebFonts,
   transformerDirectives,
   transformerVariantGroup
 } from 'unocss'
@@ -14,13 +13,7 @@ export default defineConfig({
     presetIcons({
       autoInstall: true
     }),
-    presetTypography(),
-    presetWebFonts({
-      provider: 'google',
-      fonts: {
-        anek: 'Anek Latin'
-      }
-    })
+    presetTypography()
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
   theme: {

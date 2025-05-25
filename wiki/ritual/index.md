@@ -26,6 +26,10 @@ Equip your sorcerer with powerful combinations of Spells and Skills and blaze th
 - Slay thousands of Monsters, Shadows, Demons and Cultists
 - New Game Plus, repeatable levels and trillions of possible builds for endless replayability
 
+## Development
+
+_Ritual_ features artwork by **Zsolt Szabo**, whose visual designs contribute to the game's dark magical atmosphere. You can see his specific artwork for Ritual at his [Ritual portfolio page](https://zsoltszabo.myportfolio.com/ritual), or explore more of his work at his [portfolio site](https://zsoltszabo.myportfolio.com/work) and on [Behance](https://www.behance.net/zsoltyszab2e69).
+
 ## Media
 
 <figure v-for="item in media" class="my-2">

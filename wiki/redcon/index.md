@@ -29,6 +29,10 @@ You are a Strike Commander, tasked by Fuhrer of the Empire State to spearhead an
 
 **Get rewards for victory.** Gain new fortress layouts as you conquer the rogue state of Krux, earn medals and perks to aid you in battle.
 
+## Development
+
+The artwork for _REDCON_, including the game's weapon designs and visual assets, was created by **Viktor Hoschl**. His detailed weapon designs became so iconic that he later recreated some of them as high-quality 3D models in his ["Guns of REDCON" project](https://www.artstation.com/hiddeo) on ArtStation, showcasing the intricate design work that went into the game's artillery systems.
+
 ## Media
 
 <figure v-for="item in media" class="my-2">

@@ -20,6 +20,10 @@ Protect her with **powerful explosions** and **shockwaves** you can create with 
 
 **Destroy everything** in your path and **navigate** through the rest - until you reach The Happy Place!
 
+## Development
+
+_Buka_ was Hexage's first game and the origin of their signature neon visual style. The distinctive glowing aesthetic that became a defining characteristic of all Hexage games actually started here as a practical design solution - the neon effects were initially used as visual warnings around enemies to help players identify threats. The look proved so striking that it became Hexage's trademark visual style across all their future games.
+
 ## Media
 
 <figure v-for="item in media" class="my-2">

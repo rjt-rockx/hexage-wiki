@@ -51,6 +51,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'About', link: '/hexage/' },
       {
         text: 'Games',
         items: [
@@ -76,11 +77,21 @@ export default defineConfig({
     },
 
     sidebar: {
+      '/hexage/': [
+        {
+          text: 'Hexage',
+          items: [
+            { text: 'About', link: '/hexage/' },
+            { text: 'Soundtrack', link: '/hexage/soundtrack' }
+          ]
+        }
+      ],
       '/flyingtank/': [
         {
           text: 'Flying Tank',
           items: [
             { text: 'About', link: '/flyingtank/' },
+            { text: 'Soundtrack', link: '/flyingtank/soundtrack' },
             { text: 'Missions', link: '/flyingtank/missions/' },
             { text: 'Tanks', link: '/flyingtank/tanks/' },
             { text: 'Weapons', link: '/flyingtank/weapons/' },
@@ -94,7 +105,10 @@ export default defineConfig({
       '/ritual/': [
         {
           text: 'Ritual',
-          items: [{ text: 'About', link: '/ritual/' }]
+          items: [
+            { text: 'About', link: '/ritual/' },
+            { text: 'Soundtrack', link: '/ritual/soundtrack' }
+          ]
         }
       ],
       '/redcon/': [
@@ -102,6 +116,7 @@ export default defineConfig({
           text: 'REDCON',
           items: [
             { text: 'About', link: '/redcon/' },
+            { text: 'Soundtrack', link: '/redcon/soundtrack' },
             {
               text: 'Forts',
               link: '/redcon/forts/'
@@ -129,49 +144,73 @@ export default defineConfig({
       '/reaper/': [
         {
           text: 'Reaper',
-          items: [{ text: 'About', link: '/reaper/' }]
+          items: [
+            { text: 'About', link: '/reaper/' },
+            { text: 'Soundtrack', link: '/reaper/soundtrack' }
+          ]
         }
       ],
       '/radiantdefense/': [
         {
           text: 'Radiant Defense',
-          items: [{ text: 'About', link: '/radiant-defense/' }]
+          items: [
+            { text: 'About', link: '/radiant-defense/' },
+            { text: 'Soundtrack', link: '/radiantdefense/soundtrack' }
+          ]
         }
       ],
       '/robotek/': [
         {
           text: 'ROBOTEK',
-          items: [{ text: 'About', link: '/robotek/' }]
+          items: [
+            { text: 'About', link: '/robotek/' },
+            { text: 'Soundtrack', link: '/robotek/soundtrack' }
+          ]
         }
       ],
       '/radiant/': [
         {
           text: 'Radiant',
-          items: [{ text: 'About', link: '/radiant/' }]
+          items: [
+            { text: 'About', link: '/radiant/' },
+            { text: 'Soundtrack', link: '/radiant/soundtrack' }
+          ]
         }
       ],
       '/evac/': [
         {
           text: 'EVAC',
-          items: [{ text: 'About', link: '/evac/' }]
+          items: [
+            { text: 'About', link: '/evac/' },
+            { text: 'Soundtrack', link: '/evac/soundtrack' }
+          ]
         }
       ],
       '/everlands/': [
         {
           text: 'Everlands',
-          items: [{ text: 'About', link: '/everlands/' }]
+          items: [
+            { text: 'About', link: '/everlands/' },
+            { text: 'Soundtrack', link: '/everlands/soundtrack' }
+          ]
         }
       ],
       '/totemo/': [
         {
           text: 'Totemo',
-          items: [{ text: 'About', link: '/totemo/' }]
+          items: [
+            { text: 'About', link: '/totemo/' },
+            { text: 'Soundtrack', link: '/totemo/soundtrack' }
+          ]
         }
       ],
       '/buka/': [
         {
           text: 'Buka',
-          items: [{ text: 'About', link: '/buka/' }]
+          items: [
+            { text: 'About', link: '/buka/' },
+            { text: 'Soundtrack', link: '/buka/soundtrack' }
+          ]
         }
       ]
     },
