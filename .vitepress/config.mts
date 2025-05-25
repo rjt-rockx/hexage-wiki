@@ -237,5 +237,12 @@ export default defineConfig({
     resolve: {
       alias: [{ find: '$components', replacement: path.resolve('.vitepress/theme/components') }]
     }
+  },
+
+  transformPageData(pageData) {
+    const canonicalUrl = `https://hexage.wiki/${pageData.relativePath}`.replace(/index\.md$/, '').replace(/\.md$/, '')
+
+    pageData.frontmatter.head ??= []
+    pageData.frontmatter.head.push(['link', { rel: 'canonical', href: canonicalUrl }])
   }
 })
