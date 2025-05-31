@@ -8,7 +8,8 @@
     "purchase_limit": 4,
     "premium": false,
     "imageUrl": "https://i.imgur.com/aE36Nah.jpeg",
-    "inActionImageUrl": "https://i.imgur.com/MEVk44w.jpeg"
+    "inActionImageUrl": "https://i.imgur.com/MEVk44w.jpeg",
+    "inAction2ImageUrl": "https://imgur.com/eJSYqfi.jpeg"
   },
   {
     "name": "Flak Defense Tower",
@@ -19,7 +20,8 @@
     "purchase_limit": 4,
     "premium": false,
     "imageUrl": "https://i.imgur.com/yxYimMQ.jpeg",
-    "inActionImageUrl": "https://i.imgur.com/doXxOXk.jpeg"
+    "inActionImageUrl": "https://i.imgur.com/doXxOXk.jpeg",
+    "inAction2ImageUrl": "https://imgur.com/YAuwh0D.jpeg"
   },
   {
     "name": "Laser Defense System",
@@ -30,6 +32,7 @@
     "purchase_limit": 4,
     "premium": true,
     "imageUrl": "https://i.imgur.com/lJLhVSF.jpeg",
-    "inActionImageUrl": "https://i.imgur.com/u7Y6uMK.jpeg"
+    "inActionImageUrl": "https://i.imgur.com/u7Y6uMK.jpeg",
+    "inAction2ImageUrl": "https://imgur.com/sTBrRBk.jpeg"
   }
 ]
