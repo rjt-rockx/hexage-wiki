@@ -79,6 +79,8 @@ export default {
             '## In action',
             '',
             ...(defense.inActionImageUrl ? [`![${defense.name}](${defense.inActionImageUrl})`, ''] : []),
+            '',
+            ...(defense.inAction2ImageUrl ? [`![${defense.name}](${defense.inAction2ImageUrl})`, ''] : []),
             ''
           ].join('\n')
         }
