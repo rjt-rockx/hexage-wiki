@@ -1,9 +1,10 @@
 [
   {
     "name": "ALASTOR Siege Cannon",
-    "description": "Forged in the fires of a thousand battles, this 50 tons siege cannon strikes perfect balance between rate of fire, precision, destructive power and ammunition efficiency. Its greatest strength lies in the ability to fire potent CRU shells carrying all types of payload.\nFlash Grenade incapacitates target personnel for 20 seconds.\nIncendiary Shell sets the target zone ablaze. No gas mask can protect against the deadly Neurotoxin Shell which makes the target zone lethal for 30 seconds.\nNeurotoxin Shell makes the target zone lethal for 32 seconds.\nOperator reduces reload time by -40%.\n\nMk II's reinforced supports offer 10% better durability and the ability to fire modified CRU shells for even greater damage, fire strength and toxin duration. \nNeurotoxin Shell makes the target zone lethal for 35 seconds.\n\nMk III's use of titanium alloys provides 25% better durability and the ability to fire special modified CRU shells. Their significantly enhanced effectiveness results in a slight increase of ammunition cost for Incendiary and Neurotoxin shells.",
+    "description": "Forged in the fires of a thousand battles, this 50 tons siege cannon strikes perfect balance between rate of fire, precision, destructive power and ammunition efficiency. Its greatest strength lies in the ability to fire potent CRU shells carrying all types of payload.\nFlash Grenade incapacitates target personnel for 20 seconds.\nIncendiary Shell sets the target zone ablaze.\nNo gas mask can protect against the deadly Neurotoxin Shell which makes the target zone lethal for {{$1}} seconds.\nOperator reduces reload time by -40%.\n\nFurther upgrades improve durability and damage. \n\nMk II's reinforced supports offer 10% better durability and the ability to fire modified CRU shells for even greater damage, fire strength and toxin duration.\n\nMk III's use of titanium alloys provides 25% better durability and the ability to fire special modified CRU shells. Their significantly enhanced effectiveness results in a slight increase of ammunition cost for Incendiary and Neurotoxin shells.",
+    "changing_desc": "30|32|35",
     "tier_name": "ALASTOR Siege Cannon\nALASTOR Siege Cannon Mk II\nALASTOR Siege Cannon Mk III",
-    "fire_types": "Incendiary Shell\nNeurotoxin Shell\nFlash Grenade",
+    "fire_types": "Incendiary Shell \nNeurotoxin Shell \nFlash Grenade",
     "tiers": 3,
     "limit": 5,
     "hitpoints": "100|110|125",
@@ -16,11 +17,14 @@
     "upgrade_1_cost": 600,
     "upgrade_2_cost": 400,
     "upgrade_3_cost": 400,
-    "is_premium": "FALSE"
+    "is_premium": "FALSE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "BASILISK Cannon",
-    "description": "Versatile, fast and efficient.\nCapable of continuous disruptive shelling at a minimal ammunition cost.\nFires light LEX shells effective against equipment and personnel.\nDeals negligible structural damage to the opposing fortress.\nDOUBLESHOT firing mode trades accuracy for even greater rate of fire. Two LEX shells shot in rapid succession are more likely to penetrate forcefields and active defenses.\nNon-lethal FLASHBANG stun shell incapacitates all target personnel for the duration of 9 seconds.\nOperator improves weapon accuracy by +10% Further upgrades increase rate of fire. \n\nMk II's in-built autoloader significantly reduces reload times on all firing modes.\n\nMk III's in-built autoloader offers minimal reload times on all firing modes.",
+    "description": "Versatile, fast and efficient.\nCapable of continuous disruptive shelling at a minimal ammunition cost.\nFires light LEX shells effective against equipment and personnel.\nDeals negligible structural damage to the opposing fortress.\nDOUBLESHOT firing mode trades accuracy for even greater rate of fire. Two LEX shells shot in rapid succession are more likely to penetrate forcefields and active defenses.\nNon-lethal FLASHBANG stun shell incapacitates all target personnel for the duration of 9 seconds.\nOperator improves weapon accuracy by +10%.\n\nFurther upgrades increase rate of fire. \n\nMk II's in-built autoloader significantly reduces reload times on all firing modes.\n\nMk III's in-built autoloader offers minimal reload times on all firing modes.",
+    "changing_desc": "",
     "tier_name": "BASILISK Cannon\nBASILISK Cannon Mk II\nBASILISK Cannon Mk III",
     "fire_types": "Doubleshot\nFlashbang",
     "tiers": 3,
@@ -35,11 +39,14 @@
     "upgrade_1_cost": 300,
     "upgrade_2_cost": 350,
     "upgrade_3_cost": 450,
-    "is_premium": "FALSE"
+    "is_premium": "FALSE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "TYPHON Heavy Cannon",
-    "description": "Thousand tons of chrome-nickel steel supergun. Its enormous UGR shells tear through concrete walls, ripping even the thickest armor to molten shreds. Resulting detonation stuns any survivors and the splash damage is felt even in the neighboring zones. Despite the immense weight, Typhon cannon prides itself with a relatively fast rate of fire, thanks to the composite loading mechanism supported on twin railway tracks.\nIncendiary Heavy Shell sets the target zone ablaze. Neurotoxin Heavy Shell makes the target space lethal for 42 seconds.\nTwo operators reduce the reload time by -33% and calibrate the weapon for +10% accuracy.\n\nNeurotoxin Heavy Shell makes the target space lethal for 45 seconds.\nMk II's various improvements guarantee +10% durability and +5% better accuracy. Modified firing chamber increases the destructive power of all UGR shells, regardless of the payload. \n\nNeurotoxin Heavy Shell makes the target space lethal for 49 seconds.\nTwo operators reduce the reload time by -33% and calibrate the weapon for +10% accuracy.\nMk III's various improvements guarantee +20% durability, +10% better accuracy and the maximum destructive power of all UGR shells, regardless of the payload.",
+    "description": "Thousand tons of chrome-nickel steel supergun. Its enormous UGR shells tear through concrete walls, ripping even the thickest armor to molten shreds. Resulting detonation stuns any survivors and the splash damage is felt even in the neighboring zones. Despite the immense weight, Typhon cannon prides itself with a relatively fast rate of fire, thanks to the composite loading mechanism supported on twin railway tracks.\nIncendiary Heavy Shell sets the target zone ablaze. Neurotoxin Heavy Shell makes the target space lethal for {{$1}} seconds.\nTwo operators reduce the reload time by -33% and calibrate the weapon for +10% accuracy.\n\nFurther updates increase accuracy and destructive power.\n\nMk II's various improvements guarantee +10% durability and +5% better accuracy. Modified firing chamber increases the destructive power of all UGR shells, regardless of the payload. \n\nMk III's various improvements guarantee +20% durability, +10% better accuracy and the maximum destructive power of all UGR shells, regardless of the payload.",
+    "changing_desc": "42|45|49",
     "tier_name": "TYPHON Heavy Cannon\nTYPHON Heavy Cannon Mk II\nTYPHON Heavy Cannon Mk III",
     "fire_types": "Incendiary Heavy Shell\nNeurotoxin Heavy Shell",
     "tiers": 3,
@@ -54,11 +61,14 @@
     "upgrade_1_cost": 1500,
     "upgrade_2_cost": 900,
     "upgrade_3_cost": 900,
-    "is_premium": "FALSE"
+    "is_premium": "FALSE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "HYDRA Assault Cannon",
-    "description": "Spews hail of reduced LEX shells in an unparalleled rate of fire.\nIts three revolving barrels storm enemy positions with bursts of three-round or longer volley assaults. While limited in accuracy,\nHYDRA's unrelenting assault easily overwhelms most of the enemy defense systems. Efficient against equipment and personnel.\nDeals negligible structural damage to the opposing fortress. \n9 Round Volley fire mode trades accuracy for a high rate of fire shelling sequence.\nOperator improves weapon accuracy by +10%\n\n10 Round Volley fire mode trades accuracy for a high rate of fire shelling sequence.\nOperator improves weapon accuracy by +10%\nMk II's autoloaders reduce reload times on all firing modes, adding one extra round to the volley sequence. \n\n12 Round Volley fire mode trades accuracy for a high rate of fire shelling sequence.\nOperator improves weapon accuracy by +10%\nMk III's autoloaders reduce reload times on all firing modes, adding three extra rounds to the volley sequence.",
+    "description": "Spews hail of reduced LEX shells in an unparalleled rate of fire.\nIts three revolving barrels storm enemy positions with bursts of three-round or longer volley assaults. While limited in accuracy,\nHYDRA's unrelenting assault easily overwhelms most of the enemy defense systems. Efficient against equipment and personnel.\nDeals negligible structural damage to the opposing fortress. \n{{$1}} Round Volley fire mode trades accuracy for a high rate of fire shelling sequence.\nOperator improves weapon accuracy by +10%.\n\nFurther upgrades improve rate of fire and increase the number of volley rounds fired. \n\nMk II's autoloaders reduce reload times on all firing modes, adding one extra round to the volley sequence.\n\nMk III's autoloaders reduce reload times on all firing modes, adding three extra rounds to the volley sequence.",
+    "changing_desc": "9|10|12",
     "tier_name": "HYDRA Assault Cannon\nHYDRA Assault Cannon Mk II\nHYDRA Assault Cannon Mk III",
     "fire_types": "9 Round Volley (Mk1)\n10 Round Volley (Mk2)\n12 Round Volley (Mk3)",
     "tiers": 3,
@@ -73,11 +83,14 @@
     "upgrade_1_cost": 400,
     "upgrade_2_cost": 400,
     "upgrade_3_cost": 400,
-    "is_premium": "FALSE"
+    "is_premium": "FALSE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "ARCHON Precision Cannon",
-    "description": "Strikes deep into the heart of enemy fortress, hunting for high-value strategic targets. Dubbed \"Sniper Cannon\" for its uncompromising precision, Archon relies on hydraulic calibration systems automatically adjusting to ever-changing atmospherics. Extreme muzzle velocity of the modified CRU shells adds to their penetration. High requirements for maintenance result in slower reload and preparation times.\nConcussion Grenade incapacitates target personnel for 28 seconds.\nOperator reduces the reload time by -40% and increases the accuracy even further. \n\nMk II's use of light carbon-titanium alloys improves durability by 10% and decreases reload time by -12%. Higher muzzle velocity results in +10% increase in damage dealt. The weapon is even more accurate than its predecessor.\n\nMk III's generous use of light carbon-titanium alloys improves durability by +25% and decreases reload time by -20%. Higher muzzle velocity results in +20% increase in damage dealt. The weapon is even more accurate than its predecessors.",
+    "description": "Strikes deep into the heart of enemy fortress, hunting for high-value strategic targets. Dubbed \"Sniper Cannon\" for its uncompromising precision, Archon relies on hydraulic calibration systems automatically adjusting to ever-changing atmospherics. Extreme muzzle velocity of the modified CRU shells adds to their penetration. High requirements for maintenance result in slower reload and preparation times.\nConcussion Grenade incapacitates target personnel for 28 seconds.\nOperator reduces the reload time by -40% and increases the accuracy even further. \n\nUpgrades improve durability, reloading times, accuracy and destructive power. \n\nMk II's use of light carbon-titanium alloys improves durability by 10% and decreases reload time by -12%. Higher muzzle velocity results in +10% increase in damage dealt. The weapon is even more accurate than its predecessor.\n\nMk III's generous use of light carbon-titanium alloys improves durability by +25% and decreases reload time by -20%. Higher muzzle velocity results in +20% increase in damage dealt. The weapon is even more accurate than its predecessors.",
+    "changing_desc": "",
     "tier_name": "ARCHON Precision Cannon\nARCHON Precision Cannon Mk II\nARCHON Precision Cannon Mk III",
     "fire_types": "Concussion Grenade",
     "tiers": 3,
@@ -92,11 +105,14 @@
     "upgrade_1_cost": 800,
     "upgrade_2_cost": 650,
     "upgrade_3_cost": 650,
-    "is_premium": "FALSE"
+    "is_premium": "FALSE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "TALOS Siege Mortar",
-    "description": "Crude and savage, the ancient technology of a bombard mortar has repeatedly proven itself over several millennia of warfare. Now with the harsh environmental conditions limiting our ability to dispatch bomber planes, mortars remain as one of the simpler ways to rain death from above.\nThe impact of a heavy free-falling bomb deals increased structural damage to the enemy fort.\nShredder Bomb fills the target space with lethal anti-personnel shrapnel, dealing only surface damage to the equipment.\nFlash Bomb incapacitates target personnel for 12 seconds.\nOperator reduces the reload time by -25% and calibrates the weapon for +5% accuracy. Upgrade improves durability, accuracy and destructive power. \n\nMk II's fortified stabilizers increase durability, add +5% accuracy and allow for heavier bombs dealing more damage.",
+    "description": "Crude and savage, the ancient technology of a bombard mortar has repeatedly proven itself over several millennia of warfare. Now with the harsh environmental conditions limiting our ability to dispatch bomber planes, mortars remain as one of the simpler ways to rain death from above.\nThe impact of a heavy free-falling bomb deals increased structural damage to the enemy fort.\nShredder Bomb fills the target space with lethal anti-personnel shrapnel, dealing only surface damage to the equipment.\nFlash Bomb incapacitates target personnel for 12 seconds.\nOperator reduces the reload time by -25% and calibrates the weapon for +5% accuracy.\n\nUpgrade improves durability, accuracy and destructive power. \n\nMk II's fortified stabilizers increase durability, add +5% accuracy and allow for heavier bombs dealing more damage.",
+    "changing_desc": "",
     "tier_name": "TALOS Siege Mortar\nTALOS Siege Mortar Mk II",
     "fire_types": "Shredder Bomb\nFlash Bomb",
     "tiers": 2,
@@ -111,11 +127,14 @@
     "upgrade_1_cost": 400,
     "upgrade_2_cost": 400,
     "upgrade_3_cost": "",
-    "is_premium": "FALSE"
+    "is_premium": "FALSE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "TARTARUS Heavy Mortar",
-    "description": "Gargantuan cast-bronze cauldron of destruction. Every shot sends five-ton fat bomb flying in the high-arc. The impact shakes target fortress to the core, dealing increased structural damage, light splash damage and stunning any survivors. Its massive monolithic form makes TARTARUS highly durable against enemy shelling.\nIncendiary Heavy Bomb sets the target zone ablaze.\nShredder Heavy Bomb's scores of ricocheting shrapnel kill or maim enemy personnel, dealing only light damage to the equipment.\nTwo operators reduce the reload time by -33% and calibrate the weapon for +10% accuracy. Upgrade improves durability, accuracy and damage. \n\nMk II's depleted-uranium base increases durability and reduces the recoil for additional +5% accuracy. Use of modified heavy bombs increases weapon's destructive power.",
+    "description": "Gargantuan cast-bronze cauldron of destruction. Every shot sends five-ton fat bomb flying in the high-arc. The impact shakes target fortress to the core, dealing increased structural damage, light splash damage and stunning any survivors. Its massive monolithic form makes TARTARUS highly durable against enemy shelling.\nIncendiary Heavy Bomb sets the target zone ablaze.\nShredder Heavy Bomb's scores of ricocheting shrapnel kill or maim enemy personnel, dealing only light damage to the equipment.\nTwo operators reduce the reload time by -33% and calibrate the weapon for +10% accuracy.\n\nUpgrade improves durability, accuracy and damage. \n\nMk II's depleted-uranium base increases durability and reduces the recoil for additional +5% accuracy. Use of modified heavy bombs increases weapon's destructive power.",
+    "changing_desc": "",
     "tier_name": "TARTARUS Heavy Mortar\nTARTARUS Heavy Mortar Mk II",
     "fire_types": "Shredder Heavy Bomb\nIncendiary Heavy Bomb",
     "tiers": 2,
@@ -130,11 +149,14 @@
     "upgrade_1_cost": 900,
     "upgrade_2_cost": 900,
     "upgrade_3_cost": "",
-    "is_premium": "TRUE"
+    "is_premium": "TRUE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "ORION EMP Blaster",
-    "description": "Discharges high-frequency electromagnetic sphere, temporarily disabling equipment at the target zone. Any surplus of power in the enemy power-grid needs to be negated before the target equipment shuts down. Continuous EMP attacks against the disabled equipment prevent it from powering up. EMP spheres cannot be shot down by defense turrets. Weapon's high power consumption is outweighed by minimal ammunition costs.\nORION EMP Blaster negates 3 power for 25 seconds.\nOperator reduces the recharge time by -38% and calibrates the weapon for +5% accuracy. Beside slight improvement in durability, upgrading dramatically enhances properties of the projectile, weaponizing it against personnel and Kinetic Shields.\n\nMk II adds +10% more durability and supercharges its projectiles with violently spinning electron bolts, stunning and electrocuting all target personnel. Supercharged blast is 2x more effective at disintegrating Kinetic-Shields.",
+    "description": "Discharges high-frequency electromagnetic sphere, temporarily disabling equipment at the target zone. Any surplus of power in the enemy power-grid needs to be negated before the target equipment shuts down. Continuous EMP attacks against the disabled equipment prevent it from powering up. EMP spheres cannot be shot down by defense turrets. Weapon's high power consumption is outweighed by minimal ammunition costs.\nORION EMP Blaster negates 3 power for 25 seconds.\nOperator reduces the recharge time by -38% and calibrates the weapon for +5% accuracy.\n\nBeside slight improvement in durability, upgrading dramatically enhances properties of the projectile, weaponizing it against personnel and Kinetic Shields.\n\nMk II adds +10% more durability and supercharges its projectiles with violently spinning electron bolts, stunning and electrocuting all target personnel. Supercharged blast is 2x more effective at disintegrating Kinetic-Shields.",
+    "changing_desc": "",
     "tier_name": "ORION EMP Blaster\nORION EMP Blaster Mk II",
     "fire_types": "",
     "tiers": 2,
@@ -149,11 +171,14 @@
     "upgrade_1_cost": 700,
     "upgrade_2_cost": 700,
     "upgrade_3_cost": "",
-    "is_premium": "FALSE"
+    "is_premium": "FALSE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "HYPERION EMP Blaster",
-    "description": "Discharges high-frequency electromagnetic sphere, temporarily disabling equipment at the target zone. Any surplus of power in the enemy power-grid needs to be negated before the target equipment shuts down. Continuous EMP attacks against the disabled equipment prevent it from powering up. EMP spheres cannot be shot down by defense turrets. Weapon's high power consumption is outweighed by minimal ammunition costs.\nHYPERION EMP Blaster negates 6 power for 25 seconds.\nTwo operators significantly reduce the recharge time by -61% and calibrate the weapon for +10% accuracy. \nUpgrade improves durability and dramatically enhances properties of the projectile, weaponizing it against personnel and Kinetic Shields.",
+    "description": "Discharges high-frequency electromagnetic sphere, temporarily disabling equipment at the target zone. Any surplus of power in the enemy power-grid needs to be negated before the target equipment shuts down. Continuous EMP attacks against the disabled equipment prevent it from powering up. EMP spheres cannot be shot down by defense turrets. Weapon's high power consumption is outweighed by minimal ammunition costs.\nHYPERION EMP Blaster negates 6 power for 25 seconds.\nTwo operators significantly reduce the recharge time by -61% and calibrate the weapon for +10% accuracy. \n\nUpgrade improves durability and dramatically enhances properties of the projectile, weaponizing it against personnel and Kinetic Shields.",
+    "changing_desc": "",
     "tier_name": "HYPERION EMP Blaster\nHYPERION EMP Blaster Mk II",
     "fire_types": "",
     "tiers": 2,
@@ -168,11 +193,14 @@
     "upgrade_1_cost": 1200,
     "upgrade_2_cost": 1200,
     "upgrade_3_cost": "",
-    "is_premium": "TRUE"
+    "is_premium": "TRUE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "SOLARIS Heat Ray",
-    "description": "Violent stream of superheated particles delivered at nearly the speed of light turns any solid matter into hot plasma. The Heat Ray cannot be stopped by any defense system and penetrates anywhere with outstanding precision. Though the target point is thin in diameter, limiting the scope of damage dealt to the equipment, a few seconds of concentrated fire raises target's temperature to lethal levels. Weapon's high power consumption is outweighed by minimal ammunition costs. Has 25% chance to start a fire.\nOperator reduces the recharge time by -33%\n\nHas 29% chance to start a fire.\nOperator reduces the recharge time by -33%\nMk II's concentric capacitors allow for slightly longer duration of fire, while reducing recharge time and power consumption. \n\nHas 33% chance to start a fire.\nOperator reduces the recharge time by -33%\nMk III's advanced shielding and cooling mechanisms stabilize the weapon for improved durability, significantly longer duration of fire and shorter recharge time.",
+    "description": "Violent stream of superheated particles delivered at nearly the speed of light turns any solid matter into hot plasma. The Heat Ray cannot be stopped by any defense system and penetrates anywhere with outstanding precision. Though the target point is thin in diameter, limiting the scope of damage dealt to the equipment, a few seconds of concentrated fire raises target's temperature to lethal levels. Weapon's high power consumption is outweighed by minimal ammunition costs. Has {{$1}}% chance to start a fire.\nOperator reduces the recharge time by -33%.\n\nFurther upgrades improve power efficiency and durability, reduce recharge time and increase the duration of the heat ray, as well as its chance to ignite the target. \n\nMk II's concentric capacitors allow for slightly longer duration of fire, while reducing recharge time and power consumption.\n\nMk III's advanced shielding and cooling mechanisms stabilize the weapon for improved durability, significantly longer duration of fire and shorter recharge time.",
+    "changing_desc": "25|29|33",
     "tier_name": "SOLARIS Heat Ray\nSOLARIS Heat Ray Mk II\nSOLARIS Heat Ray Mk III",
     "fire_types": "",
     "tiers": 3,
@@ -187,11 +215,14 @@
     "upgrade_1_cost": 700,
     "upgrade_2_cost": 400,
     "upgrade_3_cost": 400,
-    "is_premium": "FALSE"
+    "is_premium": "FALSE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "SIRIUS Scorcher Beam",
-    "description": "Classified prototype of an experimental energy weapon pushes the current particle-beam technology to its limits. Scorcher Beam is unstoppable by any known defense system and penetrates anywhere with absolute precision. Long duration of fire makes the weapon perfect for disrupting enemy defense, granting the other guns enough time to deliver their payload. Target zone heats up to steel-melting temperatures, damaging equipment and incinerating personnel. Has 75% chance to start a fire.\nTwo operators reduce the recharge time by -50%\n\nHas 80% chance to start a fire.\nTwo operators reduce the recharge time by -50%\nMk II prototype's wide range of improvements includes better durability, reduced power consumption and recharge time and increased duration of fire. \n\nHas 85% chance to start a fire.\nTwo operators reduce the recharge time by -50%\nMk III prototype offers maximum durability, reduced power consumption and recharge time, and significantly increased duration of fire.",
+    "description": "Classified prototype of an experimental energy weapon pushes the current particle-beam technology to its limits. Scorcher Beam is unstoppable by any known defense system and penetrates anywhere with absolute precision. Long duration of fire makes the weapon perfect for disrupting enemy defense, granting the other guns enough time to deliver their payload. Target zone heats up to steel-melting temperatures, damaging equipment and incinerating personnel. Has {{$1}}% chance to start a fire.\nTwo operators reduce the recharge time by -50%.\n\nFurther upgrades improve power efficiency and durability, reduce recharge time and increase the duration of the heat ray, as well as its chance to ignite the target.\n\nMk II prototype's wide range of improvements includes better durability, reduced power consumption and recharge time and increased duration of fire.\n\nMk III prototype offers maximum durability, reduced power consumption and recharge time, and significantly increased duration of fire.",
+    "changing_desc": "75|80|85",
     "tier_name": "SIRIUS Scorcher Beam\nSIRIUS Scorcher Beam Mk II\nSIRIUS Scorcher Beam Mk III",
     "fire_types": "",
     "tiers": 3,
@@ -206,11 +237,14 @@
     "upgrade_1_cost": 1200,
     "upgrade_2_cost": 700,
     "upgrade_3_cost": 700,
-    "is_premium": "TRUE"
+    "is_premium": "TRUE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "PYTHON Missiles",
-    "description": "Self-propelled precision-guided missiles trail the skies, always finding their target. Effective against both equipment and personnel.\nPYTHON missiles pass through Kinetic-Shields with ease, however they are dangerously vulnerable to Active Defense turrets and Scrambler Signal. High ammunition consumption often makes the launcher best left on hold, striking only in concert with other weapon systems.\n\nOperator reduces the pre-launch preparation time by -40% \n\nMk II uses improved payload handling mechanism for lower ammunition costs and faster rate of fire. Modified fuel chamber allows for +16% more damage. Reinforced bracing increases launcher's durability by +10% \n\nMk III offers the lowest ammunition costs while further improving rate of fire. Modified warheads deal +32% more damage. Steel plating increases launcher's durability by +25%",
+    "description": "Self-propelled precision-guided missiles trail the skies, always finding their target. Effective against both equipment and personnel.\nPYTHON missiles pass through Kinetic-Shields with ease, however they are dangerously vulnerable to Active Defense turrets and Scrambler Signal. High ammunition consumption often makes the launcher best left on hold, striking only in concert with other weapon systems.\nOperator reduces the pre-launch preparation time by -40%.\n\nFurther upgrades improve durability, rate of fire, ammunition cost and missiles' destructive power. \n\nMk II uses improved payload handling mechanism for lower ammunition costs and faster rate of fire. Modified fuel chamber allows for +16% more damage. Reinforced bracing increases launcher's durability by +10% .\n\nMk III offers the lowest ammunition costs while further improving rate of fire. Modified warheads deal +32% more damage. Steel plating increases launcher's durability by +25%.",
+    "changing_desc": "",
     "tier_name": "PYTHON Missiles\nPYTHON Missiles Mk II\nPYTHON Missiles Mk III",
     "fire_types": "",
     "tiers": 3,
@@ -225,11 +259,14 @@
     "upgrade_1_cost": 600,
     "upgrade_2_cost": 450,
     "upgrade_3_cost": 450,
-    "is_premium": "FALSE"
+    "is_premium": "FALSE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "VIPER Fire Missiles",
-    "description": "Filled with deep-burning pyrohexane, precision-guided VIPER missiles turn target zone into a fiery inferno. High ammunition consumption often makes the launcher best left on hold, striking only in concert with other weapon systems. Missiles pass through Kinetic-Shields, however they are vulnerable to Active Defense turrets and Scrambler Signal.\nIgnites when destroyed.\nOperator reduces the pre-launch preparation time by -40% \n\nMk II uses improved payload handling mechanism for lower ammunition costs and faster rate of fire. Reinforced bracing increases launcher's durability by +10% \n\nMk III offers the lowest ammunition costs while further improving rate of fire. Steel plating increases launcher's durability by +25%",
+    "description": "Filled with deep-burning pyrohexane, precision-guided VIPER missiles turn target zone into a fiery inferno. High ammunition consumption often makes the launcher best left on hold, striking only in concert with other weapon systems. Missiles pass through Kinetic-Shields, however they are vulnerable to Active Defense turrets and Scrambler Signal.\nIgnites when destroyed.\nOperator reduces the pre-launch preparation time by -40%.\n\nFurther upgrades improve durability, rate of fire and ammunition cost. \n\nMk II uses improved payload handling mechanism for lower ammunition costs and faster rate of fire. Reinforced bracing increases launcher's durability by +10%\n\nMk III offers the lowest ammunition costs while further improving rate of fire. Steel plating increases launcher's durability by +25%.",
+    "changing_desc": "",
     "tier_name": "VIPER Fire Missiles\nVIPER Fire Missiles Mk II\nVIPER Fire Missiles Mk III",
     "fire_types": "",
     "tiers": 3,
@@ -244,11 +281,14 @@
     "upgrade_1_cost": 800,
     "upgrade_2_cost": 550,
     "upgrade_3_cost": 550,
-    "is_premium": "FALSE"
+    "is_premium": "FALSE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "TAIPAN Toxin Missiles",
-    "description": "Self-propelled precision-guided missiles trail the skies, carrying death. TAIPAN missiles release a violent mixture of super-acid and lingering neurotoxin upon impact, rendering target zone lethal for 30 seconds. High ammunition consumption often makes the launcher best left on hold, striking only in concert with other weapon systems. Missiles pass through Kinetic-Shields, however they are vulnerable to Active Defense turrets and Scrambler Signal.\nReleases deadly neurotoxin when destroyed.\nOperator reduces the pre-launch preparation time by -40%",
+    "description": "Self-propelled precision-guided missiles trail the skies, carrying death. TAIPAN missiles release a violent mixture of super-acid and lingering neurotoxin upon impact, rendering target zone lethal for 30 seconds. High ammunition consumption often makes the launcher best left on hold, striking only in concert with other weapon systems. Missiles pass through Kinetic-Shields, however they are vulnerable to Active Defense turrets and Scrambler Signal.\nReleases deadly neurotoxin when destroyed.\nOperator reduces the pre-launch preparation time by -40%\n\nFurther upgrades improve durability, rate of fire and ammunition cost.",
+    "changing_desc": "",
     "tier_name": "TAIPAN Toxin Missiles\nTAIPAN Toxin Missiles Mk II\nTAIPAN Toxin Missiles Mk III",
     "fire_types": "",
     "tiers": 3,
@@ -263,11 +303,14 @@
     "upgrade_1_cost": 800,
     "upgrade_2_cost": 550,
     "upgrade_3_cost": 550,
-    "is_premium": "FALSE"
+    "is_premium": "FALSE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "CHARON Impact-Landing ICBM",
-    "description": "Transport module inside a large inter-continental ballistic missile carries 2 brave soldiers to the target destination. All enemy personnel at the impact zone and the neighboring zones will be stunned, providing missile crew with a precious element of surprise.\nCHARON needs to be launched manually. Soldiers stationed at the silo will automatically board the missile at the moment of the launch.\nICBM Silo serves as a SHELTER, protecting stationed infantry by mitigating some of the incoming damage. ÚStun effect duration: 9-15 seconds\nTwo operators reduce the pre-launch preparation time by -36%\n\nStun effect duration: 12-20 seconds\nTwo operators reduce the pre-launch preparation time by -36%\nType X warhead causes longer stun effect duration. More efficient missile engine decreases ammunition costs. Reinforced launch pad improves durability by +10%.",
+    "description": "Transport module inside a large inter-continental ballistic missile carries 2 brave soldiers to the target destination. All enemy personnel at the impact zone and the neighboring zones will be stunned, providing missile crew with a precious element of surprise.\nCHARON needs to be launched manually. Soldiers stationed at the silo will automatically board the missile at the moment of the launch.\nICBM Silo serves as a SHELTER, protecting stationed infantry by mitigating some of the incoming damage. Stun effect duration: {{$1}} seconds\nTwo operators reduce the pre-launch preparation time by -36%\n\nUpgrade improves durability of the launch site, lowers ammunition costs and enhances the warhead for longer stun effect.\n\nType X warhead causes longer stun effect duration. More efficient missile engine decreases ammunition costs. Reinforced launch pad improves durability by +10%.",
+    "changing_desc": "9-15|12-20",
     "tier_name": "CHARON Impact-Landing ICBM\nCHARON-X Impact-Landing ICBM",
     "fire_types": "",
     "tiers": 2,
@@ -282,11 +325,14 @@
     "upgrade_1_cost": 1500,
     "upgrade_2_cost": 1000,
     "upgrade_3_cost": "",
-    "is_premium": "FALSE"
+    "is_premium": "FALSE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "NYX Neurotoxin ICBM",
-    "description": "Biochemical weapon of mass destruction. Precise and nearly unstoppable by standard defense systems, NYX kills all personnel at the target zone and releases large quantities of lethal compounds, seeping into the neighboring zones.\nICBM Silo serves as a SHELTER, protecting stationed infantry by mitigating some of the incoming damage.The affected areas are lethal for 32-60 seconds.\nTwo operators reduce the pre-launch preparation time by -36%\nLeaks chemicals when destroyed.\n\nThe affected areas are lethal for 40-64 seconds.\nTwo operators reduce the pre-launch preparation time by -36%\nLeaks chemicals when destroyed.\nChemical attack of Type X warhead takes longer to disperse. More efficient missile engine decreases ammunition costs. Reinforced launch pad improves durability by +10%.",
+    "description": "Biochemical weapon of mass destruction. Precise and nearly unstoppable by standard defense systems, NYX kills all personnel at the target zone and releases large quantities of lethal compounds, seeping into the neighboring zones.\nICBM Silo serves as a SHELTER, protecting stationed infantry by mitigating some of the incoming damage.The affected areas are lethal for {{$1}} seconds.\nTwo operators reduce the pre-launch preparation time by -36%\nLeaks chemicals when destroyed.\n\nUpgrade improves durability of the launch site, lowers ammunition costs and enhances the warhead with even deadlier chemical payload.\n\nChemical attack of Type X warhead takes longer to disperse. More efficient missile engine decreases ammunition costs. Reinforced launch pad improves durability by +10%.",
+    "changing_desc": "32-60|40-64",
     "tier_name": "NYX Neurotoxin ICBM\nNYX-X Neurotoxin ICBM",
     "fire_types": "",
     "tiers": 2,
@@ -301,11 +347,14 @@
     "upgrade_1_cost": 2000,
     "upgrade_2_cost": 1000,
     "upgrade_3_cost": "",
-    "is_premium": "FALSE"
+    "is_premium": "FALSE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "NEMESIS Tactical Nuke ICBM",
-    "description": "Atomic blasts all over the world concluded the great Unification War, thus laying the foundations for the Empire State. To this day, nuclear weapons are tightly controlled and their proliferation strictly limited. Only a select few most trusted State generals hold power to unleash their terrifying might.\nNEMESIS obliterates target and its neighboring zones, setting fires to the ruins.\nTwo operators reduce the pre-launch preparation time by -36%\nIgnites when destroyed.\nICBM Silo serves as a SHELTER, protecting stationed infantry by mitigating some of the incoming damage. zUpgrade improves durability of the launch site, lowers ammunition costs and enhances the destructive power of the warhead. \n\nType X warhead causes stronger nuclear blast. More efficient missile engine decreases ammunition costs. Reinforced launch pad improves durability by +10%",
+    "description": "Atomic blasts all over the world concluded the great Unification War, thus laying the foundations for the Empire State. To this day, nuclear weapons are tightly controlled and their proliferation strictly limited. Only a select few most trusted State generals hold power to unleash their terrifying might.\nNEMESIS obliterates target and its neighboring zones, setting fires to the ruins.\nTwo operators reduce the pre-launch preparation time by -36%\nIgnites when destroyed.\nICBM Silo serves as a SHELTER, protecting stationed infantry by mitigating some of the incoming damage.\n\nUpgrade improves durability of the launch site, lowers ammunition costs and enhances the destructive power of the warhead. \n\nType X warhead causes stronger nuclear blast. More efficient missile engine decreases ammunition costs. Reinforced launch pad improves durability by +10%",
+    "changing_desc": "",
     "tier_name": "NEMESIS Tactical Nuke ICBM\nNEMESIS-X Tactical Nuke ICBM",
     "fire_types": "",
     "tiers": 2,
@@ -320,11 +369,14 @@
     "upgrade_1_cost": 3000,
     "upgrade_2_cost": 2000,
     "upgrade_3_cost": "",
-    "is_premium": "TRUE"
+    "is_premium": "TRUE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   },
   {
     "name": "OMEGA Capital Destroyer",
-    "description": "One of the most powerful military instruments of the State. First deployed during the great Unification War, the OMEGA laid waste to dozens of capitals all over the world. Only the most elite State generals may be granted the honor of commanding such legendary, awe-inspiring supergun.\nDestroys most target zones in a single shot, dealing high splash damage to the neighboring zones.\nIncendiary SHS sets the target and its neighboring zones ablaze.\nNeurotoxin SHS makes the target and its neighboring zones lethal for up to 60 seconds.\nThe destroyer's magnificent frame provides a SHELTER, protecting infantry by mitigating some of the incoming damage. lFour operators reduce the reload time by -38%\n\nFour operators reduce the reload time by -42%\nType X improves durability by +10%, reduces reload times on all firing modes and increases the destructive power of its Explosive Superheavy Shells. \n\nFour operators reduce the reload time by -50%\nType Z improves durability by +25%, reduces reload times on all firing modes and maximizes the destructive power of its Explosive Superheavy Shells.",
+    "description": "One of the most powerful military instruments of the State. First deployed during the great Unification War, the OMEGA laid waste to dozens of capitals all over the world. Only the most elite State generals may be granted the honor of commanding such legendary, awe-inspiring supergun.\nDestroys most target zones in a single shot, dealing high splash damage to the neighboring zones.\nIncendiary SHS sets the target and its neighboring zones ablaze.\nNeurotoxin SHS makes the target and its neighboring zones lethal for up to 60 seconds.\nThe destroyer's magnificent frame provides a SHELTER, protecting infantry by mitigating some of the incoming damage. Four operators reduce the reload time by {{$1}}%.\n\nFurther upgrades improve durability, reload times and damage. \n\nType X improves durability by +10%, reduces reload times on all firing modes and increases the destructive power of its Explosive Superheavy Shells.\n\nType Z improves durability by +25%, reduces reload times on all firing modes and maximizes the destructive power of its Explosive Superheavy Shells.",
+    "changing_desc": "-38|-42|-50",
     "tier_name": "OMEGA Capital Destroyer\nOMEGA-X Capital Destroyer\nOMEGA-Z Capital Destroyer",
     "fire_types": "Incendiary Superheavy Shell\nNeurotoxin Superheavy Shell",
     "tiers": 3,
@@ -339,6 +391,8 @@
     "upgrade_1_cost": 3000,
     "upgrade_2_cost": 2000,
     "upgrade_3_cost": 2000,
-    "is_premium": "FALSE"
+    "is_premium": "FALSE",
+    "imageUrl": "",
+    "inActionImageUrl": ""
   }
 ]
