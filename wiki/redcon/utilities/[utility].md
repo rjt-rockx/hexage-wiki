@@ -19,13 +19,20 @@ const onTierChange = (e: Event) => {
 <br>
 
 <div class="flex flex-row items-center gap-4">
-  <select class="px-4 py-1 rounded-md transition-colors"
-          :class="currentStats.value === index ? $style.brand : $style.alt"
-          @change="onTierChange">
-    <option v-for="(tier, index) in $params.tiers" :key="index" :value="index + 1">
-      {{ tier }}
-    </option>
-  </select>
+  <div :class="$style.selectContainer">
+    <select class="px-4 py-1 rounded-md transition-colors"
+            :class="currentStats.value === index ? $style.brand : $style.alt"
+            @change="onTierChange">
+      <option v-for="(tier, index) in $params.tiers" :key="index" :value="index + 1">
+        {{ tier }}
+      </option>
+    </select>
+    <div :class="$style.dropdownIcon">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </div>
+  </div>
 </div>
 
 <div class="table-container flex">
@@ -82,7 +89,7 @@ const onTierChange = (e: Event) => {
   </div>
 </div>
 
-<div class="[&>p>strong]:text-accent" v-html="$params.descriptions"></div>
+<div class="[&>p>strong]:text-accent" v-html="$params.descriptions[tierIndex]"></div>
 
 <br>
 
@@ -98,10 +105,28 @@ const onTierChange = (e: Event) => {
     @apply border-button-alt-border hover:border-button-alt-hover-border active:border-button-alt-active-border;  
   }
 
+  .selectContainer {
+    position: relative;
+    width: 800px;
+  }
+
   select {  
-      width: 800px;
+      width: 100%;
       height: 40px;
       font-size: 16px;
+      appearance: none;
+      color: var(--vp-c-text-1);
+      padding-right: 3rem;
+  }
+
+  .dropdownIcon {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    width: 1.5em;
+    height: 1.5em;
   }
 
   .dropdown option {

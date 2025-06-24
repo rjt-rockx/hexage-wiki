@@ -22,7 +22,35 @@ export const fixStats = (stats: Stats, tierLength: number) => {
   return newStats
 }
 
-export const fixDescription = (description: string) => renderer.render(description).replace(/\n$/gim, '')
+export const fixDescription = (description: string, changing_desc: string, tierLength: number) => {
+  const descriptions = description
+    .split('\n\n')
+    .map((part) => part.trim())
+    .filter(Boolean)
+
+  const splitValues = String(changing_desc)
+    .split('|')
+    .map((v) => v.trim())
+    .filter(Boolean)
+
+  const results: string[] = []
+
+  for (let i = 0; i < tierLength; i++) {
+    let base = descriptions[0]
+
+    if (splitValues.length > 0 && splitValues[i] !== undefined) {
+      base = base.replaceAll('{{$1}}', splitValues[i])
+    }
+
+    if (i + 1 < descriptions.length) {
+      results.push(base.concat('\n').concat(descriptions[i + 1]))
+    } else {
+      results.push(base)
+    }
+  }
+
+  return results.map((desc) => renderer.render(desc).replace(/\n$/gim, ''))
+}
 
 export default {
   paths() {
@@ -30,8 +58,8 @@ export default {
       const len = utilities.length
       const prev = utilities[(index - 1 + len) % len]
       const next = utilities[(index + 1) % len]
-      const descriptions = fixDescription(utility.description)
       const tiers = utility.tier_name.split('\n').map((t) => t.trim())
+      const descriptions = fixDescription(utility.description, utility.changing_desc || '', tiers.length)
       const stats: Stats = {
         hitpoints: String(utility.hitpoints),
         power: String(utility.power),
