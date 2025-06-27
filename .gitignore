@@ -128,3 +128,16 @@ dist
 
 # Vitepress cache
 .vitepress/cache
+
+# macOS
+.DS_Store
+
+# Vitepress Temp files
+*.timestamp-*.*
+
+# Temp folder
+temp/
+
+# Symlinks to CLAUDE.md
+.cursorrules
+AGENTS.md
