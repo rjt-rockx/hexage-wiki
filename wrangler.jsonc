@@ -3,6 +3,7 @@
   "name": "hexage-wiki",
   "compatibility_date": "2026-01-19",
   "assets": {
-    "directory": ".vitepress/dist"
+    "directory": ".vitepress/dist",
+    "not_found_handling": "404-page"
   }
 }
