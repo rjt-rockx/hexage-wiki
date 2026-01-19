@@ -32,7 +32,7 @@ const props = defineProps({
       :href="props.appStoreURL"
       target="_blank"
       rel="noopener noreferrer">
-      <div class="i-simple-icons:apple icon"></div>
+      <div class="i-simple-icons-apple icon"></div>
       <span v-if="props.showText">App Store</span>
     </a>
 
@@ -42,7 +42,7 @@ const props = defineProps({
       :href="props.googlePlayURL"
       target="_blank"
       rel="noopener noreferrer">
-      <div class="i-simple-icons:googleplay icon"></div>
+      <div class="i-simple-icons-googleplay icon"></div>
       <span v-if="props.showText">Google Play</span>
     </a>
 
@@ -52,7 +52,7 @@ const props = defineProps({
       :href="props.steamURL"
       target="_blank"
       rel="noopener noreferrer">
-      <div class="i-simple-icons:steam icon"></div>
+      <div class="i-simple-icons-steam icon"></div>
       <span v-if="props.showText">Steam</span>
     </a>
   </div>
