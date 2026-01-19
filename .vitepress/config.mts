@@ -28,9 +28,6 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vector/favicon.svg' }],
-    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
-    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-    ['link', { rel: 'preconnect', href: 'https://i.imgur.com' }],
     ['link', { rel: 'preconnect', href: 'https://youtube.com' }],
     ['link', { rel: 'preconnect', href: 'https://apps.apple.com' }],
     ['link', { rel: 'preconnect', href: 'https://play.google.com' }],

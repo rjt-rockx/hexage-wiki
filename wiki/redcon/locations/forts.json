@@ -5,7 +5,7 @@
     "category": "premade",
     "progress": 0,
     "description": "",
-    "imageUrl": "https://i.imgur.com/sVAWULI.jpeg"
+    "imageUrl": "/images/redcon-location-973rd-aux-light-artillery-station.jpeg"
   },
   {
     "name": "Krux Listening Outpost",
@@ -13,7 +13,7 @@
     "category": "enemy",
     "progress": 0,
     "description": "",
-    "imageUrl": "https://i.imgur.com/Nmem3HN.jpeg"
+    "imageUrl": "/images/redcon-location-krux-listening-outpost.jpeg"
   },
   {
     "name": "Assault Mortars Ambush",
@@ -21,7 +21,7 @@
     "category": "enemy",
     "progress": 1,
     "description": "",
-    "imageUrl": "https://i.imgur.com/fnWlDlg.jpeg"
+    "imageUrl": "/images/redcon-location-assault-mortars-ambush.jpeg"
   },
   {
     "name": "Airforce Transit Depot 73",
@@ -29,7 +29,7 @@
     "category": "premade",
     "progress": 2,
     "description": "",
-    "imageUrl": "https://i.imgur.com/wPMftcl.jpeg"
+    "imageUrl": "/images/redcon-location-airforce-transit-depot-73.jpeg"
   },
   {
     "name": "ORION Blaster Test Site",
@@ -37,7 +37,7 @@
     "category": "enemy",
     "progress": 2,
     "description": "",
-    "imageUrl": "https://i.imgur.com/KLIwuHa.jpeg"
+    "imageUrl": "/images/redcon-location-orion-blaster-test-site.jpeg"
   },
   {
     "name": "Damocles Dam Security Perimeter",
@@ -45,7 +45,7 @@
     "category": "premade",
     "progress": 3,
     "description": "",
-    "imageUrl": "https://i.imgur.com/OS93KPR.jpeg"
+    "imageUrl": "/images/redcon-location-damocles-dam-security-perimeter.jpeg"
   },
   {
     "name": "Forsaken Launch Pad",
@@ -53,7 +53,7 @@
     "category": "enemy",
     "progress": 3,
     "description": "",
-    "imageUrl": "https://i.imgur.com/hCcNqRC.jpeg"
+    "imageUrl": "/images/redcon-location-forsaken-launch-pad.jpeg"
   },
   {
     "name": "Secret Railway Tunnel",
@@ -61,7 +61,7 @@
     "category": "enemy",
     "progress": 4,
     "description": "",
-    "imageUrl": "https://i.imgur.com/uvP2lsO.jpg"
+    "imageUrl": "/images/redcon-location-secret-railway-tunnel.jpg"
   },
   {
     "name": "Repurposed Launch Pad",
@@ -69,7 +69,7 @@
     "category": "premade",
     "progress": 5,
     "description": "",
-    "imageUrl": "https://i.imgur.com/wqj434y.jpeg"
+    "imageUrl": "/images/redcon-location-repurposed-launch-pad.jpeg"
   },
   {
     "name": "Wastelands Encampment",
@@ -77,7 +77,7 @@
     "category": "enemy",
     "progress": 5,
     "description": "",
-    "imageUrl": "https://i.imgur.com/gWFPX9K.jpeg"
+    "imageUrl": "/images/redcon-location-wastelands-encampment.jpeg"
   },
   {
     "name": "Derelict Observatory",
@@ -85,7 +85,7 @@
     "category": "enemy",
     "progress": 6,
     "description": "",
-    "imageUrl": "https://i.imgur.com/hGeCNzi.jpg"
+    "imageUrl": "/images/redcon-location-derelict-observatory.jpg"
   },
   {
     "name": "Supply Depot",
@@ -93,7 +93,7 @@
     "category": "enemy",
     "progress": 7,
     "description": "",
-    "imageUrl": "https://i.imgur.com/frZP0e4.jpg"
+    "imageUrl": "/images/redcon-location-supply-depot.jpg"
   },
   {
     "name": "FORT RAPTOR",
@@ -109,7 +109,7 @@
     "category": "enemy",
     "progress": 8,
     "description": "",
-    "imageUrl": "https://i.imgur.com/XGi11ys.jpg"
+    "imageUrl": "/images/redcon-location-lex-ammo-factory.jpg"
   },
   {
     "name": "Chemical Plant",
@@ -117,7 +117,7 @@
     "category": "enemy",
     "progress": 9,
     "description": "",
-    "imageUrl": "https://i.imgur.com/t8PvOoM.jpg"
+    "imageUrl": "/images/redcon-location-chemical-plant.jpg"
   },
   {
     "name": "Southern Rocket LS",
@@ -125,7 +125,7 @@
     "category": "enemy",
     "progress": 10,
     "description": "",
-    "imageUrl": "https://i.imgur.com/ELMkqg7.jpeg"
+    "imageUrl": "/images/redcon-location-southern-rocket-ls.jpeg"
   },
   {
     "name": "Aurelia Airbase",
@@ -133,7 +133,7 @@
     "category": "enemy",
     "progress": 11,
     "description": "",
-    "imageUrl": "https://i.imgur.com/dC49t55.jpg"
+    "imageUrl": "/images/redcon-location-aurelia-airbase.jpg"
   },
   {
     "name": "Cavern Retreat",
@@ -141,7 +141,7 @@
     "category": "enemy",
     "progress": 12,
     "description": "",
-    "imageUrl": "https://i.imgur.com/yib9ROR.jpg"
+    "imageUrl": "/images/redcon-location-cavern-retreat.jpg"
   },
   {
     "name": "Petra Gate",
@@ -149,7 +149,7 @@
     "category": "enemy",
     "progress": 13,
     "description": "",
-    "imageUrl": "https://i.imgur.com/uN0d6FR.jpg"
+    "imageUrl": "/images/redcon-location-petra-gate.jpg"
   },
   {
     "name": "Highland Ridge",
@@ -157,7 +157,7 @@
     "category": "enemy",
     "progress": 14,
     "description": "",
-    "imageUrl": "https://i.imgur.com/w7MdEYD.jpg"
+    "imageUrl": "/images/redcon-location-highland-ridge.jpg"
   },
   {
     "name": "State Chemical Plant",
@@ -165,7 +165,7 @@
     "category": "premade",
     "progress": 15,
     "description": "",
-    "imageUrl": "https://i.imgur.com/sFLQ0Nl.jpeg"
+    "imageUrl": "/images/redcon-location-state-chemical-plant.jpeg"
   },
   {
     "name": "XXII Field Hospital",
@@ -173,7 +173,7 @@
     "category": "enemy",
     "progress": 15,
     "description": "",
-    "imageUrl": "https://i.imgur.com/FQdwehP.jpg"
+    "imageUrl": "/images/redcon-location-xxii-field-hospital.jpg"
   },
   {
     "name": "Fort Sycamore",
@@ -181,7 +181,7 @@
     "category": "enemy",
     "progress": 16,
     "description": "",
-    "imageUrl": "https://i.imgur.com/q4gCMGW.jpeg"
+    "imageUrl": "/images/redcon-location-fort-sycamore.jpeg"
   },
   {
     "name": "FORT SYCAMORE",
@@ -197,7 +197,7 @@
     "category": "enemy",
     "progress": 17,
     "description": "",
-    "imageUrl": "https://i.imgur.com/BI8lfo4.jpg"
+    "imageUrl": "/images/redcon-location-iron-wall.jpg"
   },
   {
     "name": "Torch Power Platform",
@@ -205,7 +205,7 @@
     "category": "enemy",
     "progress": 18,
     "description": "",
-    "imageUrl": "https://i.imgur.com/WsqB7yQ.jpeg"
+    "imageUrl": "/images/redcon-location-torch-power-platform.jpeg"
   },
   {
     "name": "Atom Core Bunker",
@@ -213,7 +213,7 @@
     "category": "enemy",
     "progress": 19,
     "description": "",
-    "imageUrl": "https://i.imgur.com/CgeOAaI.jpeg"
+    "imageUrl": "/images/redcon-location-atom-core-bunker.jpeg"
   },
   {
     "name": "Viper Nest",
@@ -221,7 +221,7 @@
     "category": "enemy",
     "progress": 20,
     "description": "",
-    "imageUrl": "https://i.imgur.com/Se7QIxN.jpeg"
+    "imageUrl": "/images/redcon-location-viper-nest.jpeg"
   },
   {
     "name": "Precision Strike COM",
@@ -229,7 +229,7 @@
     "category": "enemy",
     "progress": 21,
     "description": "",
-    "imageUrl": "https://i.imgur.com/IAVTp3x.jpg"
+    "imageUrl": "/images/redcon-location-precision-strike-com.jpg"
   },
   {
     "name": "Communications Central",
@@ -237,7 +237,7 @@
     "category": "enemy",
     "progress": 22,
     "description": "",
-    "imageUrl": "https://i.imgur.com/2uKRgYL.jpg"
+    "imageUrl": "/images/redcon-location-communications-central.jpg"
   },
   {
     "name": "The Claw",
@@ -245,7 +245,7 @@
     "category": "enemy",
     "progress": 23,
     "description": "",
-    "imageUrl": "https://i.imgur.com/A1Lup2a.jpg"
+    "imageUrl": "/images/redcon-location-the-claw.jpg"
   },
   {
     "name": "KS Tech Research Facility",
@@ -253,7 +253,7 @@
     "category": "premade",
     "progress": 24,
     "description": "",
-    "imageUrl": "https://i.imgur.com/4Kn2lQQ.jpeg"
+    "imageUrl": "/images/redcon-location-ks-tech-research-facility.jpeg"
   },
   {
     "name": "Krux Sneak Attack",
@@ -261,7 +261,7 @@
     "category": "enemy",
     "progress": 24,
     "description": "",
-    "imageUrl": "https://i.imgur.com/P7ARahj.jpeg"
+    "imageUrl": "/images/redcon-location-krux-sneak-attack.jpeg"
   },
   {
     "name": "Siege Brigade",
@@ -269,7 +269,7 @@
     "category": "enemy",
     "progress": 25,
     "description": "",
-    "imageUrl": "https://i.imgur.com/aZFXCiC.jpeg"
+    "imageUrl": "/images/redcon-location-siege-brigade.jpeg"
   },
   {
     "name": "Bell Tower",
@@ -277,7 +277,7 @@
     "category": "enemy",
     "progress": 26,
     "description": "",
-    "imageUrl": "https://i.imgur.com/GSkfulT.jpg"
+    "imageUrl": "/images/redcon-location-bell-tower.jpg"
   },
   {
     "name": "The Spire",
@@ -285,7 +285,7 @@
     "category": "enemy",
     "progress": 27,
     "description": "",
-    "imageUrl": "https://i.imgur.com/0XGJDG7.jpg"
+    "imageUrl": "/images/redcon-location-the-spire.jpg"
   },
   {
     "name": "THE SPIRE",
@@ -301,7 +301,7 @@
     "category": "enemy",
     "progress": 28,
     "description": "",
-    "imageUrl": "https://i.imgur.com/V7c4aRQ.jpg"
+    "imageUrl": "/images/redcon-location-icbm-launch-silo.jpg"
   },
   {
     "name": "Castle Flakk",
@@ -309,7 +309,7 @@
     "category": "enemy",
     "progress": 29,
     "description": "",
-    "imageUrl": "https://i.imgur.com/4TVwJQk.jpg"
+    "imageUrl": "/images/redcon-location-castle-flakk.jpg"
   },
   {
     "name": "SCION EMP Range",
@@ -317,7 +317,7 @@
     "category": "enemy",
     "progress": 30,
     "description": "",
-    "imageUrl": "https://i.imgur.com/Djr218k.jpeg"
+    "imageUrl": "/images/redcon-location-scion-emp-range.jpeg"
   },
   {
     "name": "SIRIUS Scorcher Platform",
@@ -325,7 +325,7 @@
     "category": "premade",
     "progress": 31,
     "description": "",
-    "imageUrl": "https://i.imgur.com/zKARpHE.jpeg"
+    "imageUrl": "/images/redcon-location-sirius-scorcher-platform.jpeg"
   },
   {
     "name": "Ramses City Rooftops",
@@ -333,7 +333,7 @@
     "category": "enemy",
     "progress": 31,
     "description": "",
-    "imageUrl": "https://i.imgur.com/8pffeh1.jpeg"
+    "imageUrl": "/images/redcon-location-ramses-city-rooftops.jpeg"
   },
   {
     "name": "Storm Wyvern",
@@ -341,7 +341,7 @@
     "category": "enemy",
     "progress": 32,
     "description": "",
-    "imageUrl": "https://i.imgur.com/V0ZL9ex.jpeg"
+    "imageUrl": "/images/redcon-location-storm-wyvern.jpeg"
   },
   {
     "name": "Propaganda Tower",
@@ -349,7 +349,7 @@
     "category": "enemy",
     "progress": 33,
     "description": "",
-    "imageUrl": "https://i.imgur.com/QFX9K4b.jpg"
+    "imageUrl": "/images/redcon-location-propaganda-tower.jpg"
   },
   {
     "name": "Dozer Castle",
@@ -357,7 +357,7 @@
     "category": "enemy",
     "progress": 34,
     "description": "",
-    "imageUrl": "https://i.imgur.com/2ka0Ip1.jpg"
+    "imageUrl": "/images/redcon-location-dozer-castle.jpg"
   },
   {
     "name": "Capitulum Cathedral",
@@ -365,7 +365,7 @@
     "category": "enemy",
     "progress": 35,
     "description": "",
-    "imageUrl": "https://i.imgur.com/E6iuaoe.jpg"
+    "imageUrl": "/images/redcon-location-capitulum-cathedral.jpg"
   },
   {
     "name": "The Great Bulwark",
@@ -373,7 +373,7 @@
     "category": "premade",
     "progress": 36,
     "description": "",
-    "imageUrl": "https://i.imgur.com/UXp9Urt.jpeg"
+    "imageUrl": "/images/redcon-location-the-great-bulwark.jpeg"
   },
   {
     "name": "SST Prism",
@@ -381,7 +381,7 @@
     "category": "enemy",
     "progress": 36,
     "description": "",
-    "imageUrl": "https://i.imgur.com/0lDMbfP.jpg"
+    "imageUrl": "/images/redcon-location-sst-prism.jpg"
   },
   {
     "name": "Xerxes Industrial City",
@@ -389,7 +389,7 @@
     "category": "enemy",
     "progress": 37,
     "description": "",
-    "imageUrl": "https://i.imgur.com/4kNhc9r.jpg"
+    "imageUrl": "/images/redcon-location-xerxes-industrial-city.jpg"
   },
   {
     "name": "Fortress Axiom",
@@ -397,7 +397,7 @@
     "category": "enemy",
     "progress": 38,
     "description": "",
-    "imageUrl": "https://i.imgur.com/v72vT55.jpeg"
+    "imageUrl": "/images/redcon-location-fortress-axiom.jpeg"
   },
   {
     "name": "FORTRESS SCARABEUS",
@@ -413,7 +413,7 @@
     "category": "enemy",
     "progress": 39,
     "description": "",
-    "imageUrl": "https://i.imgur.com/h8dDwO0.jpg"
+    "imageUrl": "/images/redcon-location-xerxes-industrial-zone.jpg"
   },
   {
     "name": "Kreiwald Research Station",
@@ -421,7 +421,7 @@
     "category": "enemy",
     "progress": 40,
     "description": "",
-    "imageUrl": "https://i.imgur.com/fvSFpFr.jpg"
+    "imageUrl": "/images/redcon-location-kreiwald-research-station.jpg"
   },
   {
     "name": "SSR Testing Pylon",
@@ -429,7 +429,7 @@
     "category": "enemy",
     "progress": 41,
     "description": "",
-    "imageUrl": "https://i.imgur.com/21gIgjD.jpg"
+    "imageUrl": "/images/redcon-location-ssr-testing-pylon.jpg"
   },
   {
     "name": "Retaliatory Battalion",
@@ -437,7 +437,7 @@
     "category": "enemy",
     "progress": 42,
     "description": "",
-    "imageUrl": "https://i.imgur.com/e0mMndY.jpeg"
+    "imageUrl": "/images/redcon-location-retaliatory-battalion.jpeg"
   },
   {
     "name": "Xerxes Slums Uprising",
@@ -445,7 +445,7 @@
     "category": "enemy",
     "progress": 43,
     "description": "",
-    "imageUrl": "https://i.imgur.com/Fq6XPm7.jpg"
+    "imageUrl": "/images/redcon-location-xerxes-slums-uprising.jpg"
   },
   {
     "name": "Insurgents' Hideout",
@@ -453,7 +453,7 @@
     "category": "enemy",
     "progress": 44,
     "description": "",
-    "imageUrl": "https://i.imgur.com/zos24wk.jpg"
+    "imageUrl": "/images/redcon-location-insurgents-hideout.jpg"
   },
   {
     "name": "Creon Sea Port",
@@ -461,7 +461,7 @@
     "category": "enemy",
     "progress": 45,
     "description": "",
-    "imageUrl": "https://i.imgur.com/EhKsByn.jpg"
+    "imageUrl": "/images/redcon-location-creon-sea-port.jpg"
   },
   {
     "name": "Supercharged Platform",
@@ -469,7 +469,7 @@
     "category": "enemy",
     "progress": 46,
     "description": "",
-    "imageUrl": "https://i.imgur.com/rVDmM0r.jpg"
+    "imageUrl": "/images/redcon-location-supercharged-platform.jpg"
   },
   {
     "name": "Lower Railroad Bridge",
@@ -477,7 +477,7 @@
     "category": "enemy",
     "progress": 47,
     "description": "",
-    "imageUrl": "https://i.imgur.com/5x3sz2F.jpg"
+    "imageUrl": "/images/redcon-location-lower-railroad-bridge.jpg"
   },
   {
     "name": "Coastal Cliffs",
@@ -485,7 +485,7 @@
     "category": "enemy",
     "progress": 48,
     "description": "",
-    "imageUrl": "https://i.imgur.com/k8pe5RM.jpg"
+    "imageUrl": "/images/redcon-location-coastal-cliffs.jpg"
   },
   {
     "name": "Upper Railroad Bridge",
@@ -493,7 +493,7 @@
     "category": "enemy",
     "progress": 49,
     "description": "",
-    "imageUrl": "https://i.imgur.com/ukXfdQ9.jpg"
+    "imageUrl": "/images/redcon-location-upper-railroad-bridge.jpg"
   },
   {
     "name": "Megareus Waterfront",
@@ -501,7 +501,7 @@
     "category": "enemy",
     "progress": 50,
     "description": "",
-    "imageUrl": "https://i.imgur.com/7gVAavC.jpg"
+    "imageUrl": "/images/redcon-location-megareus-waterfront.jpg"
   },
   {
     "name": "Megareus West",
@@ -509,7 +509,7 @@
     "category": "enemy",
     "progress": 51,
     "description": "",
-    "imageUrl": "https://i.imgur.com/83aBhQE.jpg"
+    "imageUrl": "/images/redcon-location-megareus-west.jpg"
   },
   {
     "name": "Downtown Guard Tower",
@@ -517,7 +517,7 @@
     "category": "enemy",
     "progress": 52,
     "description": "",
-    "imageUrl": "https://i.imgur.com/WlSwf5z.jpg"
+    "imageUrl": "/images/redcon-location-downtown-guard-tower.jpg"
   },
   {
     "name": "Megareus East",
@@ -525,7 +525,7 @@
     "category": "enemy",
     "progress": 53,
     "description": "",
-    "imageUrl": "https://i.imgur.com/CUAibUQ.jpg"
+    "imageUrl": "/images/redcon-location-megareus-east.jpg"
   },
   {
     "name": "Falcon Fortress",
@@ -533,7 +533,7 @@
     "category": "enemy",
     "progress": 54,
     "description": "",
-    "imageUrl": "https://i.imgur.com/fjOEl5O.jpg"
+    "imageUrl": "/images/redcon-location-falcon-fortress.jpg"
   },
   {
     "name": "FORTRESS FALCON",
@@ -549,7 +549,7 @@
     "category": "enemy",
     "progress": 55,
     "description": "",
-    "imageUrl": "https://i.imgur.com/K5AoDoy.jpg"
+    "imageUrl": "/images/redcon-location-capital-destroyer-xvii.jpg"
   },
   {
     "name": "Nocturnal WMD Vaults",
@@ -557,7 +557,7 @@
     "category": "enemy",
     "progress": 56,
     "description": "",
-    "imageUrl": "https://i.imgur.com/toqM4Ca.jpg"
+    "imageUrl": "/images/redcon-location-nocturnal-wmd-vaults.jpg"
   },
   {
     "name": "Uranium Quarry",
@@ -565,7 +565,7 @@
     "category": "enemy",
     "progress": 57,
     "description": "",
-    "imageUrl": "https://i.imgur.com/FTsXKEj.jpg"
+    "imageUrl": "/images/redcon-location-uranium-quarry.jpg"
   },
   {
     "name": "Vipers Strike Command",
@@ -573,7 +573,7 @@
     "category": "enemy",
     "progress": 58,
     "description": "",
-    "imageUrl": "https://i.imgur.com/bbmHxA0.jpg"
+    "imageUrl": "/images/redcon-location-vipers-strike-command.jpg"
   },
   {
     "name": "Thorium-Plutonium Quarry",
@@ -581,7 +581,7 @@
     "category": "enemy",
     "progress": 59,
     "description": "",
-    "imageUrl": "https://i.imgur.com/MnKflLy.jpg"
+    "imageUrl": "/images/redcon-location-thorium-plutonium-quarry.jpg"
   },
   {
     "name": "Aerodrome Icarus",
@@ -589,7 +589,7 @@
     "category": "enemy",
     "progress": 60,
     "description": "",
-    "imageUrl": "https://i.imgur.com/HxCF8wq.jpg"
+    "imageUrl": "/images/redcon-location-aerodrome-icarus.jpg"
   },
   {
     "name": "Centurion Missile Pod",
@@ -597,7 +597,7 @@
     "category": "premade",
     "progress": 61,
     "description": "",
-    "imageUrl": "https://i.imgur.com/4XbDMUu.jpeg"
+    "imageUrl": "/images/redcon-location-centurion-missile-pod.jpeg"
   },
   {
     "name": "SSR Pylon IX",
@@ -605,7 +605,7 @@
     "category": "enemy",
     "progress": 61,
     "description": "",
-    "imageUrl": "https://i.imgur.com/3ziq3Ac.jpeg"
+    "imageUrl": "/images/redcon-location-ssr-pylon-ix.jpeg"
   },
   {
     "name": "Mount Naraka",
@@ -613,7 +613,7 @@
     "category": "enemy",
     "progress": 62,
     "description": "",
-    "imageUrl": "https://i.imgur.com/9U9FqBl.jpg"
+    "imageUrl": "/images/redcon-location-mount-naraka.jpg"
   },
   {
     "name": "Training Camp",
@@ -621,7 +621,7 @@
     "category": "enemy",
     "progress": 63,
     "description": "",
-    "imageUrl": "https://i.imgur.com/TqcqQu3.jpg"
+    "imageUrl": "/images/redcon-location-training-camp.jpg"
   },
   {
     "name": "Sea Fortress Polarix",
@@ -629,7 +629,7 @@
     "category": "enemy",
     "progress": 64,
     "description": "",
-    "imageUrl": "https://i.imgur.com/YmabeIX.jpg"
+    "imageUrl": "/images/redcon-location-sea-fortress-polarix.jpg"
   },
   {
     "name": "Railroad Nexus",
@@ -637,7 +637,7 @@
     "category": "enemy",
     "progress": 65,
     "description": "",
-    "imageUrl": "https://i.imgur.com/Z2jTYuN.jpg"
+    "imageUrl": "/images/redcon-location-railroad-nexus.jpg"
   },
   {
     "name": "Underground Lab",
@@ -645,7 +645,7 @@
     "category": "enemy",
     "progress": 66,
     "description": "",
-    "imageUrl": "https://i.imgur.com/dF7Jeaf.jpg"
+    "imageUrl": "/images/redcon-location-underground-lab.jpg"
   },
   {
     "name": "Stormguard AA System",
@@ -653,7 +653,7 @@
     "category": "enemy",
     "progress": 67,
     "description": "",
-    "imageUrl": "https://i.imgur.com/7bvkisV.jpeg"
+    "imageUrl": "/images/redcon-location-stormguard-aa-system.jpeg"
   },
   {
     "name": "Fort Locust",
@@ -661,7 +661,7 @@
     "category": "enemy",
     "progress": 68,
     "description": "",
-    "imageUrl": "https://i.imgur.com/xpNeWCa.jpg"
+    "imageUrl": "/images/redcon-location-fort-locust.jpg"
   },
   {
     "name": "73rd State Nuclear Silo",
@@ -669,7 +669,7 @@
     "category": "premade",
     "progress": 69,
     "description": "",
-    "imageUrl": "https://i.imgur.com/EIoOW7L.jpeg"
+    "imageUrl": "/images/redcon-location-73rd-state-nuclear-silo.jpeg"
   },
   {
     "name": "Jupiter ICBM Vaults",
@@ -677,7 +677,7 @@
     "category": "enemy",
     "progress": 69,
     "description": "",
-    "imageUrl": "https://i.imgur.com/lAIPo91.jpg"
+    "imageUrl": "/images/redcon-location-jupiter-icbm-vaults.jpg"
   },
   {
     "name": "Thorn Valley",
@@ -685,7 +685,7 @@
     "category": "enemy",
     "progress": 70,
     "description": "",
-    "imageUrl": "https://i.imgur.com/qYtoosq.jpg"
+    "imageUrl": "/images/redcon-location-thorn-valley.jpg"
   },
   {
     "name": "Central Intelligence Command",
@@ -693,7 +693,7 @@
     "category": "enemy",
     "progress": 71,
     "description": "",
-    "imageUrl": "https://i.imgur.com/AHl3KF7.jpg"
+    "imageUrl": "/images/redcon-location-central-intelligence-command.jpg"
   },
   {
     "name": "Tribune Missile Pod",
@@ -701,7 +701,7 @@
     "category": "enemy",
     "progress": 72,
     "description": "",
-    "imageUrl": "https://i.imgur.com/fzW28QS.jpeg"
+    "imageUrl": "/images/redcon-location-tribune-missile-pod.jpeg"
   },
   {
     "name": "Jericho Fortress",
@@ -709,7 +709,7 @@
     "category": "enemy",
     "progress": 73,
     "description": "",
-    "imageUrl": "https://i.imgur.com/18hgTRL.jpeg"
+    "imageUrl": "/images/redcon-location-jericho-fortress.jpeg"
   },
   {
     "name": "FORTRESS RESOLUTION",
@@ -725,7 +725,7 @@
     "category": "enemy",
     "progress": 74,
     "description": "",
-    "imageUrl": "https://i.imgur.com/19N489E.jpg"
+    "imageUrl": "/images/redcon-location-wrath-capital-destroyer.jpg"
   },
   {
     "name": "Flakk Citadel XV",
@@ -733,7 +733,7 @@
     "category": "enemy",
     "progress": 75,
     "description": "",
-    "imageUrl": "https://i.imgur.com/J0C94FU.jpg"
+    "imageUrl": "/images/redcon-location-flakk-citadel-xv.jpg"
   },
   {
     "name": "Gold Mine",
@@ -741,7 +741,7 @@
     "category": "enemy",
     "progress": 76,
     "description": "",
-    "imageUrl": "https://i.imgur.com/lPpBxDD.jpg"
+    "imageUrl": "/images/redcon-location-gold-mine.jpg"
   },
   {
     "name": "Starlight Prime",
@@ -749,7 +749,7 @@
     "category": "enemy",
     "progress": 77,
     "description": "",
-    "imageUrl": "https://i.imgur.com/EOeuY5S.jpg"
+    "imageUrl": "/images/redcon-location-starlight-prime.jpg"
   },
   {
     "name": "IXth Artillery Legion",
@@ -757,7 +757,7 @@
     "category": "enemy",
     "progress": 78,
     "description": "",
-    "imageUrl": "https://i.imgur.com/Ktbueb5.jpg"
+    "imageUrl": "/images/redcon-location-ixth-artillery-legion.jpg"
   },
   {
     "name": "Krux Guard Camp",
@@ -765,7 +765,7 @@
     "category": "enemy",
     "progress": 79,
     "description": "",
-    "imageUrl": "https://i.imgur.com/1OzZFvF.jpg"
+    "imageUrl": "/images/redcon-location-krux-guard-camp.jpg"
   },
   {
     "name": "Railroad Terminal XL",
@@ -773,7 +773,7 @@
     "category": "enemy",
     "progress": 80,
     "description": "",
-    "imageUrl": "https://i.imgur.com/mwlheAD.jpg"
+    "imageUrl": "/images/redcon-location-railroad-terminal-xl.jpg"
   },
   {
     "name": "Molehill",
@@ -781,7 +781,7 @@
     "category": "enemy",
     "progress": 81,
     "description": "",
-    "imageUrl": "https://i.imgur.com/7Jmzog9.jpg"
+    "imageUrl": "/images/redcon-location-molehill.jpg"
   },
   {
     "name": "Karax Crags",
@@ -789,7 +789,7 @@
     "category": "enemy",
     "progress": 82,
     "description": "",
-    "imageUrl": "https://i.imgur.com/sgz9tPi.jpg"
+    "imageUrl": "/images/redcon-location-karax-crags.jpg"
   },
   {
     "name": "SST Invictus",
@@ -797,7 +797,7 @@
     "category": "enemy",
     "progress": 83,
     "description": "",
-    "imageUrl": "https://i.imgur.com/xFO86tQ.jpg"
+    "imageUrl": "/images/redcon-location-sst-invictus.jpg"
   },
   {
     "name": "Tribune Missile Pod",
@@ -805,7 +805,7 @@
     "category": "enemy",
     "progress": 84,
     "description": "",
-    "imageUrl": "https://i.imgur.com/FclgyYu.jpeg"
+    "imageUrl": "/images/redcon-location-tribune-missile-pod-2.jpeg"
   },
   {
     "name": "Fort Apocalypse",
@@ -813,7 +813,7 @@
     "category": "enemy",
     "progress": 85,
     "description": "",
-    "imageUrl": "https://i.imgur.com/GHYkOtx.jpg"
+    "imageUrl": "/images/redcon-location-fort-apocalypse.jpg"
   },
   {
     "name": "Krux Military Academy",
@@ -821,7 +821,7 @@
     "category": "enemy",
     "progress": 86,
     "description": "",
-    "imageUrl": "https://i.imgur.com/hgHLXoQ.jpg"
+    "imageUrl": "/images/redcon-location-krux-military-academy.jpg"
   },
   {
     "name": "Sol Tyranus",
@@ -829,7 +829,7 @@
     "category": "enemy",
     "progress": 87,
     "description": "",
-    "imageUrl": "https://i.imgur.com/jlE7pEQ.jpg"
+    "imageUrl": "/images/redcon-location-sol-tyranus.jpg"
   },
   {
     "name": "Mount Sepulcher",
@@ -837,7 +837,7 @@
     "category": "enemy",
     "progress": 88,
     "description": "",
-    "imageUrl": "https://i.imgur.com/IyoBvXw.jpg"
+    "imageUrl": "/images/redcon-location-mount-sepulcher.jpg"
   },
   {
     "name": "Minerva Reactor Citadel",
@@ -845,7 +845,7 @@
     "category": "enemy",
     "progress": 89,
     "description": "",
-    "imageUrl": "https://i.imgur.com/vqjwHx9.jpg"
+    "imageUrl": "/images/redcon-location-minerva-reactor-citadel.jpg"
   },
   {
     "name": "Orcus Gorge",
@@ -853,7 +853,7 @@
     "category": "enemy",
     "progress": 90,
     "description": "",
-    "imageUrl": "https://i.imgur.com/Pm94Coy.jpg"
+    "imageUrl": "/images/redcon-location-orcus-gorge.jpg"
   },
   {
     "name": "Krixus Silos",
@@ -861,7 +861,7 @@
     "category": "enemy",
     "progress": 91,
     "description": "",
-    "imageUrl": "https://i.imgur.com/91wDAPR.jpg"
+    "imageUrl": "/images/redcon-location-krixus-silos.jpg"
   },
   {
     "name": "Sierra Thrax",
@@ -869,7 +869,7 @@
     "category": "enemy",
     "progress": 92,
     "description": "",
-    "imageUrl": "https://i.imgur.com/BcR7jL8.jpg"
+    "imageUrl": "/images/redcon-location-sierra-thrax.jpg"
   },
   {
     "name": "Fortress Mars",
@@ -877,7 +877,7 @@
     "category": "enemy",
     "progress": 93,
     "description": "",
-    "imageUrl": "https://i.imgur.com/cjlfeWf.jpeg"
+    "imageUrl": "/images/redcon-location-fortress-mars.jpeg"
   },
   {
     "name": "Janus Viaduct",
@@ -885,7 +885,7 @@
     "category": "enemy",
     "progress": 94,
     "description": "",
-    "imageUrl": "https://i.imgur.com/BDTeqj2.jpg"
+    "imageUrl": "/images/redcon-location-janus-viaduct.jpg"
   },
   {
     "name": "Remus Capital Outskirts",
@@ -893,7 +893,7 @@
     "category": "enemy",
     "progress": 95,
     "description": "",
-    "imageUrl": "https://i.imgur.com/O2pdx8K.jpeg"
+    "imageUrl": "/images/redcon-location-remus-capital-outskirts.jpeg"
   },
   {
     "name": "Fortress Octopuss",
@@ -901,7 +901,7 @@
     "category": "enemy",
     "progress": 96,
     "description": "",
-    "imageUrl": "https://i.imgur.com/lIlMZpx.jpeg"
+    "imageUrl": "/images/redcon-location-fortress-octopuss.jpeg"
   },
   {
     "name": "Remus Factorium",
@@ -909,7 +909,7 @@
     "category": "enemy",
     "progress": 97,
     "description": "",
-    "imageUrl": "https://i.imgur.com/403crGm.jpg"
+    "imageUrl": "/images/redcon-location-remus-factorium.jpg"
   },
   {
     "name": "Remus Capital of Krux",
@@ -917,7 +917,7 @@
     "category": "enemy",
     "progress": 98,
     "description": "",
-    "imageUrl": "https://i.imgur.com/WsjYIBp.jpg"
+    "imageUrl": "/images/redcon-location-remus-capital-of-krux.jpg"
   },
   {
     "name": "Fortress Rubicon",
@@ -925,7 +925,7 @@
     "category": "enemy",
     "progress": 99,
     "description": "",
-    "imageUrl": "https://i.imgur.com/Q8GYqfh.jpeg"
+    "imageUrl": "/images/redcon-location-fortress-rubicon.jpeg"
   },
   {
     "name": "FORTRESS RUBICON",
@@ -941,7 +941,7 @@
     "category": "enemy",
     "progress": 100,
     "description": "",
-    "imageUrl": "https://i.imgur.com/WzA8YXI.jpg"
+    "imageUrl": "/images/redcon-location-general-grauen.jpg"
   },
   {
     "name": "General Leibholz",
@@ -949,7 +949,7 @@
     "category": "enemy",
     "progress": 101,
     "description": "",
-    "imageUrl": "https://i.imgur.com/oIRdnwy.jpg"
+    "imageUrl": "/images/redcon-location-general-leibholz.jpg"
   },
   {
     "name": "General Spector",
@@ -957,7 +957,7 @@
     "category": "enemy",
     "progress": 102,
     "description": "",
-    "imageUrl": "https://i.imgur.com/QiEO8KJ.jpg"
+    "imageUrl": "/images/redcon-location-general-spector.jpg"
   },
   {
     "name": "General Morgenstern",
@@ -965,7 +965,7 @@
     "category": "enemy",
     "progress": 103,
     "description": "",
-    "imageUrl": "https://i.imgur.com/usrHshE.jpg"
+    "imageUrl": "/images/redcon-location-general-morgenstern.jpg"
   },
   {
     "name": "General Hass",
@@ -973,6 +973,6 @@
     "category": "enemy",
     "progress": 104,
     "description": "",
-    "imageUrl": "https://i.imgur.com/3ELfnAY.jpg"
+    "imageUrl": "/images/redcon-location-general-hass.jpg"
   }
 ]

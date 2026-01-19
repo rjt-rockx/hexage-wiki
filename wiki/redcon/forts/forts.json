@@ -5,12 +5,12 @@
     "progress": 7,
     "premium": false,
     "slug": "fort-raptor",
-    "imageUrl": "https://i.imgur.com/AuDy2KV.jpeg",
+    "imageUrl": "/images/redcon-fort-fort-raptor.jpeg",
     "layouts": [
       {
         "layout": "Standard Layout",
         "slug": "standard-layout",
-        "imageUrl": "https://i.imgur.com/AuDy2KV.jpeg",
+        "imageUrl": "/images/redcon-fort-fort-raptor.jpeg",
         "premium": false,
         "power": 20,
         "ammunition": 27,
@@ -24,7 +24,7 @@
       {
         "layout": "Extra Weapon & Concrete Layout",
         "slug": "extra-weapon-concrete-layout",
-        "imageUrl": "https://i.imgur.com/j7bizr5.jpeg",
+        "imageUrl": "/images/redcon-fort-fort-raptor-extra-weapon-concrete-layout.jpeg",
         "premium": true,
         "power": 22,
         "ammunition": 32,
@@ -38,7 +38,7 @@
       {
         "layout": "Extra Defense & Power Layout",
         "slug": "extra-defense-power-layout",
-        "imageUrl": "https://i.imgur.com/mMmoBpZ.jpeg",
+        "imageUrl": "/images/redcon-fort-fort-raptor-extra-defense-power-layout.jpeg",
         "premium": true,
         "power": 25,
         "ammunition": 27,
@@ -52,7 +52,7 @@
       {
         "layout": "Extra Manpower & Cover Layout",
         "slug": "extra-manpower-cover-layout",
-        "imageUrl": "https://i.imgur.com/SVVi9ZL.jpeg",
+        "imageUrl": "/images/redcon-fort-fort-raptor-extra-manpower-cover-layout.jpeg",
         "premium": true,
         "power": 22,
         "ammunition": 28,
@@ -71,12 +71,12 @@
     "progress": 16,
     "premium": false,
     "slug": "fort-sycamore",
-    "imageUrl": "https://i.imgur.com/sixvBR5.jpeg",
+    "imageUrl": "/images/redcon-fort-fort-sycamore.jpeg",
     "layouts": [
       {
         "layout": "Standard Layout",
         "slug": "standard-layout",
-        "imageUrl": "https://i.imgur.com/sixvBR5.jpeg",
+        "imageUrl": "/images/redcon-fort-fort-sycamore.jpeg",
         "premium": false,
         "power": 25,
         "ammunition": 31,
@@ -90,7 +90,7 @@
       {
         "layout": "Extra Weapon & Concrete Layout",
         "slug": "extra-weapon-concrete-layout",
-        "imageUrl": "https://i.imgur.com/LMfmOfu.jpeg",
+        "imageUrl": "/images/redcon-fort-fort-sycamore-extra-weapon-concrete-layout.jpeg",
         "premium": true,
         "power": 27,
         "ammunition": 37,
@@ -104,7 +104,7 @@
       {
         "layout": "Extra Defense & Power Layout",
         "slug": "extra-defense-power-layout",
-        "imageUrl": "https://i.imgur.com/yHH8iqJ.jpeg",
+        "imageUrl": "/images/redcon-fort-fort-sycamore-extra-defense-power-layout.jpeg",
         "premium": true,
         "power": 29,
         "ammunition": 31,
@@ -118,7 +118,7 @@
       {
         "layout": "Extra Manpower & Cover Layout",
         "slug": "extra-manpower-cover-layout",
-        "imageUrl": "https://i.imgur.com/DBqhs3z.jpeg",
+        "imageUrl": "/images/redcon-fort-fort-sycamore-extra-manpower-cover-layout.jpeg",
         "premium": true,
         "power": 27,
         "ammunition": 32,
@@ -137,12 +137,12 @@
     "progress": 27,
     "premium": true,
     "slug": "the-spire",
-    "imageUrl": "https://i.imgur.com/m7HGy2w.jpeg",
+    "imageUrl": "/images/redcon-fort-the-spire.jpeg",
     "layouts": [
       {
         "layout": "Extra Weapon & Concrete Layout",
         "slug": "extra-weapon-concrete-layout",
-        "imageUrl": "https://i.imgur.com/m7HGy2w.jpeg",
+        "imageUrl": "/images/redcon-fort-the-spire.jpeg",
         "premium": true,
         "power": 30,
         "ammunition": 42,
@@ -156,7 +156,7 @@
       {
         "layout": "Extra Defense & Power Layout",
         "slug": "extra-defense-power-layout",
-        "imageUrl": "https://i.imgur.com/8rVCXH6.jpeg",
+        "imageUrl": "/images/redcon-fort-the-spire-extra-defense-power-layout.jpeg",
         "premium": true,
         "power": 34,
         "ammunition": 34,
@@ -170,7 +170,7 @@
       {
         "layout": "Extra Manpower & Cover Layout",
         "slug": "extra-manpower-cover-layout",
-        "imageUrl": "https://i.imgur.com/erETvsJ.jpeg",
+        "imageUrl": "/images/redcon-fort-the-spire-extra-manpower-cover-layout.jpeg",
         "premium": true,
         "power": 30,
         "ammunition": 34,
@@ -189,12 +189,12 @@
     "progress": 38,
     "premium": true,
     "slug": "fortress-scarabeus",
-    "imageUrl": "https://i.imgur.com/dotMQDr.jpeg",
+    "imageUrl": "/images/redcon-fort-fortress-scarabeus.jpeg",
     "layouts": [
       {
         "layout": "Extra Weapon & Concrete Layout",
         "slug": "extra-weapon-concrete-layout",
-        "imageUrl": "https://i.imgur.com/dotMQDr.jpeg",
+        "imageUrl": "/images/redcon-fort-fortress-scarabeus.jpeg",
         "premium": true,
         "power": 33,
         "ammunition": 45,
@@ -208,7 +208,7 @@
       {
         "layout": "Extra Defense & Power Layout",
         "slug": "extra-defense-power-layout",
-        "imageUrl": "https://i.imgur.com/pOGsNgw.jpeg",
+        "imageUrl": "/images/redcon-fort-fortress-scarabeus-extra-defense-power-layout.jpeg",
         "premium": true,
         "power": 37,
         "ammunition": 37,
@@ -222,7 +222,7 @@
       {
         "layout": "Extra Manpower & Cover Layout",
         "slug": "extra-manpower-cover-layout",
-        "imageUrl": "https://i.imgur.com/QUfqT4C.jpeg",
+        "imageUrl": "/images/redcon-fort-fortress-scarabeus-extra-manpower-cover-layout.jpeg",
         "premium": true,
         "power": 33,
         "ammunition": 37,
@@ -241,12 +241,12 @@
     "progress": 54,
     "premium": true,
     "slug": "fortress-falcon",
-    "imageUrl": "https://i.imgur.com/yOgfrAk.jpeg",
+    "imageUrl": "/images/redcon-fort-fortress-falcon.jpeg",
     "layouts": [
       {
         "layout": "Extra Weapon & Concrete Layout",
         "slug": "extra-weapon-concrete-layout",
-        "imageUrl": "https://i.imgur.com/yOgfrAk.jpeg",
+        "imageUrl": "/images/redcon-fort-fortress-falcon.jpeg",
         "premium": true,
         "power": 36,
         "ammunition": 50,
@@ -260,7 +260,7 @@
       {
         "layout": "Extra Defense & Power Layout",
         "slug": "extra-defense-power-layout",
-        "imageUrl": "https://i.imgur.com/z7sdzBf.jpeg",
+        "imageUrl": "/images/redcon-fort-fortress-falcon-extra-defense-power-layout.jpeg",
         "premium": true,
         "power": 40,
         "ammunition": 40,
@@ -274,7 +274,7 @@
       {
         "layout": "Extra Manpower Layout",
         "slug": "extra-manpower-layout",
-        "imageUrl": "https://i.imgur.com/3sDyoSw.jpeg",
+        "imageUrl": "/images/redcon-fort-fortress-falcon-extra-manpower-layout.jpeg",
         "premium": true,
         "power": 36,
         "ammunition": 40,
@@ -293,12 +293,12 @@
     "progress": 73,
     "premium": true,
     "slug": "fortress-resolution",
-    "imageUrl": "https://i.imgur.com/AMbiO5p.jpeg",
+    "imageUrl": "/images/redcon-fort-fortress-resolution.jpeg",
     "layouts": [
       {
         "layout": "Extra Ammunition & Concrete Layout",
         "slug": "extra-ammunition-concrete-layout",
-        "imageUrl": "https://i.imgur.com/AMbiO5p.jpeg",
+        "imageUrl": "/images/redcon-fort-fortress-resolution.jpeg",
         "premium": true,
         "power": 40,
         "ammunition": 54,
@@ -312,7 +312,7 @@
       {
         "layout": "Extra Power Layout",
         "slug": "extra-power-layout",
-        "imageUrl": "https://i.imgur.com/fcb0EBP.jpeg",
+        "imageUrl": "/images/redcon-fort-fortress-resolution-extra-power-layout.jpeg",
         "premium": true,
         "power": 46,
         "ammunition": 42,
@@ -326,7 +326,7 @@
       {
         "layout": "Extra Manpower & Cover Layout",
         "slug": "extra-manpower-cover-layout",
-        "imageUrl": "https://i.imgur.com/p6OaZzt.jpeg",
+        "imageUrl": "/images/redcon-fort-fortress-resolution-extra-manpower-cover-layout.jpeg",
         "premium": true,
         "power": 40,
         "ammunition": 42,
@@ -345,12 +345,12 @@
     "progress": 99,
     "premium": true,
     "slug": "fortress-rubicon",
-    "imageUrl": "https://i.imgur.com/KTUfPW4.jpeg",
+    "imageUrl": "/images/redcon-fort-fortress-rubicon.jpeg",
     "layouts": [
       {
         "layout": "Extra Weapon & Concrete Layout",
         "slug": "extra-weapon-concrete-layout",
-        "imageUrl": "https://i.imgur.com/KTUfPW4.jpeg",
+        "imageUrl": "/images/redcon-fort-fortress-rubicon.jpeg",
         "premium": true,
         "power": 48,
         "ammunition": 62,
@@ -364,7 +364,7 @@
       {
         "layout": "Extra Defense & Power Layout",
         "slug": "extra-defense-power-layout",
-        "imageUrl": "https://i.imgur.com/2tUGwoC.jpeg",
+        "imageUrl": "/images/redcon-fort-fortress-rubicon-extra-defense-power-layout.jpeg",
         "premium": true,
         "power": 54,
         "ammunition": 48,
@@ -378,7 +378,7 @@
       {
         "layout": "Extra Manpower & Cover Layout",
         "slug": "extra-manpower-cover-layout",
-        "imageUrl": "https://i.imgur.com/mZ46Coi.jpeg",
+        "imageUrl": "/images/redcon-fort-fortress-rubicon-extra-manpower-cover-layout.jpeg",
         "premium": true,
         "power": 48,
         "ammunition": 48,

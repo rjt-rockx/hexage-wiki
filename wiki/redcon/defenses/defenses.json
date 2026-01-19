@@ -7,9 +7,9 @@
     "ammunition": 2,
     "purchase_limit": 4,
     "premium": false,
-    "imageUrl": "https://i.imgur.com/aE36Nah.jpeg",
-    "inActionImageUrl": "https://i.imgur.com/MEVk44w.jpeg",
-    "inAction2ImageUrl": "https://imgur.com/eJSYqfi.jpeg"
+    "imageUrl": "/images/redcon-defense-autocannon-defense-turret.jpeg",
+    "inActionImageUrl": "/images/redcon-defense-autocannon-defense-turret-in-action.jpeg",
+    "inAction2ImageUrl": "/images/redcon-defense-autocannon-defense-turret-in-action-2.jpeg"
   },
   {
     "name": "Flak Defense Tower",
@@ -19,9 +19,9 @@
     "ammunition": 5,
     "purchase_limit": 4,
     "premium": false,
-    "imageUrl": "https://i.imgur.com/yxYimMQ.jpeg",
-    "inActionImageUrl": "https://i.imgur.com/doXxOXk.jpeg",
-    "inAction2ImageUrl": "https://imgur.com/YAuwh0D.jpeg"
+    "imageUrl": "/images/redcon-defense-flak-defense-tower.jpeg",
+    "inActionImageUrl": "/images/redcon-defense-flak-defense-tower-in-action.jpeg",
+    "inAction2ImageUrl": "/images/redcon-defense-flak-defense-tower-in-action-2.jpeg"
   },
   {
     "name": "Laser Defense System",
@@ -31,8 +31,8 @@
     "ammunition": 0,
     "purchase_limit": 4,
     "premium": true,
-    "imageUrl": "https://i.imgur.com/lJLhVSF.jpeg",
-    "inActionImageUrl": "https://i.imgur.com/u7Y6uMK.jpeg",
-    "inAction2ImageUrl": "https://imgur.com/sTBrRBk.jpeg"
+    "imageUrl": "/images/redcon-defense-laser-defense-system.jpeg",
+    "inActionImageUrl": "/images/redcon-defense-laser-defense-system-in-action.jpeg",
+    "inAction2ImageUrl": "/images/redcon-defense-laser-defense-system-in-action-2.jpeg"
   }
 ]
